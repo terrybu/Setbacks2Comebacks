@@ -16,6 +16,7 @@ class Person {
     var occupation: [String]?
     var setbacks: [String]
     var placeOfBirth: String?
+    var alive: Bool = false
     
     init(name: String, setbacks: [String]) {
         self.name = name
