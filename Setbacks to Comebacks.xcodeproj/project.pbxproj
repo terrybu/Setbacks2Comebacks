@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		D992E4111E0DE774003E93EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D992E4101E0DE774003E93EB /* AppDelegate.swift */; };
-		D992E4131E0DE774003E93EB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D992E4121E0DE774003E93EB /* FirstViewController.swift */; };
-		D992E4151E0DE774003E93EB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D992E4141E0DE774003E93EB /* SecondViewController.swift */; };
 		D992E4181E0DE774003E93EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D992E4161E0DE774003E93EB /* Main.storyboard */; };
 		D992E41A1E0DE774003E93EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D992E4191E0DE774003E93EB /* Assets.xcassets */; };
 		D992E41D1E0DE774003E93EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D992E41B1E0DE774003E93EB /* LaunchScreen.storyboard */; };
 		D992E4281E0DE774003E93EB /* Setbacks_to_ComebacksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D992E4271E0DE774003E93EB /* Setbacks_to_ComebacksTests.swift */; };
 		D992E4331E0DE774003E93EB /* Setbacks_to_ComebacksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D992E4321E0DE774003E93EB /* Setbacks_to_ComebacksUITests.swift */; };
+		D9EA06011E0F5DD4003C7353 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EA06001E0F5DD4003C7353 /* HomeTableViewController.swift */; };
+		D9EA06031E0F5DEC003C7353 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EA06021E0F5DEC003C7353 /* FavoritesViewController.swift */; };
+		D9EA06061E0F5E6E003C7353 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EA06051E0F5E6E003C7353 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +38,6 @@
 /* Begin PBXFileReference section */
 		D992E40D1E0DE774003E93EB /* Setbacks to Comebacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Setbacks to Comebacks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D992E4101E0DE774003E93EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D992E4121E0DE774003E93EB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		D992E4141E0DE774003E93EB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		D992E4171E0DE774003E93EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D992E4191E0DE774003E93EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D992E41C1E0DE774003E93EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,9 @@
 		D992E42E1E0DE774003E93EB /* Setbacks to ComebacksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Setbacks to ComebacksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D992E4321E0DE774003E93EB /* Setbacks_to_ComebacksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setbacks_to_ComebacksUITests.swift; sourceTree = "<group>"; };
 		D992E4341E0DE774003E93EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9EA06001E0F5DD4003C7353 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		D9EA06021E0F5DEC003C7353 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		D9EA06051E0F5E6E003C7353 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				D992E4101E0DE774003E93EB /* AppDelegate.swift */,
-				D992E4121E0DE774003E93EB /* FirstViewController.swift */,
-				D992E4141E0DE774003E93EB /* SecondViewController.swift */,
+				D9EA06071E0F5E7A003C7353 /* Model */,
+				D9EA06041E0F5E53003C7353 /* Controller */,
 				D992E4161E0DE774003E93EB /* Main.storyboard */,
 				D992E4191E0DE774003E93EB /* Assets.xcassets */,
 				D992E41B1E0DE774003E93EB /* LaunchScreen.storyboard */,
@@ -126,6 +128,23 @@
 				D992E4341E0DE774003E93EB /* Info.plist */,
 			);
 			path = "Setbacks to ComebacksUITests";
+			sourceTree = "<group>";
+		};
+		D9EA06041E0F5E53003C7353 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D9EA06001E0F5DD4003C7353 /* HomeTableViewController.swift */,
+				D9EA06021E0F5DEC003C7353 /* FavoritesViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D9EA06071E0F5E7A003C7353 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D9EA06051E0F5E6E003C7353 /* Person.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +284,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D992E4151E0DE774003E93EB /* SecondViewController.swift in Sources */,
+				D9EA06011E0F5DD4003C7353 /* HomeTableViewController.swift in Sources */,
+				D9EA06031E0F5DEC003C7353 /* FavoritesViewController.swift in Sources */,
+				D9EA06061E0F5E6E003C7353 /* Person.swift in Sources */,
 				D992E4111E0DE774003E93EB /* AppDelegate.swift in Sources */,
-				D992E4131E0DE774003E93EB /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +538,7 @@
 				D992E4391E0DE774003E93EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D992E43A1E0DE774003E93EB /* Build configuration list for PBXNativeTarget "Setbacks to ComebacksTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +547,7 @@
 				D992E43C1E0DE774003E93EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D992E43D1E0DE774003E93EB /* Build configuration list for PBXNativeTarget "Setbacks to ComebacksUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +556,7 @@
 				D992E43F1E0DE774003E93EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
