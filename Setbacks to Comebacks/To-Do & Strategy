@@ -1,0 +1,27 @@
+1) Data collection and Building out the UI could be done at the same time
+    - Keep the skeleton SIMPLE AND FAST in the beginning
+    - You can always add more UI later
+
+2) First step is to build out the skeleton of TableView -> Detail View Architecture
+    - + Ability to share on email/facebook
+    - + Ability to favorite
+
+3) Second step is to build out the "Favorites" section
+
+4) Last but not least is to make it visually and aesthetically appealing by applying appropriate, cool UI effects out there that I can integrate into the project
+
+
+
+
+
+
+12.26.2015 Mon
+Notes
+- I realized that I should make the "biographies" and people information download from an API so that I can easily manipulate the data at will
+        - if it comes bundled within the app, I won't be able to update or change anything real-time. It will be FIXED at time of submit to Apple and it will be a pain in the ass to update
+
+- Getting quotes manually will take time.
+    - Probably better if I can tap some free API for quotes
+    - Wait ... I have my OWN API ... let's just use that
+        - http://terrysquotes.herokuapp.com
+        - Hopefully it can handle a lot of traffic. 
