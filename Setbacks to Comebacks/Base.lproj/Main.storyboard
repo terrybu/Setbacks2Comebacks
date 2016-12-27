@@ -29,9 +29,12 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yB8-eZ-VHB" id="sGi-YO-ptz">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Gtt-of-kaG" kind="show" id="EnL-7u-d4M"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -56,6 +59,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1532" y="-321"/>
+        </scene>
+        <!--PersonDetailViewController-->
+        <scene sceneID="sCq-ll-m0f">
+            <objects>
+                <viewController storyboardIdentifier="PersonDetailViewController" id="Gtt-of-kaG" userLabel="PersonDetailViewController" customClass="PersonDetailViewController" customModule="Setbacks_to_Comebacks" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4qh-nv-TvT"/>
+                        <viewControllerLayoutGuide type="bottom" id="KZN-8v-x3C"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Pdc-DE-cNl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rdw-Ts-DRy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2302" y="-322"/>
         </scene>
         <!--Favorites View Controller-->
         <scene sceneID="wg7-f3-ORb">

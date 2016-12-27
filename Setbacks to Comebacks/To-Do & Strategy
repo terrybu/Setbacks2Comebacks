@@ -12,9 +12,6 @@
 
 
 
-
-
-
 12.26.2015 Mon
 Notes
 - I realized that I should make the "biographies" and people information download from an API so that I can easily manipulate the data at will
@@ -24,4 +21,4 @@ Notes
     - Probably better if I can tap some free API for quotes
     - Wait ... I have my OWN API ... let's just use that
         - http://terrysquotes.herokuapp.com
-        - Hopefully it can handle a lot of traffic. 
+        - Hopefully it can handle a lot of traffic.

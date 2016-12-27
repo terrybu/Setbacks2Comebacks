@@ -37,6 +37,11 @@ class HomeTableViewController: UIViewController, UITableViewDataSource, UITableV
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let person = peopleArray[indexPath.row]
+        
+    }
+    
 
     /*
     // MARK: - Navigation
