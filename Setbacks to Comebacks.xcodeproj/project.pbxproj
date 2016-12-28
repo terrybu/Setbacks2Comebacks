@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		916DACE1C52D228F242F052E /* Pods_Setbacks_to_Comebacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF50F99CF9937C41F73CDD8 /* Pods_Setbacks_to_Comebacks.framework */; };
+		D2DE4D65BC69ABCCACE64CBF /* Pods_Setbacks_to_ComebacksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D75BA864A2FF76E99D9556 /* Pods_Setbacks_to_ComebacksTests.framework */; };
 		D97623331E1174BE00BB290B /* To-Do & Strategy in Resources */ = {isa = PBXBuildFile; fileRef = D97623321E1174BE00BB290B /* To-Do & Strategy */; };
 		D97E72EA1E141F2B001E1A8F /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97E72E91E141F2B001E1A8F /* HomeTableViewCell.swift */; };
 		D97E72EC1E142546001E1A8F /* PeopleDataAccessObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97E72EB1E142546001E1A8F /* PeopleDataAccessObject.swift */; };
@@ -23,6 +25,7 @@
 		D9EA06011E0F5DD4003C7353 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EA06001E0F5DD4003C7353 /* HomeTableViewController.swift */; };
 		D9EA06031E0F5DEC003C7353 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EA06021E0F5DEC003C7353 /* FavoritesViewController.swift */; };
 		D9EA06061E0F5E6E003C7353 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EA06051E0F5E6E003C7353 /* Person.swift */; };
+		E0C939A07AB2394D3DF9AC85 /* Pods_Setbacks_to_ComebacksUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E51F50041C4DD93CE93F8B7 /* Pods_Setbacks_to_ComebacksUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33B4E461E7336C4CCC497092 /* Pods-Setbacks to ComebacksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Setbacks to ComebacksTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Setbacks to ComebacksTests/Pods-Setbacks to ComebacksTests.release.xcconfig"; sourceTree = "<group>"; };
+		68B24E7FE9765399A7AD2390 /* Pods-Setbacks to ComebacksUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Setbacks to ComebacksUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Setbacks to ComebacksUITests/Pods-Setbacks to ComebacksUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		82D75BA864A2FF76E99D9556 /* Pods_Setbacks_to_ComebacksTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Setbacks_to_ComebacksTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E51F50041C4DD93CE93F8B7 /* Pods_Setbacks_to_ComebacksUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Setbacks_to_ComebacksUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DF50F99CF9937C41F73CDD8 /* Pods_Setbacks_to_Comebacks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Setbacks_to_Comebacks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3DECCBF7FA9DD50E900E15 /* Pods-Setbacks to ComebacksUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Setbacks to ComebacksUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Setbacks to ComebacksUITests/Pods-Setbacks to ComebacksUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D97623321E1174BE00BB290B /* To-Do & Strategy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "To-Do & Strategy"; sourceTree = "<group>"; };
 		D97E72E91E141F2B001E1A8F /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		D97E72EB1E142546001E1A8F /* PeopleDataAccessObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleDataAccessObject.swift; sourceTree = "<group>"; };
@@ -65,6 +74,9 @@
 		D9EA06001E0F5DD4003C7353 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		D9EA06021E0F5DEC003C7353 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		D9EA06051E0F5E6E003C7353 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		E0D379102B621F351D77D7BD /* Pods-Setbacks to Comebacks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Setbacks to Comebacks.release.xcconfig"; path = "Pods/Target Support Files/Pods-Setbacks to Comebacks/Pods-Setbacks to Comebacks.release.xcconfig"; sourceTree = "<group>"; };
+		EC18DBFE96FE46510E2071D5 /* Pods-Setbacks to ComebacksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Setbacks to ComebacksTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Setbacks to ComebacksTests/Pods-Setbacks to ComebacksTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB6E9E62B29A389F75CA41AB /* Pods-Setbacks to Comebacks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Setbacks to Comebacks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Setbacks to Comebacks/Pods-Setbacks to Comebacks.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				916DACE1C52D228F242F052E /* Pods_Setbacks_to_Comebacks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2DE4D65BC69ABCCACE64CBF /* Pods_Setbacks_to_ComebacksTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,12 +100,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0C939A07AB2394D3DF9AC85 /* Pods_Setbacks_to_ComebacksUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50B7108505859698C872B992 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB6E9E62B29A389F75CA41AB /* Pods-Setbacks to Comebacks.debug.xcconfig */,
+				E0D379102B621F351D77D7BD /* Pods-Setbacks to Comebacks.release.xcconfig */,
+				EC18DBFE96FE46510E2071D5 /* Pods-Setbacks to ComebacksTests.debug.xcconfig */,
+				33B4E461E7336C4CCC497092 /* Pods-Setbacks to ComebacksTests.release.xcconfig */,
+				68B24E7FE9765399A7AD2390 /* Pods-Setbacks to ComebacksUITests.debug.xcconfig */,
+				CA3DECCBF7FA9DD50E900E15 /* Pods-Setbacks to ComebacksUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8F1E06D549E33E35D43E5D71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DF50F99CF9937C41F73CDD8 /* Pods_Setbacks_to_Comebacks.framework */,
+				82D75BA864A2FF76E99D9556 /* Pods_Setbacks_to_ComebacksTests.framework */,
+				8E51F50041C4DD93CE93F8B7 /* Pods_Setbacks_to_ComebacksUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D97E72E81E141C00001E1A8F /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +155,8 @@
 				D992E4261E0DE774003E93EB /* Setbacks to ComebacksTests */,
 				D992E4311E0DE774003E93EB /* Setbacks to ComebacksUITests */,
 				D992E40E1E0DE774003E93EB /* Products */,
+				50B7108505859698C872B992 /* Pods */,
+				8F1E06D549E33E35D43E5D71 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D992E4371E0DE774003E93EB /* Build configuration list for PBXNativeTarget "Setbacks to Comebacks" */;
 			buildPhases = (
+				6728A75880AC971A2ABC965D /* [CP] Check Pods Manifest.lock */,
 				D992E4091E0DE773003E93EB /* Sources */,
 				D992E40A1E0DE773003E93EB /* Frameworks */,
 				D992E40B1E0DE773003E93EB /* Resources */,
+				D91F4D207A211968F28BF858 /* [CP] Embed Pods Frameworks */,
+				4E9EA36E29E9F9EAEBA923F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -208,9 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D992E43A1E0DE774003E93EB /* Build configuration list for PBXNativeTarget "Setbacks to ComebacksTests" */;
 			buildPhases = (
+				936FB700FA662F4FCF05CEF6 /* [CP] Check Pods Manifest.lock */,
 				D992E41F1E0DE774003E93EB /* Sources */,
 				D992E4201E0DE774003E93EB /* Frameworks */,
 				D992E4211E0DE774003E93EB /* Resources */,
+				8AC2E8D5C62F2A0213C1AAD9 /* [CP] Embed Pods Frameworks */,
+				001EB825561CAF1809FEB17E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -226,9 +272,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D992E43D1E0DE774003E93EB /* Build configuration list for PBXNativeTarget "Setbacks to ComebacksUITests" */;
 			buildPhases = (
+				C9FDE39B672C0946A151D6F1 /* [CP] Check Pods Manifest.lock */,
 				D992E42A1E0DE774003E93EB /* Sources */,
 				D992E42B1E0DE774003E93EB /* Frameworks */,
 				D992E42C1E0DE774003E93EB /* Resources */,
+				B55E174C071404F81CF1AE18 /* [CP] Embed Pods Frameworks */,
+				295E68930BCFB624BBDCF9AF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -319,6 +368,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		001EB825561CAF1809FEB17E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Setbacks to ComebacksTests/Pods-Setbacks to ComebacksTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		295E68930BCFB624BBDCF9AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Setbacks to ComebacksUITests/Pods-Setbacks to ComebacksUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E9EA36E29E9F9EAEBA923F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Setbacks to Comebacks/Pods-Setbacks to Comebacks-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6728A75880AC971A2ABC965D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8AC2E8D5C62F2A0213C1AAD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Setbacks to ComebacksTests/Pods-Setbacks to ComebacksTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		936FB700FA662F4FCF05CEF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B55E174C071404F81CF1AE18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Setbacks to ComebacksUITests/Pods-Setbacks to ComebacksUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9FDE39B672C0946A151D6F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D91F4D207A211968F28BF858 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Setbacks to Comebacks/Pods-Setbacks to Comebacks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D992E4091E0DE773003E93EB /* Sources */ = {
@@ -481,6 +668,7 @@
 		};
 		D992E4381E0DE774003E93EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB6E9E62B29A389F75CA41AB /* Pods-Setbacks to Comebacks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JJ62WG39RU;
@@ -494,6 +682,7 @@
 		};
 		D992E4391E0DE774003E93EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0D379102B621F351D77D7BD /* Pods-Setbacks to Comebacks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JJ62WG39RU;
@@ -507,6 +696,7 @@
 		};
 		D992E43B1E0DE774003E93EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC18DBFE96FE46510E2071D5 /* Pods-Setbacks to ComebacksTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -522,6 +712,7 @@
 		};
 		D992E43C1E0DE774003E93EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33B4E461E7336C4CCC497092 /* Pods-Setbacks to ComebacksTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -537,6 +728,7 @@
 		};
 		D992E43E1E0DE774003E93EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68B24E7FE9765399A7AD2390 /* Pods-Setbacks to ComebacksUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = JJ62WG39RU;
@@ -551,6 +743,7 @@
 		};
 		D992E43F1E0DE774003E93EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA3DECCBF7FA9DD50E900E15 /* Pods-Setbacks to ComebacksUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = JJ62WG39RU;

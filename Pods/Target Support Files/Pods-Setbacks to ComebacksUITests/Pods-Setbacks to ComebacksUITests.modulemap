@@ -1,0 +1,6 @@
+framework module Pods_Setbacks_to_ComebacksUITests {
+  umbrella header "Pods-Setbacks to ComebacksUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

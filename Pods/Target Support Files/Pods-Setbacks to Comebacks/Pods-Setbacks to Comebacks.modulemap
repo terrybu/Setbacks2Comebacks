@@ -1,0 +1,6 @@
+framework module Pods_Setbacks_to_Comebacks {
+  umbrella header "Pods-Setbacks to Comebacks-umbrella.h"
+
+  export *
+  module * { export * }
+}
