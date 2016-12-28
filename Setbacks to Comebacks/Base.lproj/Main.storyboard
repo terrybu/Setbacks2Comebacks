@@ -168,7 +168,7 @@
         <scene sceneID="kSh-Wr-rJw">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="W42-z5-IaK" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="bulletList" id="acW-dT-cKf"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="cI0-7z-xX4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -186,6 +186,6 @@
     </scenes>
     <resources>
         <image name="Isaac Newton" width="720" height="456"/>
-        <image name="first" width="30" height="30"/>
+        <image name="bulletList" width="128" height="128"/>
     </resources>
 </document>

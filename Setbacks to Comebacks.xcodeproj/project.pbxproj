@@ -670,8 +670,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FB6E9E62B29A389F75CA41AB /* Pods-Setbacks to Comebacks.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JJ62WG39RU;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
 				INFOPLIST_FILE = "Setbacks to Comebacks/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.terrybu.Setbacks-to-Comebacks";
@@ -684,8 +686,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E0D379102B621F351D77D7BD /* Pods-Setbacks to Comebacks.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JJ62WG39RU;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
 				INFOPLIST_FILE = "Setbacks to Comebacks/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.terrybu.Setbacks-to-Comebacks";
@@ -698,7 +702,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EC18DBFE96FE46510E2071D5 /* Pods-Setbacks to ComebacksTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = JJ62WG39RU;
 				INFOPLIST_FILE = "Setbacks to ComebacksTests/Info.plist";
@@ -714,7 +718,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 33B4E461E7336C4CCC497092 /* Pods-Setbacks to ComebacksTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = JJ62WG39RU;
 				INFOPLIST_FILE = "Setbacks to ComebacksTests/Info.plist";
@@ -730,7 +734,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 68B24E7FE9765399A7AD2390 /* Pods-Setbacks to ComebacksUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				DEVELOPMENT_TEAM = JJ62WG39RU;
 				INFOPLIST_FILE = "Setbacks to ComebacksUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -745,7 +749,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CA3DECCBF7FA9DD50E900E15 /* Pods-Setbacks to ComebacksUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				DEVELOPMENT_TEAM = JJ62WG39RU;
 				INFOPLIST_FILE = "Setbacks to ComebacksUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
