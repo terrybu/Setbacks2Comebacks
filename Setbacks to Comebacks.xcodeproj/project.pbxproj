@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D97623331E1174BE00BB290B /* To-Do & Strategy in Resources */ = {isa = PBXBuildFile; fileRef = D97623321E1174BE00BB290B /* To-Do & Strategy */; };
 		D97E72EA1E141F2B001E1A8F /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97E72E91E141F2B001E1A8F /* HomeTableViewCell.swift */; };
+		D97E72EC1E142546001E1A8F /* PeopleDataAccessObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97E72EB1E142546001E1A8F /* PeopleDataAccessObject.swift */; };
 		D98FBA0A1E11FBA8008FB950 /* PersonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98FBA081E11FBA8008FB950 /* PersonDetailViewController.swift */; };
 		D98FBA0B1E11FBA8008FB950 /* PersonDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D98FBA091E11FBA8008FB950 /* PersonDetailViewController.xib */; };
 		D992E4111E0DE774003E93EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D992E4101E0DE774003E93EB /* AppDelegate.swift */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		D97623321E1174BE00BB290B /* To-Do & Strategy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "To-Do & Strategy"; sourceTree = "<group>"; };
 		D97E72E91E141F2B001E1A8F /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		D97E72EB1E142546001E1A8F /* PeopleDataAccessObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleDataAccessObject.swift; sourceTree = "<group>"; };
 		D98FBA081E11FBA8008FB950 /* PersonDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDetailViewController.swift; sourceTree = "<group>"; };
 		D98FBA091E11FBA8008FB950 /* PersonDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonDetailViewController.xib; sourceTree = "<group>"; };
 		D992E40D1E0DE774003E93EB /* Setbacks to Comebacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Setbacks to Comebacks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -163,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				D9EA06051E0F5E6E003C7353 /* Person.swift */,
+				D97E72EB1E142546001E1A8F /* PeopleDataAccessObject.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				D9EA06061E0F5E6E003C7353 /* Person.swift in Sources */,
 				D98FBA0A1E11FBA8008FB950 /* PersonDetailViewController.swift in Sources */,
 				D992E4111E0DE774003E93EB /* AppDelegate.swift in Sources */,
+				D97E72EC1E142546001E1A8F /* PeopleDataAccessObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

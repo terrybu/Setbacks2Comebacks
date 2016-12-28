@@ -10,35 +10,18 @@ import UIKit
 
 class HomeTableViewController: UIViewController, UITableViewDelegate {
     
-    var peopleArray: [Person]!
+    let peopleArray = PeopleDataAccessObject.sharedObject.peopleArray
     @IBOutlet var tableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 100
-        
-        peopleArray = [Person]()
-        let newton = Person(name: "Isaac Newton", setbacks: ["Bipolar", "Depression"])
-        let jesus = Person(name: "Jesus Christ", setbacks: ["Suicidal Thoughts", "Betrayal", "Persecution"])
-        let robinWilliams = Person(name: "Robin Williams", setbacks: ["Depression"])
-        peopleArray = [newton, jesus, robinWilliams]
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let person = peopleArray[indexPath.row]
-        
+//        let person = peopleArray[indexPath.row]
     }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 }
 
 extension HomeTableViewController: UITableViewDataSource {

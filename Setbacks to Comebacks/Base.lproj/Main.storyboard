@@ -35,10 +35,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Isaac Newton" translatesAutoresizingMaskIntoConstraints="NO" id="Y1R-I6-qTh" userLabel="PersonFaceImageView">
-                                                    <rect key="frame" x="8" y="8" width="187.5" height="123.5"/>
+                                                    <rect key="frame" x="2" y="2" width="187.5" height="135.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rx1-MG-MLR" userLabel="PersonNameLabel">
-                                                    <rect key="frame" x="208" y="8" width="159" height="45"/>
+                                                    <rect key="frame" x="202" y="2" width="165" height="45"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="45" id="tij-Sa-oiK"/>
                                                     </constraints>
@@ -51,9 +51,9 @@
                                                 <constraint firstItem="Rx1-MG-MLR" firstAttribute="leading" secondItem="Y1R-I6-qTh" secondAttribute="trailing" constant="12" id="9pB-7y-2X1"/>
                                                 <constraint firstItem="Rx1-MG-MLR" firstAttribute="top" secondItem="Y1R-I6-qTh" secondAttribute="top" id="Bcr-tc-iw7"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="Rx1-MG-MLR" secondAttribute="trailing" id="JFm-pQ-HUB"/>
-                                                <constraint firstItem="Y1R-I6-qTh" firstAttribute="top" secondItem="sGi-YO-ptz" secondAttribute="topMargin" id="OFI-DM-vJm"/>
-                                                <constraint firstItem="Y1R-I6-qTh" firstAttribute="leading" secondItem="sGi-YO-ptz" secondAttribute="leadingMargin" id="bhR-RC-Csz"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="Y1R-I6-qTh" secondAttribute="bottom" id="v5o-yL-1IF"/>
+                                                <constraint firstItem="Y1R-I6-qTh" firstAttribute="top" secondItem="sGi-YO-ptz" secondAttribute="top" constant="2" id="OFI-DM-vJm"/>
+                                                <constraint firstItem="Y1R-I6-qTh" firstAttribute="leading" secondItem="sGi-YO-ptz" secondAttribute="leading" constant="2" id="bhR-RC-Csz"/>
+                                                <constraint firstAttribute="bottom" secondItem="Y1R-I6-qTh" secondAttribute="bottom" constant="2" id="v5o-yL-1IF"/>
                                                 <constraint firstItem="Y1R-I6-qTh" firstAttribute="width" secondItem="sGi-YO-ptz" secondAttribute="width" multiplier="0.5" id="wWB-4V-auc"/>
                                             </constraints>
                                         </tableViewCellContentView>
