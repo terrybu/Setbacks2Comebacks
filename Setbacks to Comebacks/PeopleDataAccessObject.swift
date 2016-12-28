@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import SwiftyJSON
 
 class PeopleDataAccessObject {
     //Singleton baby
@@ -23,14 +24,25 @@ class PeopleDataAccessObject {
         
         if let url = Bundle.main.url(forResource: "people", withExtension: "json") {
             //return peopleArray
-            
+            do {
+                let data = try Data(contentsOf: url)
+                let rootJSON = try JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.allowFragments)
+                print(rootJSON)
+                //Got it it works up until this point
+                //TODO: Why isn't Swifty JSON working ...
+                let swiftyJson = JSON(rootJSON)
+                let peopleJSONArray = swiftyJson["people"].arrayValue
+                for json in peopleJSONArray {
+                    let name = json["name"].stringValue
+                    let bio = json["bio"].stringValue
+                    let setbacks = json["setbacks"].arrayValue.map( {$0.string!} )
+                    let newPerson = Person(name: name, bio: bio, setbacks:setbacks)
+                    peopleArray.append(newPerson)
+                }
+            } catch {
+                return peopleArray
+            }
         }
-        
-        let newton = Person(name: "Isaac Newton", bio: "test" ,setbacks: ["Bipolar", "Depression"])
-        let jesus = Person(name: "Jesus Christ", bio: "test", setbacks: ["Suicidal Thoughts", "Betrayal", "Persecution"])
-        let robinWilliams = Person(name: "Robin Williams", bio: "test", setbacks: ["Depression"])
-        peopleArray = [newton, jesus, robinWilliams]
-        
         return peopleArray
     }
     
