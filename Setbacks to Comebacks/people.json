@@ -1,0 +1,32 @@
+{
+    "people" :
+    [
+     {
+     "name" : "Jesus Christ",
+     "bio" : "Glory to the King. Yesterday, Today and For Ever. Persecuted, Betrayed, Crucified, Misunderstood, Humiliated and then becomes the One who overcomes the world. Timeless, The Immortal, The Revived One. Who won? Did the forces of evil triumph ... or did the story of his love, peace and self-sacrifice defeat the test of time? His story lives on 2000 years after his death. He defeated Death. He defeated Time. He lives through us. Each and every one of us. You are the greatest setback to comeback story of our world.",
+     "setbacks": ["Betrayal", "Persecution"]
+     },
+     {
+     "name" : "Robin Williams",
+     "bio" : "The best comedian and actor ever",
+     "setbacks": ["Depression", "Bipolar", "Alcoholism"]
+     },
+     {
+     "name" : "Isaac Newton",
+     "bio" : "Gravity, Laws of Motion, Inertia, Calculus",
+     "setbacks": ["Possible Asperger's"]
+     },
+     {
+     "name" : "Pablo Picasso",
+     "bio" : "Pablo Ruiz y Picasso (25 October 1881 – 8 April 1973), also known as Pablo Picasso, was a Spanish painter, sculptor, printmaker, ceramicist, stage designer, poet and playwright who spent most of his adult life in France.",
+     "setbacks" : []
+     },
+     
+     {
+     "name" : "Vincent van Gogh",
+     "bio" : "Vincent Willem van Gogh (30 March 1853 – 29 July 1890) was a Dutch post-Impressionist painter whose work had far-reaching influence on 20th-century art.",
+     "setbacks" : [ ]
+     }
+     
+    ]
+}

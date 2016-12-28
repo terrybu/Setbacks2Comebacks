@@ -27,15 +27,15 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="140" id="yB8-eZ-VHB" customClass="HomeTableViewCell" customModule="Setbacks_to_Comebacks" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="140"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="100" id="yB8-eZ-VHB" customClass="HomeTableViewCell" customModule="Setbacks_to_Comebacks" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yB8-eZ-VHB" id="sGi-YO-ptz">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="139"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Isaac Newton" translatesAutoresizingMaskIntoConstraints="NO" id="Y1R-I6-qTh" userLabel="PersonFaceImageView">
-                                                    <rect key="frame" x="2" y="2" width="187.5" height="135.5"/>
+                                                    <rect key="frame" x="2" y="2" width="187.5" height="95.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rx1-MG-MLR" userLabel="PersonNameLabel">
                                                     <rect key="frame" x="202" y="2" width="165" height="45"/>
@@ -78,7 +78,7 @@
                             <constraint firstItem="KHz-xs-LGH" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" id="sKA-hY-StY"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Home" id="Shs-bZ-Ont"/>
+                    <navigationItem key="navigationItem" title="Setbacks To Comebacks" id="Shs-bZ-Ont"/>
                     <connections>
                         <outlet property="tableView" destination="KHz-xs-LGH" id="s8z-vS-5Sz"/>
                     </connections>

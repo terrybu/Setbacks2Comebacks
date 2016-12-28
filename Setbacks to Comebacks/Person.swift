@@ -8,18 +8,19 @@
 
 import Foundation
 
-class Person {
+struct Person {
     
-    var name: String
-    var dob: Date?
-    var biography: String?
+    let name: String
+    let bio: String
+    let setbacks: [String]
     var occupation: [String]?
-    var setbacks: [String]
     var placeOfBirth: String?
+    var dob: Date?
     var alive: Bool = false
     
-    init(name: String, setbacks: [String]) {
+    init(name: String, bio: String, setbacks: [String]) {
         self.name = name
+        self.bio = bio
         self.setbacks = setbacks
     }
     
