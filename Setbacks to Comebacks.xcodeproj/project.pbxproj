@@ -15,7 +15,6 @@
 		D97E72EF1E14318C001E1A8F /* people.json in Resources */ = {isa = PBXBuildFile; fileRef = D97E72EE1E14318C001E1A8F /* people.json */; };
 		D97E72F11E143217001E1A8F /* References.txt in Resources */ = {isa = PBXBuildFile; fileRef = D97E72F01E143217001E1A8F /* References.txt */; };
 		D98FBA0A1E11FBA8008FB950 /* PersonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98FBA081E11FBA8008FB950 /* PersonDetailViewController.swift */; };
-		D98FBA0B1E11FBA8008FB950 /* PersonDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D98FBA091E11FBA8008FB950 /* PersonDetailViewController.xib */; };
 		D992E4111E0DE774003E93EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D992E4101E0DE774003E93EB /* AppDelegate.swift */; };
 		D992E4181E0DE774003E93EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D992E4161E0DE774003E93EB /* Main.storyboard */; };
 		D992E41A1E0DE774003E93EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D992E4191E0DE774003E93EB /* Assets.xcassets */; };
@@ -58,7 +57,6 @@
 		D97E72EE1E14318C001E1A8F /* people.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = people.json; sourceTree = "<group>"; };
 		D97E72F01E143217001E1A8F /* References.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = References.txt; sourceTree = "<group>"; };
 		D98FBA081E11FBA8008FB950 /* PersonDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDetailViewController.swift; sourceTree = "<group>"; };
-		D98FBA091E11FBA8008FB950 /* PersonDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonDetailViewController.xib; sourceTree = "<group>"; };
 		D992E40D1E0DE774003E93EB /* Setbacks to Comebacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Setbacks to Comebacks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D992E4101E0DE774003E93EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D992E4171E0DE774003E93EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -209,7 +207,6 @@
 			children = (
 				D9EA06001E0F5DD4003C7353 /* HomeTableViewController.swift */,
 				D98FBA081E11FBA8008FB950 /* PersonDetailViewController.swift */,
-				D98FBA091E11FBA8008FB950 /* PersonDetailViewController.xib */,
 				D9EA06021E0F5DEC003C7353 /* FavoritesViewController.swift */,
 			);
 			name = ViewControllers;
@@ -349,7 +346,6 @@
 				D97E72EF1E14318C001E1A8F /* people.json in Resources */,
 				D992E41A1E0DE774003E93EB /* Assets.xcassets in Resources */,
 				D992E4181E0DE774003E93EB /* Main.storyboard in Resources */,
-				D98FBA0B1E11FBA8008FB950 /* PersonDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,7 +10,7 @@ import Foundation
 import SwiftyJSON
 
 class PeopleDataAccessObject {
-    //Singleton baby
+
     static let sharedObject = PeopleDataAccessObject()
     
     var peopleArray: [Person] = []
@@ -28,8 +28,6 @@ class PeopleDataAccessObject {
                 let data = try Data(contentsOf: url)
                 let rootJSON = try JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.allowFragments)
                 print(rootJSON)
-                //Got it it works up until this point
-                //TODO: Why isn't Swifty JSON working ...
                 let swiftyJson = JSON(rootJSON)
                 let peopleJSONArray = swiftyJson["people"].arrayValue
                 for json in peopleJSONArray {
