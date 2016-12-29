@@ -1,5 +1,5 @@
 //
-//  PersonDetailViewController.swift
+//  DetailViewController.swift
 //  Setbacks to Comebacks
 //
 //  Created by Terry Bu on 12/26/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PersonDetailViewController: UIViewController {
+class DetailViewController: UIViewController {
 
     required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)!
@@ -21,12 +21,11 @@ class PersonDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+
     }
     
     

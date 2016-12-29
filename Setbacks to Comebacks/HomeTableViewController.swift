@@ -20,12 +20,12 @@ class HomeTableViewController: UIViewController, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // TODO: This should select the cell, pass the Person object to the DetailViewVC
 //        let person = peopleArray[indexPath.row]
     }
 }
 
 extension HomeTableViewController: UITableViewDataSource {
-    
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }

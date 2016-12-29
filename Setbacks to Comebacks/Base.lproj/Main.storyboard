@@ -84,10 +84,10 @@
             </objects>
             <point key="canvasLocation" x="1532" y="-321.58920539730138"/>
         </scene>
-        <!--PersonDetailViewController-->
+        <!--DetailViewController-->
         <scene sceneID="sCq-ll-m0f">
             <objects>
-                <viewController storyboardIdentifier="PersonDetailViewController" id="Gtt-of-kaG" userLabel="PersonDetailViewController" customClass="PersonDetailViewController" customModule="Setbacks_to_Comebacks" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailViewController" id="Gtt-of-kaG" userLabel="DetailViewController" customClass="DetailViewController" customModule="Setbacks_to_Comebacks" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4qh-nv-TvT"/>
                         <viewControllerLayoutGuide type="bottom" id="KZN-8v-x3C"/>
