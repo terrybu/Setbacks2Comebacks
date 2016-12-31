@@ -13,7 +13,7 @@
 		D97E72EA1E141F2B001E1A8F /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97E72E91E141F2B001E1A8F /* HomeTableViewCell.swift */; };
 		D97E72EC1E142546001E1A8F /* PeopleDataAccessObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97E72EB1E142546001E1A8F /* PeopleDataAccessObject.swift */; };
 		D97E72EF1E14318C001E1A8F /* people.json in Resources */ = {isa = PBXBuildFile; fileRef = D97E72EE1E14318C001E1A8F /* people.json */; };
-		D97E72F11E143217001E1A8F /* References.txt in Resources */ = {isa = PBXBuildFile; fileRef = D97E72F01E143217001E1A8F /* References.txt */; };
+		D97E72F11E143217001E1A8F /* Bibliography.txt in Resources */ = {isa = PBXBuildFile; fileRef = D97E72F01E143217001E1A8F /* Bibliography.txt */; };
 		D98FBA0A1E11FBA8008FB950 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98FBA081E11FBA8008FB950 /* DetailViewController.swift */; };
 		D992E4111E0DE774003E93EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D992E4101E0DE774003E93EB /* AppDelegate.swift */; };
 		D992E4181E0DE774003E93EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D992E4161E0DE774003E93EB /* Main.storyboard */; };
@@ -55,7 +55,7 @@
 		D97E72E91E141F2B001E1A8F /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		D97E72EB1E142546001E1A8F /* PeopleDataAccessObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleDataAccessObject.swift; sourceTree = "<group>"; };
 		D97E72EE1E14318C001E1A8F /* people.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = people.json; sourceTree = "<group>"; };
-		D97E72F01E143217001E1A8F /* References.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = References.txt; sourceTree = "<group>"; };
+		D97E72F01E143217001E1A8F /* Bibliography.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bibliography.txt; sourceTree = "<group>"; };
 		D98FBA081E11FBA8008FB950 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		D992E40D1E0DE774003E93EB /* Setbacks to Comebacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Setbacks to Comebacks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D992E4101E0DE774003E93EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -141,7 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				D97E72EE1E14318C001E1A8F /* people.json */,
-				D97E72F01E143217001E1A8F /* References.txt */,
+				D97E72F01E143217001E1A8F /* Bibliography.txt */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -343,7 +343,7 @@
 			files = (
 				D97623331E1174BE00BB290B /* To-Do & Strategy in Resources */,
 				D992E41D1E0DE774003E93EB /* LaunchScreen.storyboard in Resources */,
-				D97E72F11E143217001E1A8F /* References.txt in Resources */,
+				D97E72F11E143217001E1A8F /* Bibliography.txt in Resources */,
 				D97E72EF1E14318C001E1A8F /* people.json in Resources */,
 				D992E41A1E0DE774003E93EB /* Assets.xcassets in Resources */,
 				D992E4181E0DE774003E93EB /* Main.storyboard in Resources */,

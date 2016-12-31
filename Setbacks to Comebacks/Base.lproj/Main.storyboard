@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -87,7 +88,7 @@
         <!--DetailViewController-->
         <scene sceneID="sCq-ll-m0f">
             <objects>
-                <viewController storyboardIdentifier="DetailViewController" id="Gtt-of-kaG" userLabel="DetailViewController" customClass="DetailViewController" customModule="Setbacks_to_Comebacks" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailViewController" title="PersonName is Title" id="Gtt-of-kaG" userLabel="DetailViewController" customClass="DetailViewController" customModule="Setbacks_to_Comebacks" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4qh-nv-TvT"/>
                         <viewControllerLayoutGuide type="bottom" id="KZN-8v-x3C"/>
@@ -95,12 +96,75 @@
                     <view key="view" contentMode="scaleToFill" id="Pdc-DE-cNl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hfO-R0-i8d">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gRd-mf-Fom" userLabel="Content View">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NameLabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yhm-Cy-Dd0" userLabel="PersonNameLabel">
+                                                <rect key="frame" x="37.5" y="249" width="300" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ba5-Je-mcN" userLabel="PersonBioTextView">
+                                                <rect key="frame" x="0.0" y="286" width="375" height="714"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qPu-7W-hvX" userLabel="PersonFaceImageView">
+                                                <rect key="frame" x="37.5" y="8" width="300" height="225"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" secondItem="qPu-7W-hvX" secondAttribute="width" multiplier="0.75:1" id="hkl-GS-jeC"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="qPu-7W-hvX" firstAttribute="width" secondItem="gRd-mf-Fom" secondAttribute="width" multiplier="0.8" id="2Kf-ZT-rLF"/>
+                                            <constraint firstItem="Ba5-Je-mcN" firstAttribute="top" secondItem="Yhm-Cy-Dd0" secondAttribute="bottom" constant="16" id="9z5-Da-AFx"/>
+                                            <constraint firstAttribute="trailing" secondItem="Ba5-Je-mcN" secondAttribute="trailing" id="CFW-gL-FID"/>
+                                            <constraint firstItem="qPu-7W-hvX" firstAttribute="centerX" secondItem="gRd-mf-Fom" secondAttribute="centerX" id="Gj3-AA-upx"/>
+                                            <constraint firstItem="Yhm-Cy-Dd0" firstAttribute="centerX" secondItem="gRd-mf-Fom" secondAttribute="centerX" id="R0h-i3-GZM"/>
+                                            <constraint firstItem="Ba5-Je-mcN" firstAttribute="leading" secondItem="gRd-mf-Fom" secondAttribute="leading" id="Yeq-H7-Xfx"/>
+                                            <constraint firstAttribute="bottom" secondItem="Ba5-Je-mcN" secondAttribute="bottom" id="cGu-EC-WmP"/>
+                                            <constraint firstItem="Yhm-Cy-Dd0" firstAttribute="width" secondItem="qPu-7W-hvX" secondAttribute="width" id="iEx-Gk-AY8"/>
+                                            <constraint firstAttribute="height" constant="1000" id="nIw-GK-Qaq"/>
+                                            <constraint firstItem="Yhm-Cy-Dd0" firstAttribute="top" secondItem="qPu-7W-hvX" secondAttribute="bottom" constant="16" id="szW-zi-kDg"/>
+                                            <constraint firstItem="qPu-7W-hvX" firstAttribute="top" secondItem="gRd-mf-Fom" secondAttribute="top" constant="8" id="ur4-b0-Ij3"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="gRd-mf-Fom" secondAttribute="trailing" id="4Z3-jf-wv3"/>
+                                    <constraint firstItem="gRd-mf-Fom" firstAttribute="leading" secondItem="hfO-R0-i8d" secondAttribute="leading" id="gy8-aR-CJW"/>
+                                    <constraint firstItem="gRd-mf-Fom" firstAttribute="top" secondItem="hfO-R0-i8d" secondAttribute="top" id="wfm-De-7NK"/>
+                                    <constraint firstAttribute="bottom" secondItem="gRd-mf-Fom" secondAttribute="bottom" id="z7Q-dl-Dk2"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="KZN-8v-x3C" firstAttribute="top" secondItem="hfO-R0-i8d" secondAttribute="bottom" id="1v1-R0-ekA"/>
+                            <constraint firstItem="gRd-mf-Fom" firstAttribute="centerX" secondItem="Pdc-DE-cNl" secondAttribute="centerX" id="AcF-0a-UOt"/>
+                            <constraint firstItem="hfO-R0-i8d" firstAttribute="leading" secondItem="Pdc-DE-cNl" secondAttribute="leading" id="YGO-C6-VUN"/>
+                            <constraint firstItem="hfO-R0-i8d" firstAttribute="top" secondItem="Pdc-DE-cNl" secondAttribute="top" id="nFh-we-rmT"/>
+                            <constraint firstAttribute="trailing" secondItem="hfO-R0-i8d" secondAttribute="trailing" id="rXD-Ww-83t"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="personBioTextView" destination="Ba5-Je-mcN" id="KTg-2l-IrG"/>
+                        <outlet property="personFaceImageView" destination="qPu-7W-hvX" id="xVy-f7-HRa"/>
+                        <outlet property="personNameLabel" destination="Yhm-Cy-Dd0" id="v0U-NZ-KfQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rdw-Ts-DRy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2302" y="-322"/>
+            <point key="canvasLocation" x="2301.5999999999999" y="-322.48875562218893"/>
         </scene>
         <!--Favorites View Controller-->
         <scene sceneID="wg7-f3-ORb">

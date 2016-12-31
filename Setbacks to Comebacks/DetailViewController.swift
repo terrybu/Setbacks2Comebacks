@@ -12,10 +12,17 @@ class DetailViewController: UIViewController {
 
     var person: Person!
     
+    @IBOutlet var personFaceImageView: UIImageView!
+    @IBOutlet var personNameLabel: UILabel!
+    @IBOutlet var personBioTextView: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(person.name)
         title = person.name
+        
+        personFaceImageView.image = UIImage(named: person.name)
+        personNameLabel.text = person.name
+        personBioTextView.text = person.bio
     }
 
     override func didReceiveMemoryWarning() {
