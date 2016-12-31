@@ -19,10 +19,14 @@ class HomeTableViewController: UIViewController, UITableViewDelegate {
         tableView.estimatedRowHeight = 100
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        // TODO: This should select the cell, pass the Person object to the DetailViewVC
-//        let person = peopleArray[indexPath.row]
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let destination = segue.destination as? DetailViewController,
+            let indexPath = tableView.indexPathForSelectedRow
+        {
+            destination.person = peopleArray[indexPath.row]
+        }
     }
+    
 }
 
 extension HomeTableViewController: UITableViewDataSource {

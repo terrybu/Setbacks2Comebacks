@@ -234,6 +234,7 @@
 				D992E40B1E0DE773003E93EB /* Resources */,
 				D91F4D207A211968F28BF858 /* [CP] Embed Pods Frameworks */,
 				4E9EA36E29E9F9EAEBA923F6 /* [CP] Copy Pods Resources */,
+				D99F49D11E14B2D10023E2C6 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -500,6 +501,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Setbacks to Comebacks/Pods-Setbacks to Comebacks-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		D99F49D11E14B2D10023E2C6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
 		};
 /* End PBXShellScriptBuildPhase section */
 

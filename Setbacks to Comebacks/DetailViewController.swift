@@ -10,17 +10,12 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
-    required init(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)!
-    }
-    
-    override init(nibName nibNameOrNil: String!, bundle nibBundleOrNil: Bundle!) {
-        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-    }
+    var person: Person!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print(person.name)
+        title = person.name
     }
 
     override func didReceiveMemoryWarning() {
