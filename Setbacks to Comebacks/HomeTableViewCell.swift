@@ -12,6 +12,7 @@ class HomeTableViewCell: UITableViewCell {
     
     @IBOutlet weak var personFaceImageView: UIImageView!
     @IBOutlet weak var personNameLabel: UILabel!
+    @IBOutlet weak var personSetbacksTextView: UITextView!
 
     override func awakeFromNib() {
         super.awakeFromNib()

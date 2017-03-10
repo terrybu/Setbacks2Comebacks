@@ -41,8 +41,9 @@ extension HomeTableViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! HomeTableViewCell
         let person = peopleArray[indexPath.row]
-        cell.personNameLabel.text = person.name
         cell.personFaceImageView.image = UIImage(named: person.name)
+        cell.personNameLabel.text = person.name
+        cell.personSetbacksTextView.text = person.setbacks.joined(separator: ", ")
         return cell
     }
     
