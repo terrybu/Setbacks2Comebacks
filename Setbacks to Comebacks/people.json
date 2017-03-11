@@ -2,25 +2,35 @@
     "people" :
     [
      {
+     "name" : "Albert Einstein",
+     "bio" : "Einstein was not able to speak until he was 4 years old and his teachers said 'he would never amount to much;. EinsteinÕs parents wanted him to pursue a career in electrical engineering. Without a high school diploma, Einstein applied to the Polytechnic Institute at Zurich, Switzerland and failed the entrance examination although he got exceptional marks in the mathematics and physics sections. Einstein described himself as a conscientious young man who had acquired his meagre store of  knowledge of the essentials through self study. Einstein basically taught himself math and physics through books and self-study and skipped lectures and stopped going to classes that didn't interest him. When he was working on the Theory of Relativity, he was working as an Assistant Examiner at a patent office. And then of course, he became one of the greatest scientists of all time.",
+     "setbacks": ["Slow Learner, Late Bloomer, Possible Asperger's, Unsociableness, Rejected from Entrance Exam"]
+     },
+     {
+     "name" : "David Ogilvy",
+     "bio" : "His own setback to comeback story is best summarized in his own words that he left us near his retirement. In his note to one of his partners, he said 'Will Any Agency Hire This Man? He is 38, and unemployed. He dropped out of college. He has been a cook, a salesman, a diplomatist and a farmer. He knows nothing about marketing and had never written any copy. He professes to be interested in advertising as a career (at the age of 38!) and is ready to go to work for $5,000 a year. I doubt if any American agency will hire him. However, a London agency did hire him. Three years later he became the most famous copywriter in the world, and in due course built the tenth biggest agency in the world. The moral: it sometimes pays an agency to be imaginative and unorthodox in hiring.",
+     "setbacks": ["Dropped out of college, No Formal Education, Late Bloomer"]
+     },
+     {
      "name" : "Isaac Newton",
-     "bio" : "Gravity, Laws of Motion, Inertia, Calculus",
-     "setbacks": ["Possible Asperger's"]
+     "bio" : "English Physicist,  Mathematician, Philosopher and one of the most influential scientists of all time. Famous for his work on Gravity, Laws of Motion (Inertia, Acceleration, Action-Reaction) and Calculus. It is said he was solitary and manic-depressive as a child, didn't engage with other children and  spent most his time alone building miniature mills, machines, carts and other inventions. In college years, he only made one friend and his notebooks document low self-esteem, anxiety, sadness, fear and suicidal thoughts. It is said he often avoided company of others and was extremely disagreeable with others who disagreed with him. In his notes on religion and alchemy, he wrote that he was appointed by God to bring his Truth to the world.",
+     "setbacks": ["Depression, Bipolar, Introverted, Unsociableness"]
      },
      {
      "name" : "Pablo Picasso",
-     "bio" : "Pablo Ruiz y Picasso (25 October 1881 – 8 April 1973), also known as Pablo Picasso, was a Spanish painter, sculptor, printmaker, ceramicist, stage designer, poet and playwright who spent most of his adult life in France.",
-     "setbacks" : []
+     "bio" : "Pablo Ruiz y Picasso (25 October 1881 – 8 April 1973) was a Spanish painter, sculptor, printmaker, ceramicist, stage designer, poet and playwright who spent most of his adult life in France. His days in Paris were characterized by poverty, which would have contributed to the melancholy of his blue paintings. Many people who saw the paintings (and who could have been potential buyers) often saw the sadness and would shy away from them. Due to the leading depression from the war, many people would not buy his paintings. This lead to poverty in his own life. And as if things couldn’t get any worse, his very close friend Casagemas ends up committing suicide in 1901, because of a broken heart after losing the one he loved. Picasso felt poverty, hunger and despair, just like the rest of the world.",
+     "setbacks" : ["Depression"]
      },
      
      {
      "name" : "Vincent van Gogh",
-     "bio" : "Vincent Willem van Gogh (30 March 1853 – 29 July 1890) was a Dutch post-Impressionist painter whose work had far-reaching influence on 20th-century art.",
-     "setbacks" : [ ]
+     "bio" : "Vincent Willem van Gogh (30 March 1853 – 29 July 1890) was a Dutch post-Impressionist painter whose work had far-reaching influence on 20th-century art. He left us amazing works like 'The Starry Night' and 'Cafe Terrace at Night".,
+     "setbacks" : [ "Depression, Bipolar, Suicidal Thoughts]
      },
      {
      "name" : "Jesus Christ",
-     "bio" : "Jesus was born in Bethlehem, present-day Palestine. He worked as a carpenter in his youth after studying Moses's teachings and the Scriptures until he turned 30 and decided to preach God all over the land. In a famous story told in the Bible, apparently Jesus prayed and fasted for 40 days in the desert until he heard Satan telling him to jump off a cliff and create food out of thin air. After this experience, Jesus performed miracles, healed the sick and gained a tremendous following. Jesus was then persecuted by Jewish authories in Roman Judea who charged him for blasphemy, then was betrayed by one of his disciples, Judah, who sold him for 30 pieces of silver. Jesus was then famously nailed to the cross, and his disciples, although deeply saddened by this loss, decided to continue on the fire of his legacy by preaching his teachings all over the world, generation after generation. \n The incredible fact is that we all know of Jesus more than 2000 years after his death. We know that Jesus didn't die in vain because 2.2 billion Christians all over world have received his values and teachings. We call him The Timeless, The Immortal, The Resurrected. \n His teachings of Love, Peace and Self-Sacrifice defeated the test of time, and nobody could stop him for the last 2000 years. He defeated Death, the greatest setback that tests the limits of human life. His love lives on forever through Christians who decide to live by his values every single day.",
-     "setbacks": ["Betrayal", "Persecution", "Suicidal Thoughts"]
+     "bio" : "Jesus was born in Bethlehem, present-day Palestine. He worked as a carpenter in his youth after studying Moses's teachings and the Scriptures until he turned 30 and decided to preach God all over the land. In a famous story told in the Bible, apparently Jesus prayed and fasted for 40 days in the desert until he heard Satan telling him to jump off a cliff.  After this experience, Jesus performed miracles, healed the sick and gained a tremendous following. Jesus was then persecuted by Jewish authories in Roman Judea who charged him for blasphemy, then was betrayed by one of his disciples, Judah, who sold him for 30 pieces of silver. Jesus was then famously nailed to the cross, and his disciples, although deeply saddened by this loss, decided to continue on the fire of his legacy by preaching his teachings all over the world, generation after generation. \n The incredible fact is that we all know of Jesus more than 2000 years after his death. We know that Jesus didn't die in vain because 2.2 billion Christians all over world have received his values and teachings. We call him The Timeless, The Immortal, The Resurrected. \n His teachings of Love, Peace and Self-Sacrifice defeated the test of time, and nobody could stop him for the last 2000 years. He defeated Death, the greatest setback that tests the limits of human life. His love lives on forever through Christians who decide to live by his values every single day.",
+     "setbacks": ["Betrayal", "Falsely Accused", "Slandered", "Persecution"]
      },
      {
      "name" : "Robin Williams",
