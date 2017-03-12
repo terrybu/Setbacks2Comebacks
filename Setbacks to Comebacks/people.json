@@ -4,17 +4,22 @@
      {
      "name" : "Albert Einstein",
      "bio" : "Einstein was not able to speak until he was 4 years old and his teachers said 'he would never amount to much;. EinsteinÕs parents wanted him to pursue a career in electrical engineering. Without a high school diploma, Einstein applied to the Polytechnic Institute at Zurich, Switzerland and failed the entrance examination although he got exceptional marks in the mathematics and physics sections. Einstein described himself as a conscientious young man who had acquired his meagre store of  knowledge of the essentials through self study. Einstein basically taught himself math and physics through books and self-study and skipped lectures and stopped going to classes that didn't interest him. When he was working on the Theory of Relativity, he was working as an Assistant Examiner at a patent office. And then of course, he became one of the greatest scientists of all time.",
-     "setbacks": ["Slow Learner, Late Bloomer, Possible Asperger's, Unsociableness, Rejected from Entrance Exam"]
+     "setbacks": ["Slow Learner", "Late Bloomer", "Unsociableness", "Rejected from Entrance Exam"]
+     },
+     {
+     "name" : "Abraham Lincoln",
+     "bio" : "'His friends called it his 'melancholy.' Lincoln often wept in public and recited sad poetry. He told jokes and stories at odd timesÑhe needed the laughs, he said, for his survival. As a young man he talked often of suicide, and as he grew older he said he saw the world as hard and grim, full of misery, made that way by fate and the forces of God. 'No element of Mr. Lincoln's character,' declared his colleague Henry Whitney, 'was so marked, obvious and ingrained as his mysterious and profound melancholy.' His law partner William Herndon said, 'His melancholy dripped from him as he walked. \n When Lincoln was in his 20s, one of his female friends  whom he had feelings for died due to illness. Lincoln 'told Me that he felt like Committing Suicide often,' remembered Mentor Graham, a schoolteacher, and his neighbors mobilized to keep him safe. One friend recalled, 'Mr Lincolns friends É were Compelled to keep watch [...] over Mr Lincoln, he being from the sudden shock somewhat temporarily deranged. We watched during stormsÑfogsÑdamp gloomy weather É for fear of an accident.' Some villagers worried that he'd end up insane. \n Here's a poem from Abraham Lincoln: 'To ease me of this power to think, That through my bosom raves, I'll headlong leap from hell's high brink And wallow in its waves.' Lincoln, too, connected his mental well-being to divine forces. As a young man he saw how religion could ameliorate life's blows, even as he found the consolation of faith elusive.",
+     "setbacks": ["Depression", "Suicidal Thoughts"]
      },
      {
      "name" : "David Ogilvy",
      "bio" : "His own setback to comeback story is best summarized in his own words that he left us near his retirement. In his note to one of his partners, he said 'Will Any Agency Hire This Man? He is 38, and unemployed. He dropped out of college. He has been a cook, a salesman, a diplomatist and a farmer. He knows nothing about marketing and had never written any copy. He professes to be interested in advertising as a career (at the age of 38!) and is ready to go to work for $5,000 a year. I doubt if any American agency will hire him. However, a London agency did hire him. Three years later he became the most famous copywriter in the world, and in due course built the tenth biggest agency in the world. The moral: it sometimes pays an agency to be imaginative and unorthodox in hiring.",
-     "setbacks": ["Dropped out of college, No Formal Education, Late Bloomer"]
+     "setbacks": ["College Dropout", "No Formal Education", "Late Bloomer"]
      },
      {
      "name" : "Isaac Newton",
      "bio" : "English Physicist,  Mathematician, Philosopher and one of the most influential scientists of all time. Famous for his work on Gravity, Laws of Motion (Inertia, Acceleration, Action-Reaction) and Calculus. It is said he was solitary and manic-depressive as a child, didn't engage with other children and  spent most his time alone building miniature mills, machines, carts and other inventions. In college years, he only made one friend and his notebooks document low self-esteem, anxiety, sadness, fear and suicidal thoughts. It is said he often avoided company of others and was extremely disagreeable with others who disagreed with him. In his notes on religion and alchemy, he wrote that he was appointed by God to bring his Truth to the world.",
-     "setbacks": ["Depression, Bipolar, Introverted, Unsociableness"]
+     "setbacks": ["Depression", "Bipolar", "Unsociableness"]
      },
      {
      "name" : "Pablo Picasso",
@@ -24,8 +29,8 @@
      
      {
      "name" : "Vincent van Gogh",
-     "bio" : "Vincent Willem van Gogh (30 March 1853 – 29 July 1890) was a Dutch post-Impressionist painter whose work had far-reaching influence on 20th-century art. He left us amazing works like 'The Starry Night' and 'Cafe Terrace at Night".,
-     "setbacks" : [ "Depression, Bipolar, Suicidal Thoughts]
+     "bio" : "Vincent Willem van Gogh (30 March 1853 – 29 July 1890) was a Dutch post-Impressionist painter whose work had far-reaching influence on 20th-century art. He left us amazing works like 'The Starry Night' and 'Cafe Terrace at Night but he was also known for his manic depression, a chronic mental illness that's thought to affect many creative people. There's many stories regarding if he committed suicide and the reasons behind why he cut off his own ear but we can only marvel at his wonderful brain that produced such beautiful art despite the struggles of his mind that he endured. Rest in Peace, Vincent. The world was just never meant for somebody as beautiful as you. " ,
+     "setbacks" : [ "Depression", "Bipolar", "Suicidal Thoughts"]
      },
      {
      "name" : "Jesus Christ",
