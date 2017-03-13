@@ -26,24 +26,18 @@ class DetailViewController: UIViewController {
         }
         personNameLabel.text = person.name
         personBioTextView.text = person.bio
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-
+        
+        let favoritesNavItem = UIBarButtonItem(image: UIImage(named:"star_24"), style: UIBarButtonItemStyle.plain, target: self, action: #selector(DetailViewController.starPressed))
+        navigationItem.rightBarButtonItem = favoritesNavItem
     }
     
-    
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    override func viewDidLayoutSubviews() {
+        personBioTextView.setContentOffset(CGPoint(x:0, y:0), animated: false)
+        personBioTextView.scrollRangeToVisible(NSMakeRange(0, 0))
     }
-    */
+    
+    func starPressed() {
+        print("sup")
+    }
 
 }

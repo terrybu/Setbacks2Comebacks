@@ -39,7 +39,7 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="188" height="100"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rx1-MG-MLR" userLabel="PersonNameLabel">
-                                                    <rect key="frame" x="194" y="8" width="174" height="19"/>
+                                                    <rect key="frame" x="194" y="8" width="173" height="19"/>
                                                     <attributedString key="attributedText">
                                                         <fragment content="Name">
                                                             <attributes>
@@ -51,14 +51,13 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" editable="NO" text="Setbacks" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ufI-4q-bpt">
-                                                    <rect key="frame" x="188" y="35" width="174" height="65"/>
+                                                    <rect key="frame" x="188" y="35" width="173" height="65"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="trailingMargin" secondItem="Rx1-MG-MLR" secondAttribute="trailing" constant="-1" id="50V-bq-dhA"/>
                                                 <constraint firstItem="ufI-4q-bpt" firstAttribute="bottom" secondItem="Y1R-I6-qTh" secondAttribute="bottom" id="5VG-BG-v9e"/>
                                                 <constraint firstItem="Rx1-MG-MLR" firstAttribute="leading" secondItem="Y1R-I6-qTh" secondAttribute="trailing" constant="6" id="9pB-7y-2X1"/>
                                                 <constraint firstItem="Y1R-I6-qTh" firstAttribute="centerY" secondItem="sGi-YO-ptz" secondAttribute="centerY" id="FFj-eE-siz"/>
