@@ -17,6 +17,11 @@ class HomeTableViewController: UIViewController, UITableViewDelegate {
         super.viewDidLoad()
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 100
+        self.navigationController?.navigationBar.barStyle = UIBarStyle.black
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
