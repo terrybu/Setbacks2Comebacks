@@ -24,6 +24,11 @@ class HomeTableViewController: UIViewController, UITableViewDelegate {
         return .lightContent
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let person = peopleArray[indexPath.row]
+        print(person.name)
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let destination = segue.destination as? DetailViewController,
             let indexPath = tableView.indexPathForSelectedRow
@@ -46,11 +51,7 @@ extension HomeTableViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! HomeTableViewCell
         let person = peopleArray[indexPath.row]
-        if let image = UIImage(named: person.name) {
-            cell.personFaceImageView.image = image
-        } else {
-            cell.personFaceImageView.image = UIImage(named:"placeholderFace")
-        }
+        cell.personFaceImageView.image = person.image
         cell.personNameLabel.text = person.name
         cell.personSetbacksTextView.text = person.setbacks.joined(separator: ", ")
         return cell

@@ -19,11 +19,7 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = person.name
-        if let image = UIImage(named: person.name) {
-            personFaceImageView.image = image
-        } else {
-            personFaceImageView.image = UIImage(named:"placeholderFace")
-        }
+        personFaceImageView.image = person.image
         personNameLabel.text = person.name
         personBioTextView.text = person.bio
         
