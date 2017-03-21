@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		916DACE1C52D228F242F052E /* Pods_Setbacks_to_Comebacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF50F99CF9937C41F73CDD8 /* Pods_Setbacks_to_Comebacks.framework */; };
 		D2DE4D65BC69ABCCACE64CBF /* Pods_Setbacks_to_ComebacksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D75BA864A2FF76E99D9556 /* Pods_Setbacks_to_ComebacksTests.framework */; };
+		D93A5D181E80C01300DDC25E /* FavoritesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A5D171E80C01300DDC25E /* FavoritesData.swift */; };
 		D97623331E1174BE00BB290B /* To-Do & Strategy in Resources */ = {isa = PBXBuildFile; fileRef = D97623321E1174BE00BB290B /* To-Do & Strategy */; };
 		D97E72EA1E141F2B001E1A8F /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97E72E91E141F2B001E1A8F /* HomeTableViewCell.swift */; };
 		D97E72EC1E142546001E1A8F /* PeopleDataAccessObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97E72EB1E142546001E1A8F /* PeopleDataAccessObject.swift */; };
@@ -51,6 +52,7 @@
 		8E51F50041C4DD93CE93F8B7 /* Pods_Setbacks_to_ComebacksUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Setbacks_to_ComebacksUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF50F99CF9937C41F73CDD8 /* Pods_Setbacks_to_Comebacks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Setbacks_to_Comebacks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA3DECCBF7FA9DD50E900E15 /* Pods-Setbacks to ComebacksUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Setbacks to ComebacksUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Setbacks to ComebacksUITests/Pods-Setbacks to ComebacksUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D93A5D171E80C01300DDC25E /* FavoritesData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesData.swift; sourceTree = "<group>"; };
 		D97623321E1174BE00BB290B /* To-Do & Strategy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "To-Do & Strategy"; sourceTree = "<group>"; };
 		D97E72E91E141F2B001E1A8F /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		D97E72EB1E142546001E1A8F /* PeopleDataAccessObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleDataAccessObject.swift; sourceTree = "<group>"; };
@@ -133,7 +135,6 @@
 			children = (
 				D992E4161E0DE774003E93EB /* Main.storyboard */,
 				D992E4191E0DE774003E93EB /* Assets.xcassets */,
-				D992E41B1E0DE774003E93EB /* LaunchScreen.storyboard */,
 				D97E72E91E141F2B001E1A8F /* HomeTableViewCell.swift */,
 			);
 			name = View;
@@ -178,6 +179,7 @@
 				D97E72E81E141C00001E1A8F /* View */,
 				D9EA06041E0F5E53003C7353 /* ViewControllers */,
 				D97E72ED1E14316F001E1A8F /* Resources */,
+				D992E41B1E0DE774003E93EB /* LaunchScreen.storyboard */,
 				D992E41E1E0DE774003E93EB /* Info.plist */,
 				D97623321E1174BE00BB290B /* To-Do & Strategy */,
 			);
@@ -217,6 +219,7 @@
 			children = (
 				D9EA06051E0F5E6E003C7353 /* Person.swift */,
 				D97E72EB1E142546001E1A8F /* PeopleDataAccessObject.swift */,
+				D93A5D171E80C01300DDC25E /* FavoritesData.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -525,6 +528,7 @@
 				D97E72EA1E141F2B001E1A8F /* HomeTableViewCell.swift in Sources */,
 				D9EA06011E0F5DD4003C7353 /* HomeTableViewController.swift in Sources */,
 				D9EA06031E0F5DEC003C7353 /* FavoritesViewController.swift in Sources */,
+				D93A5D181E80C01300DDC25E /* FavoritesData.swift in Sources */,
 				D9EA06061E0F5E6E003C7353 /* Person.swift in Sources */,
 				D98FBA0A1E11FBA8008FB950 /* DetailViewController.swift in Sources */,
 				D992E4111E0DE774003E93EB /* AppDelegate.swift in Sources */,
