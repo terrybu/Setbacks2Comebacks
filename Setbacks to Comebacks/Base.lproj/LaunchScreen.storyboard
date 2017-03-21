@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lLM-a1-Drm">
-                                <rect key="frame" x="38.5" y="117.5" width="299" height="33"/>
+                                <rect key="frame" x="38.5" y="317" width="299" height="33"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Setbacks 2 Comebacks">
                                         <attributes>
@@ -32,18 +32,10 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="s2cbig" translatesAutoresizingMaskIntoConstraints="NO" id="aDu-9x-p04">
-                                <rect key="frame" x="0.0" y="182.5" width="375" height="484.5"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="aDu-9x-p04" secondAttribute="trailing" id="64r-2n-ee2"/>
-                            <constraint firstItem="lLM-a1-Drm" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-200" id="HTD-o7-wlb"/>
-                            <constraint firstItem="aDu-9x-p04" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="MYT-Lj-0hg"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="aDu-9x-p04" secondAttribute="bottom" id="RdF-m8-GX7"/>
-                            <constraint firstItem="aDu-9x-p04" firstAttribute="top" secondItem="lLM-a1-Drm" secondAttribute="bottom" constant="32" id="Uy2-3G-GbJ"/>
-                            <constraint firstItem="aDu-9x-p04" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="WhS-5L-AiW"/>
+                            <constraint firstItem="lLM-a1-Drm" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="nwY-jW-nMb"/>
                             <constraint firstItem="lLM-a1-Drm" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="xf9-1d-oOV"/>
                         </constraints>
                     </view>
@@ -53,7 +45,4 @@
             <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="s2cbig" width="2100" height="2100"/>
-    </resources>
 </document>

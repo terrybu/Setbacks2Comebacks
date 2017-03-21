@@ -1,3 +1,15 @@
+3/19/2017 Sun
+
+
+
+The individual detail profiles should include
+- Biography
+- Quotes by the person ... using some other Quotes API ... can this be done?
+
+
+- For now, just gonna do FAVORITES first
+
+
 1) Data collection and Building out the UI could be done at the same time
     - Keep the skeleton SIMPLE AND FAST in the beginning
     - You can always add more UI later

@@ -120,38 +120,29 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gRd-mf-Fom" userLabel="Content View">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="700"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NameLabel" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yhm-Cy-Dd0" userLabel="PersonNameLabel">
-                                                <rect key="frame" x="0.5" y="258" width="375" height="20"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ba5-Je-mcN" userLabel="PersonBioTextView">
-                                                <rect key="frame" x="0.0" y="286" width="375" height="414"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
                                             <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qPu-7W-hvX" userLabel="PersonFaceImageView">
                                                 <rect key="frame" x="0.5" y="0.0" width="375" height="250"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" secondItem="qPu-7W-hvX" secondAttribute="width" multiplier="2:3" id="agh-ko-mZu"/>
                                                 </constraints>
                                             </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ba5-Je-mcN" userLabel="PersonBioTextView">
+                                                <rect key="frame" x="0.0" y="250" width="375" height="450"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="Ba5-Je-mcN" secondAttribute="bottom" id="01Y-Q0-weH"/>
                                             <constraint firstItem="qPu-7W-hvX" firstAttribute="width" secondItem="gRd-mf-Fom" secondAttribute="width" id="2Kf-ZT-rLF"/>
-                                            <constraint firstItem="Ba5-Je-mcN" firstAttribute="top" secondItem="Yhm-Cy-Dd0" secondAttribute="bottom" constant="8" id="9z5-Da-AFx"/>
                                             <constraint firstAttribute="trailing" secondItem="Ba5-Je-mcN" secondAttribute="trailing" id="CFW-gL-FID"/>
                                             <constraint firstItem="qPu-7W-hvX" firstAttribute="centerX" secondItem="gRd-mf-Fom" secondAttribute="centerX" id="N0q-h2-K9Z"/>
-                                            <constraint firstItem="Yhm-Cy-Dd0" firstAttribute="width" secondItem="gRd-mf-Fom" secondAttribute="width" id="QsZ-mn-YOF"/>
-                                            <constraint firstItem="Yhm-Cy-Dd0" firstAttribute="centerX" secondItem="gRd-mf-Fom" secondAttribute="centerX" id="R0h-i3-GZM"/>
                                             <constraint firstItem="Ba5-Je-mcN" firstAttribute="leading" secondItem="gRd-mf-Fom" secondAttribute="leading" id="Yeq-H7-Xfx"/>
                                             <constraint firstAttribute="height" constant="700" id="dOF-Es-Zb5"/>
-                                            <constraint firstItem="Yhm-Cy-Dd0" firstAttribute="top" secondItem="qPu-7W-hvX" secondAttribute="bottom" constant="8" id="szW-zi-kDg"/>
+                                            <constraint firstItem="Ba5-Je-mcN" firstAttribute="top" secondItem="qPu-7W-hvX" secondAttribute="bottom" id="fkF-x5-7Cb"/>
                                             <constraint firstItem="qPu-7W-hvX" firstAttribute="top" secondItem="gRd-mf-Fom" secondAttribute="top" id="ur4-b0-Ij3"/>
                                         </constraints>
                                     </view>
@@ -173,12 +164,19 @@
                             <constraint firstAttribute="trailing" secondItem="hfO-R0-i8d" secondAttribute="trailing" id="rXD-Ww-83t"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="4mh-6A-1Er">
+                        <barButtonItem key="rightBarButtonItem" image="favoriteIcon" id="1n2-95-ZiX">
+                            <connections>
+                                <action selector="favoritsStarButtonPressedWithSender:" destination="Gtt-of-kaG" id="rq5-46-p0i"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
                     <connections>
+                        <outlet property="favoritesStarBarButton" destination="1n2-95-ZiX" id="ALI-o6-DtD"/>
                         <outlet property="personBioTextView" destination="Ba5-Je-mcN" id="KTg-2l-IrG"/>
                         <outlet property="personFaceImageView" destination="qPu-7W-hvX" id="xVy-f7-HRa"/>
-                        <outlet property="personNameLabel" destination="Yhm-Cy-Dd0" id="v0U-NZ-KfQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rdw-Ts-DRy" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -253,9 +251,10 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="W42-z5-IaK" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Home" image="bulletList" id="acW-dT-cKf"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cI0-7z-xX4">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="cI0-7z-xX4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.79721208756345174" green="0.79721208756345174" blue="0.79721208756345174" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="barTintColor" cocoaTouchSystemColor="darkTextColor"/>
                         <textAttributes key="titleTextAttributes">
@@ -275,5 +274,6 @@
     <resources>
         <image name="Isaac Newton" width="720" height="456"/>
         <image name="bulletList" width="24" height="24"/>
+        <image name="favoriteIcon" width="16" height="16"/>
     </resources>
 </document>

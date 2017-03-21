@@ -13,18 +13,15 @@ class DetailViewController: UIViewController {
     var person: Person!
     
     @IBOutlet var personFaceImageView: UIImageView!
-    @IBOutlet var personNameLabel: UILabel!
     @IBOutlet var personBioTextView: UITextView!
+    @IBOutlet weak var favoritesStarBarButton: UIBarButtonItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         title = person.name
         personFaceImageView.image = person.image
-        personNameLabel.text = person.name
         personBioTextView.text = person.bio
         
-        let favoritesNavItem = UIBarButtonItem(image: UIImage(named:"star_24"), style: UIBarButtonItemStyle.plain, target: self, action: #selector(DetailViewController.starPressed))
-        navigationItem.rightBarButtonItem = favoritesNavItem
     }
     
     override func viewDidLayoutSubviews() {
@@ -32,8 +29,10 @@ class DetailViewController: UIViewController {
         personBioTextView.scrollRangeToVisible(NSMakeRange(0, 0))
     }
     
-    func starPressed() {
-        print("sup")
+    @IBAction func favoritsStarButtonPressed(sender: UIButton) {
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Favorited", style: UIBarButtonItemStyle.done, target: self, action: nil)
     }
-
+    
+    
+    
 }

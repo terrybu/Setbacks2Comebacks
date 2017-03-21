@@ -10,7 +10,7 @@ import UIKit
 
 class HomeTableViewController: UIViewController, UITableViewDelegate {
     
-    let peopleArray = PeopleDataAccessObject.sharedObject.peopleArray
+    let peopleArray = PeopleDataAccessObject.sharedObject.peopleArray!
     @IBOutlet var tableView: UITableView!
     
     override func viewDidLoad() {

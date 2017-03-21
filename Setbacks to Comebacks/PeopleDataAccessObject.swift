@@ -12,16 +12,14 @@ import SwiftyJSON
 class PeopleDataAccessObject {
 
     static let sharedObject = PeopleDataAccessObject()
-    
-    var peopleArray: [Person] = []
+    var peopleArray: [Person]?
     
     init() {
-        peopleArray = PeopleDataAccessObject.getPeopleObjectsFromJSON()
+        peopleArray = getPeopleObjectsFromJSON()
     }
     
-    static func getPeopleObjectsFromJSON() -> [Person] {
+    private func getPeopleObjectsFromJSON() -> [Person]? {
         var peopleArray = [Person]()
-        
         if let url = Bundle.main.url(forResource: "people", withExtension: "json") {
             //return peopleArray
             do {
@@ -38,7 +36,7 @@ class PeopleDataAccessObject {
                     peopleArray.append(newPerson)
                 }
             } catch {
-                return peopleArray
+                return nil
             }
         }
         return peopleArray
