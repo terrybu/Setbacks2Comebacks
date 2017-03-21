@@ -10,6 +10,7 @@
 		916DACE1C52D228F242F052E /* Pods_Setbacks_to_Comebacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF50F99CF9937C41F73CDD8 /* Pods_Setbacks_to_Comebacks.framework */; };
 		D2DE4D65BC69ABCCACE64CBF /* Pods_Setbacks_to_ComebacksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D75BA864A2FF76E99D9556 /* Pods_Setbacks_to_ComebacksTests.framework */; };
 		D93A5D181E80C01300DDC25E /* FavoritesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A5D171E80C01300DDC25E /* FavoritesData.swift */; };
+		D93A5D1A1E81632C00DDC25E /* PersonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D93A5D191E81632C00DDC25E /* PersonTableViewCell.xib */; };
 		D97623331E1174BE00BB290B /* To-Do & Strategy in Resources */ = {isa = PBXBuildFile; fileRef = D97623321E1174BE00BB290B /* To-Do & Strategy */; };
 		D97E72EA1E141F2B001E1A8F /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97E72E91E141F2B001E1A8F /* PersonTableViewCell.swift */; };
 		D97E72EC1E142546001E1A8F /* PeopleDataAccessObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97E72EB1E142546001E1A8F /* PeopleDataAccessObject.swift */; };
@@ -53,6 +54,7 @@
 		9DF50F99CF9937C41F73CDD8 /* Pods_Setbacks_to_Comebacks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Setbacks_to_Comebacks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA3DECCBF7FA9DD50E900E15 /* Pods-Setbacks to ComebacksUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Setbacks to ComebacksUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Setbacks to ComebacksUITests/Pods-Setbacks to ComebacksUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D93A5D171E80C01300DDC25E /* FavoritesData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesData.swift; sourceTree = "<group>"; };
+		D93A5D191E81632C00DDC25E /* PersonTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonTableViewCell.xib; sourceTree = "<group>"; };
 		D97623321E1174BE00BB290B /* To-Do & Strategy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "To-Do & Strategy"; sourceTree = "<group>"; };
 		D97E72E91E141F2B001E1A8F /* PersonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
 		D97E72EB1E142546001E1A8F /* PeopleDataAccessObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleDataAccessObject.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				D992E4161E0DE774003E93EB /* Main.storyboard */,
 				D992E4191E0DE774003E93EB /* Assets.xcassets */,
 				D97E72E91E141F2B001E1A8F /* PersonTableViewCell.swift */,
+				D93A5D191E81632C00DDC25E /* PersonTableViewCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 				D97623331E1174BE00BB290B /* To-Do & Strategy in Resources */,
 				D992E41D1E0DE774003E93EB /* LaunchScreen.storyboard in Resources */,
 				D97E72F11E143217001E1A8F /* Bibliography.txt in Resources */,
+				D93A5D1A1E81632C00DDC25E /* PersonTableViewCell.xib in Resources */,
 				D97E72EF1E14318C001E1A8F /* people.json in Resources */,
 				D992E41A1E0DE774003E93EB /* Assets.xcassets in Resources */,
 				D992E4181E0DE774003E93EB /* Main.storyboard in Resources */,
