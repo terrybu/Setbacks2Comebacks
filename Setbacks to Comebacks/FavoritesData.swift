@@ -34,10 +34,12 @@ class FavoritesData {
     func getFavoritesArrayFromDefaults() -> [Person]? {
         if let data = defaults.data(forKey: FavoritesArrayDataKey) {
             let array = NSKeyedUnarchiver.unarchiveObject(with: data) as! [Person]
-            return array
+            return array.sorted(by: { $0.name < $1.name })
         }
         return nil
     }
+    
+    //TODO: must implement how to delete favorites
     
     
 }
