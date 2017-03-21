@@ -25,9 +25,7 @@ class FavoritesData {
     }
     
     func addObjectToFavoritesAndSave(newPerson: Person) {
-        //TODO: You cannot add duplicate favorties. check here
         favoritesArray.append(newPerson)
-        
         let data = NSKeyedArchiver.archivedData(withRootObject: favoritesArray)
         defaults.set(data, forKey: FavoritesArrayDataKey)
         defaults.synchronize()
