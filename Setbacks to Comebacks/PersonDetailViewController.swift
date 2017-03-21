@@ -1,5 +1,5 @@
 //
-//  DetailViewController.swift
+//  PersonDetailViewController.swift
 //  Setbacks to Comebacks
 //
 //  Created by Terry Bu on 12/26/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
+class PersonDetailViewController: UIViewController {
 
     var person: Person!
     
@@ -31,6 +31,7 @@ class DetailViewController: UIViewController {
     
     @IBAction func favoritsStarButtonPressed(sender: UIButton) {
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Favorited", style: UIBarButtonItemStyle.done, target: self, action: nil)
+        FavoritesData.sharedInstance.addObjectToFavoritesAndSave(newPerson: person)
     }
     
     

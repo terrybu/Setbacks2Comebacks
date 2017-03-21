@@ -10,21 +10,28 @@ import Foundation
 
 class FavoritesData {
     
-    static let sharedFavoritesData = FavoritesData()
+    static let sharedInstance = FavoritesData()
     let defaults = UserDefaults.standard
-    private let FavoritesArrayKey = "favoritesArray"
+    private let FavoritesArrayDataKey = "FavArrayData"
 
     func addObjectToFavoritesAndSave(newPerson: Person) {
-        var favArray = [Person]()
-        if let array = defaults.array(forKey: FavoritesArrayKey) {
-            favArray = array as! [Person]
+        var favArray: [Person]
+        if let data = defaults.data(forKey: FavoritesArrayDataKey) {
+            let array = NSKeyedUnarchiver.unarchiveObject(with: data) as! [Person]
+            favArray = array
+        } else {
+            favArray = [Person]()
         }
         favArray.append(newPerson)
-        defaults.set(favArray, forKey: FavoritesArrayKey)
+        
+        let data = NSKeyedArchiver.archivedData(withRootObject: favArray)
+        defaults.set(data, forKey: FavoritesArrayDataKey)
+        defaults.synchronize()
     }
     
     func getFavoritesArrayFromDefaults() -> [Person]? {
-        if let array = defaults.array(forKey: FavoritesArrayKey) as? [Person] {
+        if let data = defaults.data(forKey: FavoritesArrayDataKey) {
+            let array = NSKeyedUnarchiver.unarchiveObject(with: data) as! [Person]
             return array
         }
         return nil

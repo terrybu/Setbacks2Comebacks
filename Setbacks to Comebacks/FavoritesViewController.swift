@@ -10,11 +10,16 @@ import UIKit
 
 class FavoritesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
-    let favoritesArray = FavoritesData.sharedFavoritesData.getFavoritesArrayFromDefaults()
+    var favoritesArray = FavoritesData.sharedInstance.getFavoritesArrayFromDefaults()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        favoritesArray = FavoritesData.sharedInstance.getFavoritesArrayFromDefaults()
+        print("favorittes vc")
+        print(favoritesArray!.description)
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -29,7 +34,7 @@ class FavoritesViewController: UIViewController, UITableViewDataSource, UITableV
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! HomeTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell2", for: indexPath) as! PersonTableViewCell
         let person = favoritesArray![indexPath.row]
         cell.personFaceImageView.image = person.image
         cell.personNameLabel.text = person.name

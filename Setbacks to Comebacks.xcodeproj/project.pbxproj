@@ -11,11 +11,11 @@
 		D2DE4D65BC69ABCCACE64CBF /* Pods_Setbacks_to_ComebacksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D75BA864A2FF76E99D9556 /* Pods_Setbacks_to_ComebacksTests.framework */; };
 		D93A5D181E80C01300DDC25E /* FavoritesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A5D171E80C01300DDC25E /* FavoritesData.swift */; };
 		D97623331E1174BE00BB290B /* To-Do & Strategy in Resources */ = {isa = PBXBuildFile; fileRef = D97623321E1174BE00BB290B /* To-Do & Strategy */; };
-		D97E72EA1E141F2B001E1A8F /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97E72E91E141F2B001E1A8F /* HomeTableViewCell.swift */; };
+		D97E72EA1E141F2B001E1A8F /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97E72E91E141F2B001E1A8F /* PersonTableViewCell.swift */; };
 		D97E72EC1E142546001E1A8F /* PeopleDataAccessObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97E72EB1E142546001E1A8F /* PeopleDataAccessObject.swift */; };
 		D97E72EF1E14318C001E1A8F /* people.json in Resources */ = {isa = PBXBuildFile; fileRef = D97E72EE1E14318C001E1A8F /* people.json */; };
 		D97E72F11E143217001E1A8F /* Bibliography.txt in Resources */ = {isa = PBXBuildFile; fileRef = D97E72F01E143217001E1A8F /* Bibliography.txt */; };
-		D98FBA0A1E11FBA8008FB950 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98FBA081E11FBA8008FB950 /* DetailViewController.swift */; };
+		D98FBA0A1E11FBA8008FB950 /* PersonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98FBA081E11FBA8008FB950 /* PersonDetailViewController.swift */; };
 		D992E4111E0DE774003E93EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D992E4101E0DE774003E93EB /* AppDelegate.swift */; };
 		D992E4181E0DE774003E93EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D992E4161E0DE774003E93EB /* Main.storyboard */; };
 		D992E41A1E0DE774003E93EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D992E4191E0DE774003E93EB /* Assets.xcassets */; };
@@ -54,11 +54,11 @@
 		CA3DECCBF7FA9DD50E900E15 /* Pods-Setbacks to ComebacksUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Setbacks to ComebacksUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Setbacks to ComebacksUITests/Pods-Setbacks to ComebacksUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D93A5D171E80C01300DDC25E /* FavoritesData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesData.swift; sourceTree = "<group>"; };
 		D97623321E1174BE00BB290B /* To-Do & Strategy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "To-Do & Strategy"; sourceTree = "<group>"; };
-		D97E72E91E141F2B001E1A8F /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		D97E72E91E141F2B001E1A8F /* PersonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
 		D97E72EB1E142546001E1A8F /* PeopleDataAccessObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleDataAccessObject.swift; sourceTree = "<group>"; };
 		D97E72EE1E14318C001E1A8F /* people.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = people.json; sourceTree = "<group>"; };
 		D97E72F01E143217001E1A8F /* Bibliography.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bibliography.txt; sourceTree = "<group>"; };
-		D98FBA081E11FBA8008FB950 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D98FBA081E11FBA8008FB950 /* PersonDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDetailViewController.swift; sourceTree = "<group>"; };
 		D992E40D1E0DE774003E93EB /* Setbacks to Comebacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Setbacks to Comebacks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D992E4101E0DE774003E93EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D992E4171E0DE774003E93EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -135,7 +135,7 @@
 			children = (
 				D992E4161E0DE774003E93EB /* Main.storyboard */,
 				D992E4191E0DE774003E93EB /* Assets.xcassets */,
-				D97E72E91E141F2B001E1A8F /* HomeTableViewCell.swift */,
+				D97E72E91E141F2B001E1A8F /* PersonTableViewCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -208,7 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				D9EA06001E0F5DD4003C7353 /* HomeTableViewController.swift */,
-				D98FBA081E11FBA8008FB950 /* DetailViewController.swift */,
+				D98FBA081E11FBA8008FB950 /* PersonDetailViewController.swift */,
 				D9EA06021E0F5DEC003C7353 /* FavoritesViewController.swift */,
 			);
 			name = ViewControllers;
@@ -525,12 +525,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D97E72EA1E141F2B001E1A8F /* HomeTableViewCell.swift in Sources */,
+				D97E72EA1E141F2B001E1A8F /* PersonTableViewCell.swift in Sources */,
 				D9EA06011E0F5DD4003C7353 /* HomeTableViewController.swift in Sources */,
 				D9EA06031E0F5DEC003C7353 /* FavoritesViewController.swift in Sources */,
 				D93A5D181E80C01300DDC25E /* FavoritesData.swift in Sources */,
 				D9EA06061E0F5E6E003C7353 /* Person.swift in Sources */,
-				D98FBA0A1E11FBA8008FB950 /* DetailViewController.swift in Sources */,
+				D98FBA0A1E11FBA8008FB950 /* PersonDetailViewController.swift in Sources */,
 				D992E4111E0DE774003E93EB /* AppDelegate.swift in Sources */,
 				D97E72EC1E142546001E1A8F /* PeopleDataAccessObject.swift in Sources */,
 			);

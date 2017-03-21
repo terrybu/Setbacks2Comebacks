@@ -30,7 +30,7 @@ class HomeTableViewController: UIViewController, UITableViewDelegate {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let destination = segue.destination as? DetailViewController,
+        if let destination = segue.destination as? PersonDetailViewController,
             let indexPath = tableView.indexPathForSelectedRow
         {
             destination.person = peopleArray[indexPath.row]
@@ -49,7 +49,7 @@ extension HomeTableViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! HomeTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! PersonTableViewCell
         let person = peopleArray[indexPath.row]
         cell.personFaceImageView.image = person.image
         cell.personNameLabel.text = person.name

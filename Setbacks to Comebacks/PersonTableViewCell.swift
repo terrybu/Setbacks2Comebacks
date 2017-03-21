@@ -1,5 +1,5 @@
 //
-//  HomeTableViewCell.swift
+//  PersonTableViewCell.swift
 //  Setbacks to Comebacks
 //
 //  Created by Terry Bu on 12/28/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeTableViewCell: UITableViewCell {
+class PersonTableViewCell: UITableViewCell {
     
     @IBOutlet weak var personFaceImageView: UIImageView!
     @IBOutlet weak var personNameLabel: UILabel!

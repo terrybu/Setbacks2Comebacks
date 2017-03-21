@@ -28,7 +28,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="100" id="yB8-eZ-VHB" customClass="HomeTableViewCell" customModule="Setbacks_to_Comebacks" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="100" id="yB8-eZ-VHB" customClass="PersonTableViewCell" customModule="Setbacks_to_Comebacks" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yB8-eZ-VHB" id="sGi-YO-ptz">
@@ -102,10 +102,10 @@
             </objects>
             <point key="canvasLocation" x="1532" y="-321.58920539730138"/>
         </scene>
-        <!--DetailViewController-->
+        <!--PersonDetailViewController-->
         <scene sceneID="sCq-ll-m0f">
             <objects>
-                <viewController storyboardIdentifier="DetailViewController" title="PersonName is Title" id="Gtt-of-kaG" userLabel="DetailViewController" customClass="DetailViewController" customModule="Setbacks_to_Comebacks" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PersonDetailViewController" title="PersonName is Title" id="Gtt-of-kaG" userLabel="PersonDetailViewController" customClass="PersonDetailViewController" customModule="Setbacks_to_Comebacks" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4qh-nv-TvT"/>
                         <viewControllerLayoutGuide type="bottom" id="KZN-8v-x3C"/>
@@ -199,7 +199,7 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="598"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="Xog-iw-R1e">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell2" id="Xog-iw-R1e" customClass="PersonTableViewCell" customModule="Setbacks_to_Comebacks" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Xog-iw-R1e" id="nrx-Tj-OQd">
