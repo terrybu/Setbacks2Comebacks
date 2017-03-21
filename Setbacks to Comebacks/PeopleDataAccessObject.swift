@@ -33,16 +33,7 @@ class PeopleDataAccessObject {
                     let bio = json["bio"].stringValue
                     let setbacks = json["setbacks"].arrayValue.map( {$0.string!} )
                     let image = UIImage(named: "placeholderFace")!
-                    let newPerson = Person(name: name, bio: bio, setbacks:setbacks, image: image)
-                    if let actualFaceImg = UIImage(named: name) {
-                        newPerson.image = actualFaceImg
-                    } else {
-                        //this is to check for any accents in the image filename that prevented santiago cajal from registering
-                        let diacriticRemovedStr = name.folding(options: String.CompareOptions.diacriticInsensitive, locale: .current)
-                        if let actualFaceImg2 = UIImage(named: diacriticRemovedStr) {
-                            newPerson.image = actualFaceImg2
-                        }
-                    }
+                    let newPerson = Person(name: name, bio: bio, setbacks:setbacks)
                     peopleArray.append(newPerson)
                 }
             } catch {

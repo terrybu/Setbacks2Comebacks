@@ -21,6 +21,16 @@ class PersonDetailViewController: UIViewController {
         title = person.name
         personFaceImageView.image = person.image
         personBioTextView.text = person.bio
+        checkIfPersonInFavoritesAlready()
+    }
+    
+    private func checkIfPersonInFavoritesAlready() {
+        let favArray = FavoritesData.sharedInstance.favoritesArray
+        if favArray.contains(where: { $0.name == person.name }) {
+            print("yes already in favorites")
+            navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Favorited", style: UIBarButtonItemStyle.done, target: self, action: nil)
+            navigationItem.rightBarButtonItem?.isEnabled = false
+        }
         
     }
     

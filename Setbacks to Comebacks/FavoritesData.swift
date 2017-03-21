@@ -13,18 +13,22 @@ class FavoritesData {
     static let sharedInstance = FavoritesData()
     let defaults = UserDefaults.standard
     private let FavoritesArrayDataKey = "FavArrayData"
-
-    func addObjectToFavoritesAndSave(newPerson: Person) {
-        var favArray: [Person]
+    var favoritesArray: [Person]
+    
+    init() {
         if let data = defaults.data(forKey: FavoritesArrayDataKey) {
             let array = NSKeyedUnarchiver.unarchiveObject(with: data) as! [Person]
-            favArray = array
+            self.favoritesArray = array
         } else {
-            favArray = [Person]()
+            self.favoritesArray = [Person]()
         }
-        favArray.append(newPerson)
+    }
+    
+    func addObjectToFavoritesAndSave(newPerson: Person) {
+        //TODO: You cannot add duplicate favorties. check here
+        favoritesArray.append(newPerson)
         
-        let data = NSKeyedArchiver.archivedData(withRootObject: favArray)
+        let data = NSKeyedArchiver.archivedData(withRootObject: favoritesArray)
         defaults.set(data, forKey: FavoritesArrayDataKey)
         defaults.synchronize()
     }
