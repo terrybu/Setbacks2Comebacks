@@ -16,8 +16,6 @@
 		D942B90B1E82C62A00F8710C /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D942B9031E82C62A00F8710C /* SettingsTableViewController.swift */; };
 		D942B90C1E82C62A00F8710C /* FontSizeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D942B9041E82C62A00F8710C /* FontSizeTableViewController.swift */; };
 		D942B90D1E82C62A00F8710C /* FontSizeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D942B9051E82C62A00F8710C /* FontSizeTableViewCell.swift */; };
-		D942B90E1E82C62A00F8710C /* NightModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D942B9061E82C62A00F8710C /* NightModeViewController.swift */; };
-		D942B90F1E82C62A00F8710C /* NightModeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D942B9071E82C62A00F8710C /* NightModeTableViewCell.swift */; };
 		D942B9111E82C79900F8710C /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D942B9101E82C79900F8710C /* TabBarViewController.swift */; };
 		D97623331E1174BE00BB290B /* To-Do & Strategy in Resources */ = {isa = PBXBuildFile; fileRef = D97623321E1174BE00BB290B /* To-Do & Strategy */; };
 		D97E72EA1E141F2B001E1A8F /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97E72E91E141F2B001E1A8F /* PersonTableViewCell.swift */; };
@@ -68,8 +66,6 @@
 		D942B9031E82C62A00F8710C /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		D942B9041E82C62A00F8710C /* FontSizeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontSizeTableViewController.swift; sourceTree = "<group>"; };
 		D942B9051E82C62A00F8710C /* FontSizeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontSizeTableViewCell.swift; sourceTree = "<group>"; };
-		D942B9061E82C62A00F8710C /* NightModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NightModeViewController.swift; sourceTree = "<group>"; };
-		D942B9071E82C62A00F8710C /* NightModeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NightModeTableViewCell.swift; sourceTree = "<group>"; };
 		D942B9101E82C79900F8710C /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		D97623321E1174BE00BB290B /* To-Do & Strategy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "To-Do & Strategy"; sourceTree = "<group>"; };
 		D97E72E91E141F2B001E1A8F /* PersonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
@@ -156,8 +152,6 @@
 				D942B9031E82C62A00F8710C /* SettingsTableViewController.swift */,
 				D942B9041E82C62A00F8710C /* FontSizeTableViewController.swift */,
 				D942B9051E82C62A00F8710C /* FontSizeTableViewCell.swift */,
-				D942B9061E82C62A00F8710C /* NightModeViewController.swift */,
-				D942B9071E82C62A00F8710C /* NightModeTableViewCell.swift */,
 			);
 			name = Settings;
 			path = "../../Sample Projects/TaoTeChingSwift/TaoTeChingSwift/TaoTeChingSwift";
@@ -574,10 +568,8 @@
 				D942B90C1E82C62A00F8710C /* FontSizeTableViewController.swift in Sources */,
 				D97E72EC1E142546001E1A8F /* PeopleDataAccessObject.swift in Sources */,
 				D942B9091E82C62A00F8710C /* SettingsManager.swift in Sources */,
-				D942B90F1E82C62A00F8710C /* NightModeTableViewCell.swift in Sources */,
 				D942B90D1E82C62A00F8710C /* FontSizeTableViewCell.swift in Sources */,
 				D942B9111E82C79900F8710C /* TabBarViewController.swift in Sources */,
-				D942B90E1E82C62A00F8710C /* NightModeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

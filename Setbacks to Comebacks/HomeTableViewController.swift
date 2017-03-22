@@ -22,11 +22,6 @@ class HomeTableViewController: UIViewController, UITableViewDelegate {
         NotificationCenter.default.addObserver(forName: NSNotification.Name(rawValue: "SettingsFontDidUpdate"), object: nil, queue: OperationQueue.main) { (_) in
             self.tableView!.reloadData()
         }
-        NotificationCenter.default.addObserver(forName: NSNotification.Name(rawValue: "SettingsNightModeDidUpdate"), object: nil, queue: OperationQueue.main) { (_) in
-            self.tableView!.reloadData()
-            self.tableView.backgroundColor = SettingsManager.shared.backgroundColor()
-            self.view.backgroundColor = SettingsManager.shared.backgroundColor()
-        }
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
