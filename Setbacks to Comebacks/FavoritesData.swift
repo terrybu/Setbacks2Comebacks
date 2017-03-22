@@ -26,9 +26,8 @@ class FavoritesData {
     
     func addObjectToFavoritesAndSave(newPerson: Person) {
         favoritesArray.append(newPerson)
-        let data = NSKeyedArchiver.archivedData(withRootObject: favoritesArray)
-        defaults.set(data, forKey: FavoritesArrayDataKey)
-        defaults.synchronize()
+        favoritesArray.sort(by: {$0.name < $1.name })
+        saveFavoritesArrayCurrentStateIntoDefaults()
     }
     
     func getFavoritesArrayFromDefaults() -> [Person]? {
@@ -39,7 +38,11 @@ class FavoritesData {
         return nil
     }
     
-    //TODO: must implement how to delete favorites
+    func saveFavoritesArrayCurrentStateIntoDefaults() {
+        let data = NSKeyedArchiver.archivedData(withRootObject: favoritesArray)
+        defaults.set(data, forKey: FavoritesArrayDataKey)
+        defaults.synchronize()
+    }
     
     
 }

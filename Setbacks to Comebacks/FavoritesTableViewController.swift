@@ -71,6 +71,8 @@ class FavoritesTableViewController: UIViewController, UITableViewDataSource, UIT
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             self.favoritesArray?.remove(at: indexPath.row)
+            FavoritesData.sharedInstance.favoritesArray.remove(at: indexPath.row)
+            FavoritesData.sharedInstance.saveFavoritesArrayCurrentStateIntoDefaults()
             self.tableView.reloadData()
         }
     }
