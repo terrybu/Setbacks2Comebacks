@@ -22,6 +22,11 @@ class FavoritesTableViewController: UIViewController, UITableViewDataSource, UIT
         self.navigationController?.navigationBar.barStyle = UIBarStyle.black
         
         self.navigationItem.rightBarButtonItem = self.editButtonItem
+        
+        NotificationCenter.default.addObserver(forName: NSNotification.Name(rawValue: "SettingsFontDidUpdate"), object: nil, queue: OperationQueue.main) { (_) in
+            self.tableView!.reloadData()
+        }
+
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -61,6 +66,7 @@ class FavoritesTableViewController: UIViewController, UITableViewDataSource, UIT
         cell.personFaceImageView.image = person.image
         cell.personNameLabel.text = person.name
         cell.personSetbacksTextView.text = person.setbacks.joined(separator: ", ")
+        cell.personSetbacksTextView.font = UIFont(name: cell.personSetbacksTextView.font!.fontName, size: CGFloat(SettingsManager.shared.fontSize.size()))
         return cell
     }
     

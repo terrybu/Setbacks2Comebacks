@@ -22,7 +22,12 @@ class PersonDetailViewController: UIViewController {
         personFaceImageView.image = person.image
         personBioTextView.text = person.bio
         checkForStarButtonNecessity()
+        
+        NotificationCenter.default.addObserver(forName: NSNotification.Name(rawValue: "SettingsFontDidUpdate"), object: nil, queue: OperationQueue.main) { (_) in
+            self.personBioTextView.font = UIFont(name: self.personBioTextView.font!.fontName, size: CGFloat(SettingsManager.shared.fontSize.size()))
+        }
     }
+
     
     private func checkForStarButtonNecessity() {
         if navigationController?.viewControllers[0] is FavoritesTableViewController  {

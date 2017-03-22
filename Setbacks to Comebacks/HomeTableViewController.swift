@@ -40,7 +40,6 @@ class HomeTableViewController: UIViewController, UITableViewDelegate {
             destination.person = peopleArray[indexPath.row]
         }
     }
-    
 }
 
 extension HomeTableViewController: UITableViewDataSource {
@@ -58,6 +57,7 @@ extension HomeTableViewController: UITableViewDataSource {
         cell.personFaceImageView.image = person.image
         cell.personNameLabel.text = person.name
         cell.personSetbacksTextView.text = person.setbacks.joined(separator: ", ")
+        cell.personSetbacksTextView.font = UIFont(name: cell.personSetbacksTextView.font!.fontName, size: CGFloat(SettingsManager.shared.fontSize.size()))
         return cell
     }
     
