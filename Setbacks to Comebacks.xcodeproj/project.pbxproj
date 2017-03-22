@@ -11,6 +11,14 @@
 		D2DE4D65BC69ABCCACE64CBF /* Pods_Setbacks_to_ComebacksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D75BA864A2FF76E99D9556 /* Pods_Setbacks_to_ComebacksTests.framework */; };
 		D93A5D181E80C01300DDC25E /* FavoritesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A5D171E80C01300DDC25E /* FavoritesData.swift */; };
 		D93A5D1A1E81632C00DDC25E /* PersonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D93A5D191E81632C00DDC25E /* PersonTableViewCell.xib */; };
+		D942B9091E82C62A00F8710C /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D942B9011E82C62A00F8710C /* SettingsManager.swift */; };
+		D942B90A1E82C62A00F8710C /* SettingsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D942B9021E82C62A00F8710C /* SettingsStoryboard.storyboard */; };
+		D942B90B1E82C62A00F8710C /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D942B9031E82C62A00F8710C /* SettingsTableViewController.swift */; };
+		D942B90C1E82C62A00F8710C /* FontSizeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D942B9041E82C62A00F8710C /* FontSizeTableViewController.swift */; };
+		D942B90D1E82C62A00F8710C /* FontSizeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D942B9051E82C62A00F8710C /* FontSizeTableViewCell.swift */; };
+		D942B90E1E82C62A00F8710C /* NightModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D942B9061E82C62A00F8710C /* NightModeViewController.swift */; };
+		D942B90F1E82C62A00F8710C /* NightModeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D942B9071E82C62A00F8710C /* NightModeTableViewCell.swift */; };
+		D942B9111E82C79900F8710C /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D942B9101E82C79900F8710C /* TabBarViewController.swift */; };
 		D97623331E1174BE00BB290B /* To-Do & Strategy in Resources */ = {isa = PBXBuildFile; fileRef = D97623321E1174BE00BB290B /* To-Do & Strategy */; };
 		D97E72EA1E141F2B001E1A8F /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97E72E91E141F2B001E1A8F /* PersonTableViewCell.swift */; };
 		D97E72EC1E142546001E1A8F /* PeopleDataAccessObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97E72EB1E142546001E1A8F /* PeopleDataAccessObject.swift */; };
@@ -55,6 +63,14 @@
 		CA3DECCBF7FA9DD50E900E15 /* Pods-Setbacks to ComebacksUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Setbacks to ComebacksUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Setbacks to ComebacksUITests/Pods-Setbacks to ComebacksUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D93A5D171E80C01300DDC25E /* FavoritesData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesData.swift; sourceTree = "<group>"; };
 		D93A5D191E81632C00DDC25E /* PersonTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonTableViewCell.xib; sourceTree = "<group>"; };
+		D942B9011E82C62A00F8710C /* SettingsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		D942B9021E82C62A00F8710C /* SettingsStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SettingsStoryboard.storyboard; sourceTree = "<group>"; };
+		D942B9031E82C62A00F8710C /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		D942B9041E82C62A00F8710C /* FontSizeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontSizeTableViewController.swift; sourceTree = "<group>"; };
+		D942B9051E82C62A00F8710C /* FontSizeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontSizeTableViewCell.swift; sourceTree = "<group>"; };
+		D942B9061E82C62A00F8710C /* NightModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NightModeViewController.swift; sourceTree = "<group>"; };
+		D942B9071E82C62A00F8710C /* NightModeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NightModeTableViewCell.swift; sourceTree = "<group>"; };
+		D942B9101E82C79900F8710C /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		D97623321E1174BE00BB290B /* To-Do & Strategy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "To-Do & Strategy"; sourceTree = "<group>"; };
 		D97E72E91E141F2B001E1A8F /* PersonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
 		D97E72EB1E142546001E1A8F /* PeopleDataAccessObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleDataAccessObject.swift; sourceTree = "<group>"; };
@@ -132,6 +148,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D942B9081E82C62A00F8710C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				D942B9011E82C62A00F8710C /* SettingsManager.swift */,
+				D942B9021E82C62A00F8710C /* SettingsStoryboard.storyboard */,
+				D942B9031E82C62A00F8710C /* SettingsTableViewController.swift */,
+				D942B9041E82C62A00F8710C /* FontSizeTableViewController.swift */,
+				D942B9051E82C62A00F8710C /* FontSizeTableViewCell.swift */,
+				D942B9061E82C62A00F8710C /* NightModeViewController.swift */,
+				D942B9071E82C62A00F8710C /* NightModeTableViewCell.swift */,
+			);
+			name = Settings;
+			path = "../../Sample Projects/TaoTeChingSwift/TaoTeChingSwift/TaoTeChingSwift";
+			sourceTree = "<group>";
+		};
 		D97E72E81E141C00001E1A8F /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				D992E4101E0DE774003E93EB /* AppDelegate.swift */,
+				D942B9101E82C79900F8710C /* TabBarViewController.swift */,
 				D9EA06071E0F5E7A003C7353 /* Model */,
 				D97E72E81E141C00001E1A8F /* View */,
 				D9EA06041E0F5E53003C7353 /* ViewControllers */,
@@ -213,6 +245,7 @@
 				D9EA06001E0F5DD4003C7353 /* HomeTableViewController.swift */,
 				D9EA06021E0F5DEC003C7353 /* FavoritesTableViewController.swift */,
 				D98FBA081E11FBA8008FB950 /* PersonDetailViewController.swift */,
+				D942B9081E82C62A00F8710C /* Settings */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -353,6 +386,7 @@
 				D93A5D1A1E81632C00DDC25E /* PersonTableViewCell.xib in Resources */,
 				D97E72EF1E14318C001E1A8F /* people.json in Resources */,
 				D992E41A1E0DE774003E93EB /* Assets.xcassets in Resources */,
+				D942B90A1E82C62A00F8710C /* SettingsStoryboard.storyboard in Resources */,
 				D992E4181E0DE774003E93EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -535,8 +569,15 @@
 				D93A5D181E80C01300DDC25E /* FavoritesData.swift in Sources */,
 				D9EA06061E0F5E6E003C7353 /* Person.swift in Sources */,
 				D98FBA0A1E11FBA8008FB950 /* PersonDetailViewController.swift in Sources */,
+				D942B90B1E82C62A00F8710C /* SettingsTableViewController.swift in Sources */,
 				D992E4111E0DE774003E93EB /* AppDelegate.swift in Sources */,
+				D942B90C1E82C62A00F8710C /* FontSizeTableViewController.swift in Sources */,
 				D97E72EC1E142546001E1A8F /* PeopleDataAccessObject.swift in Sources */,
+				D942B9091E82C62A00F8710C /* SettingsManager.swift in Sources */,
+				D942B90F1E82C62A00F8710C /* NightModeTableViewCell.swift in Sources */,
+				D942B90D1E82C62A00F8710C /* FontSizeTableViewCell.swift in Sources */,
+				D942B9111E82C79900F8710C /* TabBarViewController.swift in Sources */,
+				D942B90E1E82C62A00F8710C /* NightModeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

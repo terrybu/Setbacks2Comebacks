@@ -25,7 +25,7 @@ class PeopleDataAccessObject {
             do {
                 let data = try Data(contentsOf: url)
                 let rootJSON = try JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.allowFragments)
-                print(rootJSON)
+                //print(rootJSON)
                 let swiftyJson = JSON(rootJSON)
                 let peopleJSONArray = swiftyJson["people"].arrayValue
                 for json in peopleJSONArray {
