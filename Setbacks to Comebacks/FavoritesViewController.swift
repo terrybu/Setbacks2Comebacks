@@ -1,5 +1,5 @@
 //
-//  FavoritesViewController.swift
+//  FavoritesTableViewController.swift
 //  Setbacks to Comebacks
 //
 //  Created by Terry Bu on 12/24/16.
@@ -8,18 +8,20 @@
 
 import UIKit
 
-class FavoritesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class FavoritesTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet weak var tableView: UITableView!
     var favoritesArray = FavoritesData.sharedInstance.getFavoritesArrayFromDefaults()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Your Favs"
+        self.title = "Your Fav Comebacks"
         tableView.register(UINib.init(nibName: "PersonTableViewCell", bundle: Bundle.main), forCellReuseIdentifier: "Cell")
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 100
         self.navigationController?.navigationBar.barStyle = UIBarStyle.black
+        
+        self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -31,13 +33,17 @@ class FavoritesViewController: UIViewController, UITableViewDataSource, UITableV
         return .lightContent
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let indexPath = tableView.indexPathForSelectedRow!
-        let detailVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "PersonDetailViewController") as! PersonDetailViewController
-        detailVC.person = favoritesArray![indexPath.row]
-        navigationController?.pushViewController(detailVC, animated: true)
+    override func setEditing(_ editing: Bool, animated: Bool) {
+        super.setEditing(editing, animated: animated)
+        if !tableView.isEditing {
+            tableView.setEditing(true, animated: true)
+        } else { //if it IS editing
+            tableView.setEditing(false, animated: true)
+        }
     }
     
+    
+    //MARK: - UITableView Data Source Methods
     func numberOfSections(in tableView: UITableView) -> Int {
         if favoritesArray == nil {
             return 0
@@ -60,6 +66,21 @@ class FavoritesViewController: UIViewController, UITableViewDataSource, UITableV
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 140
+    }
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            self.favoritesArray?.remove(at: indexPath.row)
+            self.tableView.reloadData()
+        }
+    }
+    
+    //MARK:
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let indexPath = tableView.indexPathForSelectedRow!
+        let detailVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "PersonDetailViewController") as! PersonDetailViewController
+        detailVC.person = favoritesArray![indexPath.row]
+        navigationController?.pushViewController(detailVC, animated: true)
     }
 
 }

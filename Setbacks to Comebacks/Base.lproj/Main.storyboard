@@ -183,10 +183,10 @@
             </objects>
             <point key="canvasLocation" x="2301.5999999999999" y="-322.48875562218893"/>
         </scene>
-        <!--Favorites View Controller-->
+        <!--Favorites Table View Controller-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController id="8rJ-Kc-sve" customClass="FavoritesViewController" customModule="Setbacks_to_Comebacks" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8rJ-Kc-sve" customClass="FavoritesTableViewController" customModule="Setbacks_to_Comebacks" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
@@ -196,7 +196,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="TbD-2i-p6a">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="dataSource" destination="8rJ-Kc-sve" id="9Qh-GJ-FAI"/>
@@ -212,7 +212,9 @@
                             <constraint firstItem="TbD-2i-p6a" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="bNj-Vr-7V9"/>
                         </constraints>
                     </view>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" id="LTN-7v-Qfl"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="tableView" destination="TbD-2i-p6a" id="Y91-rq-GVJ"/>
                     </connections>
@@ -274,7 +276,7 @@
                 <navigationController title="Fav Navigation" automaticallyAdjustsScrollViewInsets="NO" id="J9y-Wh-KjY" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" systemItem="favorites" id="cPa-gy-q4n"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Jjo-Ne-Npd">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Jjo-Ne-Npd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>

@@ -25,7 +25,7 @@ class PersonDetailViewController: UIViewController {
     }
     
     private func checkForStarButtonNecessity() {
-        if navigationController?.viewControllers[0] is FavoritesViewController  {
+        if navigationController?.viewControllers[0] is FavoritesTableViewController  {
             navigationItem.rightBarButtonItem = nil
             return
         }

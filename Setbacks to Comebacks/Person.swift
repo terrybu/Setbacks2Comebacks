@@ -22,7 +22,7 @@ class Person: NSObject, NSCoding {
     init(name: String, bio: String, setbacks: [String]) {
         self.name = name
         self.bio = bio
-        self.setbacks = setbacks
+        self.setbacks = setbacks.sorted(by: {$0 < $1})
         self.image = UIImage(named:"placeholderFace")!
         if let actualFaceImg = UIImage(named: name) {
             self.image = actualFaceImg
@@ -35,12 +35,11 @@ class Person: NSObject, NSCoding {
         }
     }
     
+    //Also remember to conform your class to NSObject and NSCoding
     func encode(with aCoder: NSCoder) {
         aCoder.encode(name, forKey: "name")
         aCoder.encode(bio, forKey: "bio")
         aCoder.encode(setbacks, forKey: "setbacks")
-//        let imageRepresentation = UIImagePNGRepresentation(image)
-//        aCoder.encode(imageRepresentation, forKey: "image")
     }
     
     convenience required init(coder aDecoder: NSCoder) {

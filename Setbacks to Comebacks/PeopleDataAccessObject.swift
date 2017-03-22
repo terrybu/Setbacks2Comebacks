@@ -32,7 +32,6 @@ class PeopleDataAccessObject {
                     let name = json["name"].stringValue
                     let bio = json["bio"].stringValue
                     let setbacks = json["setbacks"].arrayValue.map( {$0.string!} )
-                    let image = UIImage(named: "placeholderFace")!
                     let newPerson = Person(name: name, bio: bio, setbacks:setbacks)
                     peopleArray.append(newPerson)
                 }
