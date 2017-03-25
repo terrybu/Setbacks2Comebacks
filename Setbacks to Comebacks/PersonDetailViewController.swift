@@ -19,6 +19,8 @@ class PersonDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = person.name
+        self.navigationController?.navigationBar.topItem?.title = ""
+        
         personFaceImageView.image = person.image
         personBioTextView.text = person.bio
         checkForStarButtonNecessity()
@@ -26,6 +28,10 @@ class PersonDetailViewController: UIViewController {
         NotificationCenter.default.addObserver(forName: NSNotification.Name(rawValue: "SettingsFontDidUpdate"), object: nil, queue: OperationQueue.main) { (_) in
             self.personBioTextView.font = UIFont(name: self.personBioTextView.font!.fontName, size: CGFloat(SettingsManager.shared.fontSize.size()))
         }
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        self.navigationController?.navigationBar.topItem?.title = "Your Favorites"
     }
 
     
