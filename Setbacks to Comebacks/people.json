@@ -26,7 +26,7 @@
      "placeOfBirth": "West Horsley, United Kingdom",
      "placeOfBurial": "Chateau de Touffou, France",
      "bio" : "David Ogilvy is the Founder of Ogilvy & Mather, one of the most prestigious advertising agencies in the world. His own setback to comeback story is best summarized in his own words that he left us near his retirement. In his note to one of his partners, he said 'Will Any Agency Hire This Man? He is 38, and unemployed. He dropped out of college. He has been a cook, a salesman, a diplomatist and a farmer. He knows nothing about marketing and had never written any copy. He professes to be interested in advertising as a career (at the age of 38!) and is ready to go to work for $5,000 a year. I doubt if any American agency will hire him. However, a London agency did hire him. Three years later he became the most famous copywriter in the world, and in due course built the tenth biggest agency in the world. The moral: it sometimes pays an agency to be imaginative and unorthodox in hiring.'",
-     "setbacks": ["Dropped out of school", "No Formal Education", "Late Bloomer"],
+     "setbacks": ["Dropped out of school", "No Formal Education", "Late Bloomer", "Changed jobs many times"],
      "quotes": ["The best ideas come as jokes. Make your thinking as funny as possible", "Don't bunt. Aim out of the ball park. Aim for the company of immortals", "The consumer isn't a moron. She's your wife", "If you ever find a man who is better than you are, hire him. If necessary, pay him more than you pay yourself", "Advertising people who ignore research are as dangerous as generals who ignore decodes of enemy signals"]
      },
      {
@@ -95,7 +95,7 @@
      "placeOfBirth": "San Francisco, CA",
      "placeOfBurial": "Palo Alto, CA",
      "bio" : "Steve Jobs, the Founder of Apple, was famous for eccentric personality and temper. When he was young, Jobs dropped out of Reed College in Portland Oregon and visited India to study eastern religions in 1974. In 1975, Jobs joined the Homebrew Computer Club and started working with Wozniak on the first Apple computer and the rest is history. His life was not without its ups and downs, and he was known for his manic temper. At 30, he was left devastated and depressed after being fired from Apple, the very company he started. When Jobs looked back at this setback, he said this setback pushed him to One of the most creative periods of his life where he eventually founded Pixar and NextStep. One of his former employees said that 'He would carefully go over every document a million times and would pick up on punctuation errors such as misplaced commas. And if anything wasn’t just right, Jobs could throw a fit. He was a difficult and argumentative boss who had trouble relating to others. But Jobs could focus intensely on exactly what he wanted'. \n His legacy is what allowed me to create this iOS app for you. Thank you, Steve. We follow in your footsteps.",
-     "setbacks": ["Depression", "Mood Disorders", "Dropped out of school", "No Formal Education"],
+     "setbacks": ["Mood Disorders", "Dropped out of school", "No Formal Education"],
      "quotes": [
                 "Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma - which is living with the results of other people's thinking. Don't let the noise of others' opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition",
                 "I didn't see it then, but it turned out that getting fired from Apple was the best thing that could have ever happened to me. The heaviness of being successful was replaced by the lightness of being a beginner again, less sure about everything. It freed me to enter into one of the most creative periods of my life. I'm pretty sure none of Pixar or the most creative things I've accomplished in life would have happened if I hadn't been fired from Apple. It was awful tasting medicine, but I guess the patient needed it. Sometimes life hits you in the head with a brick. Don't lose faith"]
@@ -113,21 +113,21 @@
      {
      "name" : "Jim Carrey",
      "placeOfBirth": "",
-     "placeOfBurial": "",
      "bio" : "",
-     "setbacks": ["Dropped out of school", "No Formal Education"],
+     "setbacks": ["Depression", "Low income family"],
      "quotes": [
                 ""
                 ]
      },
      {
      "name" : "Ellen DeGeneres",
-     "placeOfBirth": "",
-     "placeOfBurial": "",
-     "bio" : "",
-     "setbacks": ["Dropped out of school", "No Formal Education"],
+     "born" : "1/26/1958",
+     "placeOfBirth": "Metairie, Lousiana",
+     "bio" : "One of America's most well-known comediennes, serving as a prominent gay/lesbian role model. Advocate of LGBT rights. Hosts her own talk show. At age 23, she began performing standup comedy at local coffeehouses. Her wit won over audiences and in her sitcom, her characer became the first lead in sitcom history to openly acknowledge her homosexuality on air, although it was highly controversial at the time in 1997. The media blitz that followed left her in a dark depression for nearly 3 years. But since then, obviously, she's doing phenomenal. She's received the Presidential Medal of Freedom from Prsident Obama for her contribution to the arts.",
+     "setbacks": ["Dropped out of school", "Changed jobs many times", "Parents divorced during youth", "Depression"],
      "quotes": [
-                ""
+                "You have to stay in shape. My grandmother, she started walking five miles a day when she was 60. She's 97 today and we don't know where the hell she is.",
+                "Sometimes you can't see yourself clearly until you see yourself through the eyes of others."
                 ]
      },
      {
@@ -135,19 +135,19 @@
      "placeOfBirth": "",
      "placeOfBurial": "",
      "bio" : "",
-     "setbacks": ["Dropped out of school", "No Formal Education"],
-     "quotes": [
-                ""
-                ]
+     "setbacks": ["Speech Impediment"],
+     "quotes": []
      },
      {
      "name" : "Oprah Winfrey",
-     "placeOfBirth": "",
-     "placeOfBurial": "",
-     "bio" : "",
-     "setbacks": ["Dropped out of school", "No Formal Education"],
+     "born" : "1/29/1954",
+     "placeOfBirth": "Kosciusko, Mississippi",
+     "bio" : "American talk show host, actress, producer and philanthropist. Best known for her Oprah Winfrey Show, and dubbed the Queen of All Media. She has been ranked the richest African-American and the greatest black philanthropist in American history. Several rank her as the most influential woman in the world. She was awareded in 2013 the Presidential Medal of Freedom by Obama. ",
+     "setbacks": ["Born into Poverty", "Raised by single mother", "Raised in inner-city neighborhood", "Abused during childhood"],
      "quotes": [
-                ""
+                "Turn your wounds into wisdom",
+                "Doing the best at this moment puts you in the best place for the next moment",
+                "You have to find what sparks a light in you so that you in your own way can illuminate the world."
                 ]
      },
      {
@@ -156,9 +156,7 @@
      "placeOfBurial": "",
      "bio" : "",
      "setbacks": ["Dropped out of school", "No Formal Education"],
-     "quotes": [
-                ""
-                ]
+     "quotes": []
      },
      {
      "name" : "Richard Pryor",
@@ -166,19 +164,15 @@
      "placeOfBurial": "",
      "bio" : "",
      "setbacks": ["Dropped out of school", "No Formal Education"],
-     "quotes": [
-                ""
-                ]
+     "quotes": []
      },
      {
      "name" : "Walt Disney",
      "placeOfBirth": "",
      "placeOfBurial": "",
      "bio" : "Disney was once fired from a newspaper company for 'lacking imagination' and 'having no original thoughts'. Goes to show that other people are often a terrible judge of your internal potential ;) 'What is essential is invisible to the eye'",
-     "setbacks": ["Dropped out of school", "No Formal Education"],
-     "quotes": [
-                ""
-                ]
+     "setbacks": [],
+     "quotes": []
      },
      {
      "name" : "Paulo Coelho",
@@ -187,18 +181,23 @@
      "placeOfBurial": "",
      "bio" : "",
      "setbacks": ["Late Bloomer", "Lost during youth"],
-     "quotes": [
-                ""
-                ]
+     "quotes": []
      },
      {
      "name" : "Stephen Hawking",
      "placeOfBirth": "",
      "placeOfBurial": "",
      "bio" : "",
-     "setbacks": ["Dropped out of school", "No Formal Education"],
+     "setbacks": ["Rare disorder"],
+     "quotes": []
+     },
+     {
+     "name" : "Martin Luther King Jr.",
+     "placeOfBirth": "Atlanta, GA",
+     "bio" : "",
+     "setbacks": ["Depression"],
      "quotes": [
-                ""
+                "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.", "The ultimate measure of a man is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy."
                 ]
      },
      {
@@ -206,10 +205,8 @@
      "born": "12/4/1982",
      "placeOfBirth": "Melbourne, Australia",
      "bio" : "Australian Christian evangelist and motivational speaker born with tetra-amelia syndrome, a rare disorder characterized by the absence of arms and legs",
-     "setbacks": ["Dropped out of school", "No Formal Education"],
-     "quotes": [
-                ""
-                ]
+     "setbacks": ["Rare disorder"],
+     "quotes": []
      },
      ]
 }
