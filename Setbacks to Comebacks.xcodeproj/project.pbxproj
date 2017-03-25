@@ -235,10 +235,10 @@
 		D9EA06041E0F5E53003C7353 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				D942B9241E82DE3800F8710C /* Settings */,
 				D9EA06001E0F5DD4003C7353 /* HomeTableViewController.swift */,
 				D9EA06021E0F5DEC003C7353 /* FavoritesTableViewController.swift */,
 				D98FBA081E11FBA8008FB950 /* PersonDetailViewController.swift */,
+				D942B9241E82DE3800F8710C /* Settings */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
