@@ -39,7 +39,7 @@ class PeopleDataAccessObject {
                 return nil
             }
         }
-        return peopleArray
+        return peopleArray.sorted(by: {$0.name < $1.name })
     }
     
 }
