@@ -8,7 +8,7 @@
      "placeOfBirth": "Ulm, Germany",
      "placeOfBurial": "Princeton, New Jersey, U.S.",
      "bio" : "Einstein was not able to speak until he was 4 years old and his teachers said 'he would never amount to much. Einstein's parents wanted him to pursue a career in electrical engineering. Without a high school diploma, Einstein applied to the Polytechnic Institute at Zurich, Switzerland and failed the entrance examination although he got exceptional marks in the mathematics and physics sections. Einstein described himself as a conscientious young man who had acquired his meagre store of  knowledge of the essentials through self study. Einstein basically taught himself math and physics through books and self-study and skipped lectures and stopped going to classes that didn't interest him. When he was working on the Theory of Relativity, he was working as an Assistant Examiner at a patent office. And then of course, he became one of the greatest scientists of all time.",
-     "setbacks": ["Slow Learner", "Late Bloomer", "Did poorly in school", "Unsociableness", "Rejected from Entrance Exam"]
+     "setbacks": ["Slow Learner", "Late Bloomer", "Did poorly in school", "Unsociableness", "Rejected from Entrance Exam"],
      "quotes": ["Imagination is more important than knowledge", "Anyone who has never made a mistake has never tried anything new"]
      },
      {
@@ -191,13 +191,13 @@
      "placeOfBurial": "Los Angeles, California, U.S.",
      "bio" : "Richard Pryor was a groundbreaking African-American comedian and one of the top entertainers of the 1970s and '80s. Richard Pryor was born on December 1, 1940, in Peoria, Illinois. A class clown in school and a community theater actor in his teens, Pryor became a successful stand-up comedian, television writer and movie actor. His mother reportedly worked as a prostitute and his father was a bartender and boxer who served in the military during World War II. In 1963, Pryor moved to New York City to pursue comedy. Fans of all racial backgrounds were captivated by Pryor's comedy, which consisted of situational and character-driven humor in place of straightforward jokes. He poked fun at the white establishment and explored the racial divide. Pryor became the first person to receive the Mark Twain Prize for American Humor from the Kennedy Center in 1998. He said at the time, 'I am proud that, like Mark Twain, I have been able to use humor to lessen people's hatred.' Pryor paved the way for African-American comedians like Eddie Murphy and Chris Rock to make their mark. 'Pryor started it all. He made the blueprint for the progressive thinking of black comedians, unlocking that irreverent style,' comedian and filmmaker Keenen Ivory Wayans explained to The New York Times. ",
      "setbacks": ["Abused during childhood", "Dropped out of school", "No Formal Education", "Substance abuse"],
-     "quotes": ["I believe the ability to think is blessed. If you can think about a situation, you can deal with it. The big struggle is to keep your head clear enough to think.".
+     "quotes": ["I believe the ability to think is blessed. If you can think about a situation, you can deal with it. The big struggle is to keep your head clear enough to think.",
                 "The reason people use a crucifix against vampires is because vampires are allergic to bullshit.", "All humor is rooted in pain.", "I'm for human lib, the liberation of all people, not just black people or female people or gay people", "If I thought about it, I could be bitter, but I don't feel like being bitter. Being bitter makes you immobile, and there's too much that I still want to do.", "What I am for is justice for everyone, just like it says in the Constitution."
                 ]
      },
      {
      "name" : "Walt Disney",
-     "born": "12/5/1901"
+     "born": "12/5/1901",
      "placeOfBirth": "Hermosa, Illinois, U.S.",
      "placeOfBurial": "Burbank, California, U.S.",
      "bio" : "Walt Disney was an American motion-picture and television producer and showman, famous as a pioneer of cartoon films and as the creator of Disneyland.. Disney was once fired from a newspaper company for 'lacking imagination' and 'having no original thoughts'. Goes to show that other people are often a terrible judge of your internal potential. He was born on December 5, 1901, in Hermosa, Illinois. His father was Elias Disney, an Irish-Canadian, and his mother, Flora Call Disney, was German-American. Disney was one of five children, four boys and a girl. He lived most of his childhood in Marceline, Missouri, where he began drawing, painting and selling pictures to neighbors and family friends. In 1911, his family moved to Kansas City, where Disney developed a love for trains. His uncle, Mike Martin, was a train engineer who worked the route between Fort Madison, Iowa and Marceline. Later, Disney would work a summer job with the railroad, selling snacks and newspapers to travelers. He and his brother Roy co-founded Walt Disney Productions, which became one of the best-known motion-picture production companies in the world. Disney was an innovative animator and created the cartoon character Mickey Mouse. Walt Disney was also another boy brought up in a farm – and used to draw pictures for his neighbors for money. Disney went through a jobless phase where no one hired him, and his brother had to help him out with his job search. He went from rags to riches by starting out with advertisements and going on to animating his own cartoons. Disney attended McKinley High School in Chicago, where he took drawing and photography classes and was a contributing cartoonist for the school paper. At night, he took courses at the Chicago Art Institute.",
@@ -234,8 +234,8 @@
      "name" : "Martin Luther King Jr.",
      "placeOfBirth": "Atlanta, Georgia, U.S.",
      "bio" : "American Baptist minister and activist who was a leader in the Civil Rights Movement. He is best known for his role in the advancement of civil rights using nonviolent civil disobedience based on his Christian beliefs. King knew what it meant to be maladjusted, psychologically, because he was not normal, psychiatrically. He had multiple periods of severe depression, and twice made suicide attempts as a child. Near the end of his life, some of his staff tried to get him into psychiatric treatment, but he refused. Some experts on depression say that suffering from depression enhances a person's ability to feel compassion and empathy for others although this might not be backed by strong data.",
-     "setbacks": ["Depression" "Suicidal Thoughts"],
-     "quotes": ["I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character.", "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.", "The ultimate measure of a man is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy."]
+     "setbacks": ["Depression", "Suicidal Thoughts"],
+     "quotes": ["I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character.", "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate. Only love can do that.", "The ultimate measure of a man is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy." ]
      },
      {
      "name" : "Nick Vujicic",
@@ -244,6 +244,6 @@
      "bio" : "Australian Christian evangelist and motivational speaker born with tetra-amelia syndrome, a rare disorder characterized by the absence of arms and legs",
      "setbacks": ["Rare disease"],
      "quotes": []
-     },
+     }
      ]
 }
