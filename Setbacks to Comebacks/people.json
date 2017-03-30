@@ -155,6 +155,14 @@
                 "I was a smart kid, but I hated school"]
      },
      {
+     "name" : "Peter Dinklage",
+     "born" : "06/11/1969",
+     "placeOfBirth": "Morristown, New Jersey, U.S.",
+     "bio": "Born in 1969, actor Peter Dinklage grew up in Morristown, New Jersey. He moved to New York City in 1991 to work in theater. In 1995, Dinklage made his film debut in Living in Oblivion. His next major career breakthrough came with 2003's The Station Agent. Dinklage has continued to win over critics with his performance in the television series Game of Thrones, winning Emmys for the role in both 2011 and 2015. Born to average-sized parents, Dinklage learned early on that he had achondroplasia, a genetic condition that affects bone growth. A person with this form of dwarfism usually has a normal-sized head and torso but short limbs. While he has come to accept his condition, Dinklage found it challenging sometimes while growing up. “As an adolescent, I was bitter and angry, and I definitely put up these walls. But the older you get, you realize you just have to have a sense of humor. You just know that it’s not your problem. It’s theirs. Dinklage got his first taste of theatrical success in a fifth grade production of The Velveteen Rabbit. Playing the lead, he was delighted by the audience's response to the show. 'When you get your first solo bow, that feels pretty good,' he explained to People magazine. At the Delbarton School, a Catholic prep school for boys, Dinklage continued to seek out applause as part of the drama club.",
+     "setbacks": ["Rare disease"],
+     "quotes": ["When people are infected by my charm, they don't see my size. My piercing deep blue eyes are distracting"]
+     },
+     {
      "name" : "Chris Rock",
      "born": "2/7/1965",
      "placeOfBirth": "Andrews, South Carolina, U.S.",
