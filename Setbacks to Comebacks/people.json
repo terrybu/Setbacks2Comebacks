@@ -107,7 +107,7 @@
      "died": "10/5/2011",
      "placeOfBirth": "San Francisco, California, U.S.",
      "placeOfBurial": "Palo Alto, California, U.S.",
-     "bio" : "Steve Jobs, the Founder of Apple, was famous for eccentric personality and temper. When he was young, Jobs dropped out of Reed College in Portland Oregon and visited India to study eastern religions in 1974. In 1975, Jobs joined the Homebrew Computer Club and started working with Wozniak on the first Apple computer and the rest is history. His life was not without its ups and downs, and he was known for his manic temper. At 30, he was left devastated and depressed after being fired from Apple, the very company he started. When Jobs looked back at this setback, he said this setback pushed him to One of the most creative periods of his life where he eventually founded Pixar and NextStep. One of his former employees said that 'He would carefully go over every document a million times and would pick up on punctuation errors such as misplaced commas. And if anything wasn’t just right, Jobs could throw a fit. He was a difficult and argumentative boss who had trouble relating to others. But Jobs could focus intensely on exactly what he wanted'. \n His legacy is what allowed me to create this iOS app for you. Thank you, Steve. We follow in your footsteps.",
+     "bio" : "Steve Jobs, the Founder of Apple, was famous for eccentric personality and temper. Jobs was given away for adoption by his biological parents and he became interested in electronics after his foster dad showed him the joys of technical tinkering in their garage. He had to drop out of college, because his education was costing his foster parents a lot. He used to return Coke bottles for money and live on free meals at the Hare Krishna temple. A hippie who used to trip on LSD, Jobs went from a technician in Atari, Inc. to becoming the CEO of Apple Inc. When he was young, Jobs dropped out of Reed College in Portland Oregon and visited India to study eastern religions in 1974. In 1975, Jobs joined the Homebrew Computer Club and started working with Wozniak on the first Apple computer and the rest is history. His life was not without its ups and downs, and he was known for his manic temper. At 30, he was left devastated and depressed after being fired from Apple, the very company he started. When Jobs looked back at this setback, he said this setback pushed him to One of the most creative periods of his life where he eventually founded Pixar and NextStep. One of his former employees said that 'He would carefully go over every document a million times and would pick up on punctuation errors such as misplaced commas. And if anything wasn’t just right, Jobs could throw a fit. He was a difficult and argumentative boss who had trouble relating to others. But Jobs could focus intensely on exactly what he wanted'. \n His legacy is what allowed me to create this iOS app for you. Thank you, Steve. We follow in your footsteps.",
      "setbacks": ["Mood Disorders", "Dropped out of school", "No Formal Education"],
      "quotes": [
                 "Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma - which is living with the results of other people's thinking. Don't let the noise of others' opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition",
@@ -157,7 +157,7 @@
      "name" : "Oprah Winfrey",
      "born" : "1/29/1954",
      "placeOfBirth": "Kosciusko, Mississippi",
-     "bio" : "American talk show host, actress, producer and philanthropist. Best known for her Oprah Winfrey Show, and dubbed the Queen of All Media. She has been ranked the richest African-American and the greatest black philanthropist in American history. Several rank her as the most influential woman in the world. She was awareded in 2013 the Presidential Medal of Freedom by Obama. She went through all kinds of obstacles in her childhood from sexual abuse, poverty, racism, single-mother, and many more to date. She is the quintessential living proof of a survivor, and a fighter, who's made her life into a masterpiece. I tend to think that her obstacles helped mold her into the strong woman that she is today, but I am sure nobody hopes these things happen to them as well. Her show is an amazing inspiration to us all.",
+     "bio" : "American talk show host, actress, producer and philanthropist. Best known for her Oprah Winfrey Show, and dubbed the Queen of All Media. She has been ranked the richest African-American and the greatest black philanthropist in American history. Several rank her as the most influential woman in the world. She was awareded in 2013 the Presidential Medal of Freedom by Obama. She went through all kinds of obstacles in her childhood from sexual abuse, poverty, racism, single-mother, and many more to date. She is the quintessential living proof of a survivor, and a fighter, who's made her life into a masterpiece. I tend to think that her obstacles helped mold her into the strong woman that she is today, but I am sure nobody hopes these things happen to them as well. Her show is an amazing inspiration to us all. Born to a housemaid and a coalminer, Oprah definitely did not grow in the lap of luxury. Living the life of poverty, where she used to have to wear dresses made out of potato sacks and was molested by relatives.",
      "setbacks": ["Difficult Childhood", "Raised by single mother", "Raised in inner-city neighborhood", "Abused during childhood"],
      "quotes": [
                 "Turn your wounds into wisdom",
@@ -166,7 +166,20 @@
                 ]
      },
      {
+     "name" : "J.K. Rowling",
+     "born" : "7/31/1965",
+     "placeOfBirth": "Gloucestershire, England",
+     "bio" : "Born in a lowly English family, Rowling battled depression, suicidal tendencies and poverty to become one of the most loved British authors in the world for her hugely popular Harry Potter series. Highly imaginative as a kid who thrived on stories, she drew from her surroundings and the people in her life as inspirations for the books which have now become one of the biggest movie franchises. From her humble beginnings, she has gone on to become one of the most powerful women in the United Kingdom.",
+     "setbacks": ["Failed marriage", "Depression", "Suicidal Thoughts"],
+     "quotes": [ "If you want to know what a man's like, take a good look at how he treats his inferiors, not his equals.",
+                "It is our choices...that show what we truly are, far more than our abilities.",
+                "We do not need magic to transform our world. We carry all of the power we need inside ourselves already.",
+                "It is impossible to live without failing at something, unless you live so cautiously that you might as well not have lived at all, in which case you have failed by default."
+                ]
+     },
+     {
      "name" : "Sylvester Stallone",
+     "born" : "7/6/1946",
      "placeOfBirth": "Hell's Kitchen, NYC, New York, U.S.",
      "bio" : "Actor, writer, director and producer Sylvester Stallone was born on July 6, 1946, in New York City. One of the most popular action stars of all time, Stallone is best known for portraying two heroic characters on the big screen—boxer Rocky Balboa and Vietnam War veteran John Rambo.  His trademark droopy visage was the result of a forceps accident at the time of his birth. A nerve was severed in the accident, which also left him with slurred speech. In addition to acting, Stallone had an interest in writing. He created a screenplay about a rough-and-tumble thug who struggles for a chance to make it as a professional boxer named Rocky. According to several reports, Stallone refused to sell the script unless he was allowed to star in it. Despite having a pregnant wife and little money in the bank, he held out until he found two producers, Irwin Winkler and Robert Chartoff, willing to let him play the lead.",
      "setbacks": ["Speech Impediment", "Dropped out of school", "Did poorly in school", "Difficult Childhood", "Parents Divorce"],
@@ -184,11 +197,21 @@
      },
      {
      "name" : "Walt Disney",
-     "placeOfBirth": "",
-     "placeOfBurial": "",
-     "bio" : "Disney was once fired from a newspaper company for 'lacking imagination' and 'having no original thoughts'. Goes to show that other people are often a terrible judge of your internal potential ;) 'What is essential is invisible to the eye'",
-     "setbacks": [],
-     "quotes": []
+     "born": "12/5/1901"
+     "placeOfBirth": "Hermosa, Illinois, U.S.",
+     "placeOfBurial": "Burbank, California, U.S.",
+     "bio" : "Walt Disney was an American motion-picture and television producer and showman, famous as a pioneer of cartoon films and as the creator of Disneyland.. Disney was once fired from a newspaper company for 'lacking imagination' and 'having no original thoughts'. Goes to show that other people are often a terrible judge of your internal potential. He was born on December 5, 1901, in Hermosa, Illinois. His father was Elias Disney, an Irish-Canadian, and his mother, Flora Call Disney, was German-American. Disney was one of five children, four boys and a girl. He lived most of his childhood in Marceline, Missouri, where he began drawing, painting and selling pictures to neighbors and family friends. In 1911, his family moved to Kansas City, where Disney developed a love for trains. His uncle, Mike Martin, was a train engineer who worked the route between Fort Madison, Iowa and Marceline. Later, Disney would work a summer job with the railroad, selling snacks and newspapers to travelers. He and his brother Roy co-founded Walt Disney Productions, which became one of the best-known motion-picture production companies in the world. Disney was an innovative animator and created the cartoon character Mickey Mouse. Walt Disney was also another boy brought up in a farm – and used to draw pictures for his neighbors for money. Disney went through a jobless phase where no one hired him, and his brother had to help him out with his job search. He went from rags to riches by starting out with advertisements and going on to animating his own cartoons. Disney attended McKinley High School in Chicago, where he took drawing and photography classes and was a contributing cartoonist for the school paper. At night, he took courses at the Chicago Art Institute.",
+     "setbacks": ["Dropped out of school"],
+     "quotes": ["All our dreams can come true, if we have the courage to pursue them."]
+     },
+     {
+     "name" : "Michael Jackson",
+     "born": "8/29/1958",
+     "placeOfBirth": "Gary, Indiana, U.S.",
+     "placeOfBurial": "Glendale, California, U.S.",
+     "bio" : "Despite achieving his goal to be a music performer, Michael’s childhood was far from happy. He was regularly beaten and threatened by his authoritarian father. This legacy of abuse left Michael scarred throughout his adult life. By the late 80s, there was an increasing number of stories speculating on Jackson’s personal life, health and physical appearance. Michael Jackson underwent numerous operations of plastic surgery to fix his nose and add a dimple in his chin. During the 1980s, his skin started to lighten; this was due to a rare skin pigment disease, but it didn’t stop a wave of speculative press stories that he was bleaching his skin colour. Michael Jackson supported many charities. This included a burns charity in Culver City, California. This followed an incident where Michael Jackson was burnt in filming a Pepsi commercial in 1984. In 1985, he also co-wrote the charity single “We are the World” with Lionel Richie. It sold over 30 million copies, and the proceeds were sent to the poor in the US and Africa. He continued his charity work to the end of his life supporting charity concerts such as Aid for victims of Kosovo war.",
+     "setbacks": ["Abused during childhood", "Rare disease"],
+     "quotes": ["While some have made deliberate attempts to hurt me, I take it in stride because I have a loving family, a strong faith and wonderful friends and fans who have, and continue, to support me.", "In a world filled with hate, we must still dare to hope. In a world filled with anger, we must still dare to comfort. In a world filled with despair, we must still dare to dream. And in a world filled with distrust, we must still dare to believe"]
      },
      {
      "name" : "Paulo Coelho",
@@ -204,24 +227,22 @@
      "placeOfBirth": "",
      "placeOfBurial": "",
      "bio" : "",
-     "setbacks": ["Rare disorder"],
+     "setbacks": ["Rare disease"],
      "quotes": []
      },
      {
      "name" : "Martin Luther King Jr.",
      "placeOfBirth": "Atlanta, Georgia, U.S.",
-     "bio" : "",
-     "setbacks": ["Depression"],
-     "quotes": [
-                "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.", "The ultimate measure of a man is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy."
-                ]
+     "bio" : "American Baptist minister and activist who was a leader in the Civil Rights Movement. He is best known for his role in the advancement of civil rights using nonviolent civil disobedience based on his Christian beliefs. King knew what it meant to be maladjusted, psychologically, because he was not normal, psychiatrically. He had multiple periods of severe depression, and twice made suicide attempts as a child. Near the end of his life, some of his staff tried to get him into psychiatric treatment, but he refused. Some experts on depression say that suffering from depression enhances a person's ability to feel compassion and empathy for others although this might not be backed by strong data.",
+     "setbacks": ["Depression" "Suicidal Thoughts"],
+     "quotes": ["I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character.", "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.", "The ultimate measure of a man is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy."]
      },
      {
      "name" : "Nick Vujicic",
      "born": "12/4/1982",
      "placeOfBirth": "Melbourne, Australia",
      "bio" : "Australian Christian evangelist and motivational speaker born with tetra-amelia syndrome, a rare disorder characterized by the absence of arms and legs",
-     "setbacks": ["Rare disorder"],
+     "setbacks": ["Rare disease"],
      "quotes": []
      },
      ]
