@@ -6,16 +6,27 @@
      "born": "3/14/1879",
      "died": "4/18/1955",
      "placeOfBirth": "Ulm, Germany",
-     "placeOfBurial": "Princeton, NJ",
+     "placeOfBurial": "Princeton, New Jersey, U.S.",
      "bio" : "Einstein was not able to speak until he was 4 years old and his teachers said 'he would never amount to much. Einstein's parents wanted him to pursue a career in electrical engineering. Without a high school diploma, Einstein applied to the Polytechnic Institute at Zurich, Switzerland and failed the entrance examination although he got exceptional marks in the mathematics and physics sections. Einstein described himself as a conscientious young man who had acquired his meagre store of  knowledge of the essentials through self study. Einstein basically taught himself math and physics through books and self-study and skipped lectures and stopped going to classes that didn't interest him. When he was working on the Theory of Relativity, he was working as an Assistant Examiner at a patent office. And then of course, he became one of the greatest scientists of all time.",
-     "setbacks": ["Slow Learner", "Late Bloomer", "Unsociableness", "Rejected from Entrance Exam"]
+     "setbacks": ["Slow Learner", "Late Bloomer", "Did poorly in school", "Unsociableness", "Rejected from Entrance Exam"]
+     "quotes": ["Imagination is more important than knowledge", "Anyone who has never made a mistake has never tried anything new"]
+     },
+     {
+     "name" : "Thomas Edison",
+     "born": "2/11/1847",
+     "died": "10/18/1931",
+     "placeOfBirth": "Milan, Ohio",
+     "placeOfBurial": "West Orange, New Jersey, U.S.",
+     "bio" : "Thomas Alva Edison (February 11, 1847 – October 18, 1931) was an American inventor and businessman, who has been described as America's greatest inventor. He developed many devices that greatly influenced life around the world, including the phonograph, the motion picture camera, and the long-lasting, practical electric light bulb. Dubbed 'The Wizard of Menlo Park' he was one of the first inventors to apply the principles of mass production and large-scale teamwork to the process of invention, and because of that, he is often credited with the creation of the first industrial research laboratory. In 1854, the family moved to Port Huron, Michigan, where Edison attended public school for a total of 12 weeks. A hyperactive child, prone to distraction, he was deemed 'mentally deficient' by his teacher. His mother quickly pulled him from school and taught him at home. At age 11, he showed a voracious appetite for knowledge, reading books on a wide range of subjects. In this wide-open curriculum Edison developed a process for self-education and learning independently that would serve him throughout his life. At age 12, Edison set out to put much of that education to work. He convinced his parents to let him sell newspapers to passengers along the Grand Trunk Railroad line. Exploiting his access to the news bulletins teletyped to the station office each day, Thomas began publishing his own small newspaper, called the Grand Trunk Herald. The up-to-date articles were a hit with passengers. This was the first of what would become a long string of entrepreneurial ventures where he saw a need and capitalized on opportunity. While he worked for the railroad, a near-tragic event turned fortuitous for the young man. After Edison saved a 3-year-old from being run over by an errant train, the child’s grateful father rewarded him by teaching him to operate a telegraph. By age 15, he had learned enough to be employed as a telegraph operator. For the next five years, Edison traveled throughout the Midwest as an itinerant telegrapher, subbing for those who had gone to the Civil War. In his spare time, he read widely, studied and experimented with telegraph technology, and became familiar with electrical science. And the rest is history ... Today, there's many places named after Thomas Edison, one of them being a town in New Jersey named called Edison in New Jersey.",
+     "setbacks": ["Hearing problems", "Unsociableness", "Did poorly in school", "Homeschooled"],
+     "quotes": ["I have not failed. I've just found 10,000 ways that won't work", "Genius is one percent inspiration and ninety-nine percent perspiration.", "Opportunity is missed by most people because it is dressed in overalls and looks like work."]
      },
      {
      "name" : "Abraham Lincoln",
      "born": "3/30/1853",
      "died": "7/29/1890",
-     "placeOfBirth": "Hodgenville, KY",
-     "placeOfBurial": "Springfield, IL",
+     "placeOfBirth": "Hodgenville, Kentucky, U.S.",
+     "placeOfBurial": "Springfield, Illinois, U.S.",
      "bio" : "'His friends called it his 'melancholy.' Lincoln often wept in public and recited sad poetry. He told jokes and stories at odd times he needed the laughs, he said, for his survival. As a young man he talked often of suicide, and as he grew older he said he saw the world as hard and grim, full of misery, made that way by fate and the forces of God. 'No element of Mr. Lincoln's character,' declared his colleague Henry Whitney, 'was so marked, obvious and ingrained as his mysterious and profound melancholy.' His law partner William Herndon said, 'His melancholy dripped from him as he walked. \n When Lincoln was in his 20s, one of his female friends  whom he had feelings for died due to illness. Lincoln 'told Me that he felt like Committing Suicide often,' remembered Mentor Graham, a schoolteacher, and his neighbors mobilized to keep him safe. One friend recalled, 'Mr Lincolns friends were Compelled to keep watch [...] over Mr Lincoln, he being from the sudden shock somewhat temporarily deranged. We watched during gloomy weather for fear of an accident.' Some villagers worried that he'd end up insane. \n Here's a poem from Abraham Lincoln: 'To ease me of this power to think, That through my bosom raves, I'll headlong leap from hell's high brink And wallow in its waves.' Lincoln, too, connected his mental well-being to divine forces. As a young man he saw how religion could ameliorate life's blows, even as he found the consolation of faith elusive.",
      "setbacks": ["Depression", "Suicidal Thoughts"]
      },
@@ -46,7 +57,8 @@
      "placeOfBirth": "Malaga, Spain",
      "placeOfBurial": "Mougins, France",
      "bio" : "Pablo Ruiz y Picasso (25 October 1881 – 8 April 1973) was a Spanish painter, sculptor, printmaker, ceramicist, stage designer, poet and playwright who spent most of his adult life in France. His days in Paris were characterized by poverty, which would have contributed to the melancholy of his blue paintings. Many people who saw the paintings (and who could have been potential buyers) often saw the sadness and would shy away from them. Due to the leading depression from the war, many people would not buy his paintings. This lead to poverty in his own life. And as if things couldn’t get any worse, his very close friend Casagemas ends up committing suicide in 1901, because of a broken heart after losing the one he loved. Picasso felt poverty, hunger and despair, just like the rest of the world.",
-     "setbacks" : ["Depression"]
+     "setbacks" : ["Depression"],
+     "quotes": ["Every child is an artist. The problem is how to remain an artist once he grows up.", "Good artists copy, great artists steal", "Action is the foundational key to all success", "“Every act of creation is first of all an act of destruction.", "Good artists copy, great artists steal", "God is really only another artist. He invented the giraffe, the elephant, and the cat. He has no real style. He just keeps on trying other things.”"]
      },
      
      {
@@ -56,7 +68,8 @@
      "placeOfBirth": "Zundert, Netherlands",
      "placeOfBurial": "Auvers-sur-Oise, France",
      "bio" : "Vincent Willem van Gogh (30 March 1853 – 29 July 1890) was a Dutch post-Impressionist painter whose work had far-reaching influence on 20th-century art. He left us amazing works like 'The Starry Night' and 'Cafe Terrace at Night but he was also known for his manic depression, a chronic mental illness that's thought to affect many creative people. There's many stories regarding if he committed suicide and the reasons behind why he cut off his own ear but we can only marvel at his wonderful brain that produced such beautiful art despite the struggles of his mind that he endured. Rest in Peace, Vincent. The world was just never meant for somebody as beautiful as you. " ,
-     "setbacks" : [ "Depression", "Bipolar", "Suicidal Thoughts"]
+     "setbacks" : [ "Depression", "Bipolar", "Suicidal Thoughts"],
+     "quotes": ["Love many things, for therein lies the true strength, and whosoever loves much performs much, and can accomplish much, and what is done in love is done well.", "If you hear a voice within you say 'you cannot paint,' then by all means paint, and that voice will be silenced."]
      },
      {
      "name" : "Jesus Christ",
@@ -92,8 +105,8 @@
      "name" : "Steve Jobs",
      "born": "2/24/1955",
      "died": "10/5/2011",
-     "placeOfBirth": "San Francisco, CA",
-     "placeOfBurial": "Palo Alto, CA",
+     "placeOfBirth": "San Francisco, California, U.S.",
+     "placeOfBurial": "Palo Alto, California, U.S.",
      "bio" : "Steve Jobs, the Founder of Apple, was famous for eccentric personality and temper. When he was young, Jobs dropped out of Reed College in Portland Oregon and visited India to study eastern religions in 1974. In 1975, Jobs joined the Homebrew Computer Club and started working with Wozniak on the first Apple computer and the rest is history. His life was not without its ups and downs, and he was known for his manic temper. At 30, he was left devastated and depressed after being fired from Apple, the very company he started. When Jobs looked back at this setback, he said this setback pushed him to One of the most creative periods of his life where he eventually founded Pixar and NextStep. One of his former employees said that 'He would carefully go over every document a million times and would pick up on punctuation errors such as misplaced commas. And if anything wasn’t just right, Jobs could throw a fit. He was a difficult and argumentative boss who had trouble relating to others. But Jobs could focus intensely on exactly what he wanted'. \n His legacy is what allowed me to create this iOS app for you. Thank you, Steve. We follow in your footsteps.",
      "setbacks": ["Mood Disorders", "Dropped out of school", "No Formal Education"],
      "quotes": [
@@ -112,9 +125,9 @@
      },
      {
      "name" : "Jim Carrey",
-     "placeOfBirth": "",
-     "bio" : "",
-     "setbacks": ["Depression", "Low income family"],
+     "placeOfBirth": "Ontario, Canada",
+     "bio" : "Comedian and actor Jim Carrey was born in Newmarket, Ontario, Canada, on January 17, 1962. Carrey relocated to Los Angeles to pursue comedy, eventually landing a spot on the sketch comedy show In Living Color. He went on to huge box office success in comedies, including Ace Ventura: Pet Detective and The Mask, and delivered acclaimed dramatic performances in The Truman Show and Man on the Moon. Recent films include Kick Ass 2 (2013) and Dumb and Dumber To (2014). By 1979, he had left the factory job as a janitor he had taken in 1978 to help support his family and was making his living as the opening act for successful comics Buddy Hackett and Rodney Dangerfield.",
+     "setbacks": ["Depression", "Difficult Childhood"],
      "quotes": [
                 ""
                 ]
@@ -132,18 +145,20 @@
      },
      {
      "name" : "Winston Churchill",
-     "placeOfBirth": "",
-     "placeOfBurial": "",
-     "bio" : "",
-     "setbacks": ["Speech Impediment"],
-     "quotes": []
+     "placeOfBirth": "Woodstock, Oxfordshire, United Kingdom",
+     "placeOfBurial": "London, United Kingdom",
+     "bio" : "As prime minister of the United Kingdom, Sir Winston Churchill rallied the British people during WWII, and led his country from the brink of defeat to victory. Born to an aristocratic family in 1874, Winston Churchill served in the British military and worked as a writer before going into politics. After becoming prime minister in 1940, he helped lead a successful Allied strategy with the U.S. and Soviet Union during WWII to defeat the Axis powers and craft post-war peace. Elected prime minister again in 1951, he introduced key domestic reforms. Churchill died at age 90 in 1965. When he entered formal school, Churchill proved to be an independent and rebellious student. He did poorly at his first two schools. He had a lisp but despite this, he made his speeches and became a great orator in politics. After many years of public speeches carefully prepared not only to inspire, but also to avoid hesitations, he could finally state, 'My impediment is no hindrance'. '",
+     "setbacks": ["Did poorly in school", "Speech Impediment"],
+     "quotes": ["Success consists of going from failure to failure without loss of enthusiasm.",
+                "If you're going through hell, keep going.",
+                "You have enemies? Good. That means you've stood up for something, sometime in your life."]
      },
      {
      "name" : "Oprah Winfrey",
      "born" : "1/29/1954",
      "placeOfBirth": "Kosciusko, Mississippi",
-     "bio" : "American talk show host, actress, producer and philanthropist. Best known for her Oprah Winfrey Show, and dubbed the Queen of All Media. She has been ranked the richest African-American and the greatest black philanthropist in American history. Several rank her as the most influential woman in the world. She was awareded in 2013 the Presidential Medal of Freedom by Obama. ",
-     "setbacks": ["Born into Poverty", "Raised by single mother", "Raised in inner-city neighborhood", "Abused during childhood"],
+     "bio" : "American talk show host, actress, producer and philanthropist. Best known for her Oprah Winfrey Show, and dubbed the Queen of All Media. She has been ranked the richest African-American and the greatest black philanthropist in American history. Several rank her as the most influential woman in the world. She was awareded in 2013 the Presidential Medal of Freedom by Obama. She went through all kinds of obstacles in her childhood from sexual abuse, poverty, racism, single-mother, and many more to date. She is the quintessential living proof of a survivor, and a fighter, who's made her life into a masterpiece. I tend to think that her obstacles helped mold her into the strong woman that she is today, but I am sure nobody hopes these things happen to them as well. Her show is an amazing inspiration to us all.",
+     "setbacks": ["Difficult Childhood", "Raised by single mother", "Raised in inner-city neighborhood", "Abused during childhood"],
      "quotes": [
                 "Turn your wounds into wisdom",
                 "Doing the best at this moment puts you in the best place for the next moment",
@@ -152,19 +167,20 @@
      },
      {
      "name" : "Sylvester Stallone",
-     "placeOfBirth": "",
-     "placeOfBurial": "",
-     "bio" : "",
-     "setbacks": ["Dropped out of school", "No Formal Education"],
-     "quotes": []
+     "placeOfBirth": "Hell's Kitchen, NYC, New York, U.S.",
+     "bio" : "Actor, writer, director and producer Sylvester Stallone was born on July 6, 1946, in New York City. One of the most popular action stars of all time, Stallone is best known for portraying two heroic characters on the big screen—boxer Rocky Balboa and Vietnam War veteran John Rambo.  His trademark droopy visage was the result of a forceps accident at the time of his birth. A nerve was severed in the accident, which also left him with slurred speech. In addition to acting, Stallone had an interest in writing. He created a screenplay about a rough-and-tumble thug who struggles for a chance to make it as a professional boxer named Rocky. According to several reports, Stallone refused to sell the script unless he was allowed to star in it. Despite having a pregnant wife and little money in the bank, he held out until he found two producers, Irwin Winkler and Robert Chartoff, willing to let him play the lead.",
+     "setbacks": ["Speech Impediment", "Dropped out of school", "Did poorly in school", "Difficult Childhood", "Parents Divorce"],
+     "quotes": ["I take rejection as someone blowing a bugle in my ear to wake me up and get going, rather than retreat."]
      },
      {
      "name" : "Richard Pryor",
-     "placeOfBirth": "",
-     "placeOfBurial": "",
-     "bio" : "",
-     "setbacks": ["Dropped out of school", "No Formal Education"],
-     "quotes": []
+     "placeOfBirth": "Peoria, Illinois, U.S.",
+     "placeOfBurial": "Los Angeles, California, U.S.",
+     "bio" : "Richard Pryor was a groundbreaking African-American comedian and one of the top entertainers of the 1970s and '80s. Richard Pryor was born on December 1, 1940, in Peoria, Illinois. A class clown in school and a community theater actor in his teens, Pryor became a successful stand-up comedian, television writer and movie actor. His mother reportedly worked as a prostitute and his father was a bartender and boxer who served in the military during World War II. In 1963, Pryor moved to New York City to pursue comedy. Fans of all racial backgrounds were captivated by Pryor's comedy, which consisted of situational and character-driven humor in place of straightforward jokes. He poked fun at the white establishment and explored the racial divide. Pryor became the first person to receive the Mark Twain Prize for American Humor from the Kennedy Center in 1998. He said at the time, 'I am proud that, like Mark Twain, I have been able to use humor to lessen people's hatred.' Pryor paved the way for African-American comedians like Eddie Murphy and Chris Rock to make their mark. 'Pryor started it all. He made the blueprint for the progressive thinking of black comedians, unlocking that irreverent style,' comedian and filmmaker Keenen Ivory Wayans explained to The New York Times. ",
+     "setbacks": ["Abused during childhood", "Dropped out of school", "No Formal Education", "Substance abuse"],
+     "quotes": ["I believe the ability to think is blessed. If you can think about a situation, you can deal with it. The big struggle is to keep your head clear enough to think.".
+                "The reason people use a crucifix against vampires is because vampires are allergic to bullshit.", "All humor is rooted in pain.", "I'm for human lib, the liberation of all people, not just black people or female people or gay people", "If I thought about it, I could be bitter, but I don't feel like being bitter. Being bitter makes you immobile, and there's too much that I still want to do.", "What I am for is justice for everyone, just like it says in the Constitution."
+                ]
      },
      {
      "name" : "Walt Disney",
@@ -193,7 +209,7 @@
      },
      {
      "name" : "Martin Luther King Jr.",
-     "placeOfBirth": "Atlanta, GA",
+     "placeOfBirth": "Atlanta, Georgia, U.S.",
      "bio" : "",
      "setbacks": ["Depression"],
      "quotes": [
