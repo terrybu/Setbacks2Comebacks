@@ -7,6 +7,7 @@ target 'Setbacks to Comebacks' do
 
   # Pods for Setbacks to Comebacks
   pod "SwiftyJSON"
+  pod 'TagListView', '~> 1.0'
 
   target 'Setbacks to ComebacksTests' do
     inherit! :search_paths

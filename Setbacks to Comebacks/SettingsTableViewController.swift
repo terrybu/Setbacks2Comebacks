@@ -10,13 +10,14 @@ import UIKit
 import MessageUI
 
 enum SettingsCell : Int {
-    case fontSize = 0, rateApp, feedback, count
+    case fontSize = 0, aboutThisApp, rateApp, feedback, count
     
     func label() -> String {
         switch self {
-        case .fontSize: return "Set font size"
-        case .rateApp: return "Rate this app"
-        case .feedback: return "Feedback"
+        case .fontSize: return "Set Font Size"
+        case .aboutThisApp: return "About This App"
+        case .rateApp: return "Rate this App in App Store "
+        case .feedback: return "Email Feedback to Dev"
         case .count : return ""
         }
     }
@@ -30,7 +31,6 @@ class SettingsTableViewController: UITableViewController, MFMailComposeViewContr
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         navigationItem.title = "More"
         self.tableView.tableFooterView = UIView.init(frame: CGRect.zero)
         
@@ -39,19 +39,8 @@ class SettingsTableViewController: UITableViewController, MFMailComposeViewContr
             let selectedIndexPath = IndexPath(row: SettingsManager.shared.fontSize.rawValue, section: 0)
             self.tableView.selectRow(at: selectedIndexPath, animated: false, scrollPosition: .none)
         }
-        
-        composeVC = MFMailComposeViewController()
-        composeVC!.mailComposeDelegate = self
-        composeVC!.setToRecipients(["jupiterouroboros@gmail.com"])
-        composeVC!.setSubject("User Feedback from Setbacks 2 Comebacks!!")
-        composeVC!.setMessageBody("Hi, My feedback for your app is ... ", isHTML: false)
-    }
-    
-    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
-        controller.dismiss(animated: true, completion: nil)
     }
 
-    
     
     // MARK: - Table view data source
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -76,6 +65,8 @@ class SettingsTableViewController: UITableViewController, MFMailComposeViewContr
         if cellType == .fontSize {
             let fontSize = UIStoryboard(name: "SettingsStoryboard", bundle: Bundle.main).instantiateViewController(withIdentifier: "FontSize")
             navigationController?.pushViewController(fontSize, animated: true)
+        } else if cellType == .aboutThisApp {
+            //TODO: Prompt an alertview with a brief blurb on what this app is about
         } else if cellType == .rateApp {
             if let path = URL(string: APP_URL_STRING) {
                 UIApplication.shared.open(path) {
@@ -87,6 +78,11 @@ class SettingsTableViewController: UITableViewController, MFMailComposeViewContr
             }
         } else if cellType == .feedback {
             // Present the view controller modally.
+            composeVC = MFMailComposeViewController()
+            composeVC!.mailComposeDelegate = self
+            composeVC!.setToRecipients(["jupiterouroboros@gmail.com"])
+            composeVC!.setSubject("User Feedback from Setbacks 2 Comebacks!!")
+            composeVC!.setMessageBody("Hi, My feedback for your app is ... ", isHTML: false)
             if !MFMailComposeViewController.canSendMail() {
                 print("Mail services are not available")
                 return
@@ -94,5 +90,10 @@ class SettingsTableViewController: UITableViewController, MFMailComposeViewContr
                 self.present(composeVC!, animated: true, completion: nil)
             }
         }
+    }
+    
+    //MARK: Mail MFMailComposeVC Functions
+    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+        controller.dismiss(animated: true, completion: nil)
     }
 }
