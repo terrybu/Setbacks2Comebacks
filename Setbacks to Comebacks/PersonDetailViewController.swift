@@ -7,15 +7,17 @@
 //
 
 import UIKit
+import TagListView
 
-class PersonDetailViewController: UIViewController {
+class PersonDetailViewController: UIViewController, TagListViewDelegate {
 
     var person: Person!
     
     @IBOutlet var personFaceImageView: UIImageView!
     @IBOutlet var personBioTextView: UITextView!
     @IBOutlet weak var favoritesStarBarButton: UIBarButtonItem!
-    
+    @IBOutlet var tagListView: TagListView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         title = person.name
@@ -27,6 +29,21 @@ class PersonDetailViewController: UIViewController {
         NotificationCenter.default.addObserver(forName: NSNotification.Name(rawValue: "SettingsFontDidUpdate"), object: nil, queue: OperationQueue.main) { (_) in
             self.personBioTextView.font = UIFont(name: self.personBioTextView.font!.fontName, size: CGFloat(SettingsManager.shared.fontSize.size()))
         }
+        tagListView.delegate = self
+        tagListView.cornerRadius = 12
+        tagListView.paddingX = 10
+        tagListView.paddingY = 10
+        tagListView.tagBackgroundColor = UIColor.darkGray
+        tagListView.textColor = UIColor.white
+        tagListView.textFont = UIFont.boldSystemFont(ofSize: 14)
+        for setback in person.setbacks {
+            tagListView.addTag(setback)
+        }
+        
+    }
+    
+    func tagPressed(_ title: String, tagView: TagView, sender: TagListView) {
+        print("Tag pressed: \(title), \(sender)")
     }
 
     

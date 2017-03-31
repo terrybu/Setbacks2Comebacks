@@ -138,7 +138,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f9A-Y8-aMz">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f9A-Y8-aMz" customClass="TagListView" customModule="TagListView">
                                                 <rect key="frame" x="0.0" y="287" width="375" height="113"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             </view>
@@ -202,6 +202,7 @@
                         <outlet property="favoritesStarBarButton" destination="1n2-95-ZiX" id="ALI-o6-DtD"/>
                         <outlet property="personBioTextView" destination="Ba5-Je-mcN" id="KTg-2l-IrG"/>
                         <outlet property="personFaceImageView" destination="qPu-7W-hvX" id="xVy-f7-HRa"/>
+                        <outlet property="tagListView" destination="f9A-Y8-aMz" id="cEB-o7-Dnc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rdw-Ts-DRy" userLabel="First Responder" sceneMemberID="firstResponder"/>

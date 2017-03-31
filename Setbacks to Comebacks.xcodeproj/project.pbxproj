@@ -170,7 +170,6 @@
 		D97E72ED1E14316F001E1A8F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D97E72EE1E14318C001E1A8F /* people.json */,
 				D97E72F01E143217001E1A8F /* Bibliography.txt */,
 			);
 			name = Resources;
@@ -246,6 +245,7 @@
 		D9EA06071E0F5E7A003C7353 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D97E72EE1E14318C001E1A8F /* people.json */,
 				D9EA06051E0F5E6E003C7353 /* Person.swift */,
 				D97E72EB1E142546001E1A8F /* PeopleDataAccessObject.swift */,
 				D93A5D171E80C01300DDC25E /* FavoritesData.swift */,
