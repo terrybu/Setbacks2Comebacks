@@ -15,6 +15,7 @@ class HomeTableViewController: UIViewController, UITableViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.register(UINib.init(nibName: "PersonTableViewCell", bundle: Bundle.main), forCellReuseIdentifier: "Cell")
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 200
         self.navigationController?.navigationBar.barStyle = UIBarStyle.black
@@ -29,8 +30,7 @@ class HomeTableViewController: UIViewController, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let person = peopleArray[indexPath.row]
-        print(person.name)
+        performSegue(withIdentifier: "DetailPushSegue", sender: nil)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -40,6 +40,7 @@ class HomeTableViewController: UIViewController, UITableViewDelegate {
             destination.person = peopleArray[indexPath.row]
         }
     }
+  
 }
 
 extension HomeTableViewController: UITableViewDataSource {

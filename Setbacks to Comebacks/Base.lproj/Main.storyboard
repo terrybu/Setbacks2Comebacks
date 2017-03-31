@@ -7,8 +7,6 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -27,64 +25,6 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="309" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KHz-xs-LGH">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="309" id="yB8-eZ-VHB" customClass="PersonTableViewCell" customModule="Setbacks_to_Comebacks" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="309"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="yB8-eZ-VHB" id="sGi-YO-ptz">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="308"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Isaac Newton" translatesAutoresizingMaskIntoConstraints="NO" id="Y1R-I6-qTh" userLabel="PersonFaceImageView">
-                                                    <rect key="frame" x="0.0" y="0.0" width="186" height="308"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="200" id="uFi-To-wa4"/>
-                                                    </constraints>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rx1-MG-MLR" userLabel="PersonNameLabel">
-                                                    <rect key="frame" x="194" y="8" width="173" height="14"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="14" id="4Yt-MJ-Y16"/>
-                                                    </constraints>
-                                                    <attributedString key="attributedText">
-                                                        <fragment content="Name">
-                                                            <attributes>
-                                                                <font key="NSFont" size="17" name="Arial-BoldMT"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="252" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kq4-H4-Eo8" userLabel="PersonSetbacksLabel" customClass="TopAlignedLabel" customModule="Setbacks_to_Comebacks" customModuleProvider="target">
-                                                    <rect key="frame" x="194" y="34" width="173" height="274"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="Rx1-MG-MLR" firstAttribute="leading" secondItem="Y1R-I6-qTh" secondAttribute="trailing" constant="8" id="9pB-7y-2X1"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="Kq4-H4-Eo8" secondAttribute="trailing" id="A6r-1F-g0o"/>
-                                                <constraint firstItem="Kq4-H4-Eo8" firstAttribute="leading" secondItem="Y1R-I6-qTh" secondAttribute="trailing" constant="8" id="G5P-b0-9ya"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="Rx1-MG-MLR" secondAttribute="trailing" id="JFm-pQ-HUB"/>
-                                                <constraint firstItem="Y1R-I6-qTh" firstAttribute="top" secondItem="sGi-YO-ptz" secondAttribute="top" id="OFI-DM-vJm"/>
-                                                <constraint firstItem="Kq4-H4-Eo8" firstAttribute="bottom" secondItem="Y1R-I6-qTh" secondAttribute="bottom" id="TMu-i3-RsP"/>
-                                                <constraint firstItem="Rx1-MG-MLR" firstAttribute="top" secondItem="sGi-YO-ptz" secondAttribute="topMargin" id="VE9-Kv-bwR"/>
-                                                <constraint firstItem="Kq4-H4-Eo8" firstAttribute="top" secondItem="Rx1-MG-MLR" secondAttribute="bottom" constant="12" id="Xi8-v7-1lk"/>
-                                                <constraint firstItem="Y1R-I6-qTh" firstAttribute="leading" secondItem="sGi-YO-ptz" secondAttribute="leading" id="bhR-RC-Csz"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="Y1R-I6-qTh" secondAttribute="bottom" constant="-8" id="cae-tp-jDb"/>
-                                                <constraint firstItem="Y1R-I6-qTh" firstAttribute="width" secondItem="sGi-YO-ptz" secondAttribute="width" multiplier="0.5" constant="1" id="wWB-4V-auc"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="personFaceImageView" destination="Y1R-I6-qTh" id="qfX-wN-JLo"/>
-                                            <outlet property="personNameLabel" destination="Rx1-MG-MLR" id="jta-EQ-NZ8"/>
-                                            <outlet property="personSetbacksLabel" destination="Kq4-H4-Eo8" id="For-WN-yPh"/>
-                                            <segue destination="Gtt-of-kaG" kind="show" identifier="DetailViewController" id="EnL-7u-d4M"/>
-                                        </connections>
-                                    </tableViewCell>
-                                </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="9pv-A4-QxB" id="bao-a6-ziq"/>
                                     <outlet property="delegate" destination="9pv-A4-QxB" id="4Cf-rE-D6S"/>
@@ -102,6 +42,7 @@
                     <navigationItem key="navigationItem" title="Setbacks 2 Comebacks" id="Shs-bZ-Ont"/>
                     <connections>
                         <outlet property="tableView" destination="KHz-xs-LGH" id="s8z-vS-5Sz"/>
+                        <segue destination="Gtt-of-kaG" kind="show" identifier="DetailPushSegue" id="VlT-kd-nPu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
@@ -334,7 +275,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Isaac Newton" width="720" height="456"/>
         <image name="bulletList" width="24" height="24"/>
         <image name="favoriteIcon" width="16" height="16"/>
     </resources>

@@ -29,13 +29,13 @@
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JYE-3t-cfw" userLabel="PersonNameLabel">
                         <rect key="frame" x="194" y="8" width="173" height="14"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="14" id="jas-oh-iZC"/>
+                            <constraint firstAttribute="height" constant="20" id="sKj-yP-Jgb"/>
                         </constraints>
                         <attributedString key="attributedText">
                             <fragment content="Name">
                                 <attributes>
                                     <font key="NSFont" size="17" name="Arial-BoldMT"/>
-                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                 </attributes>
                             </fragment>
                         </attributedString>
