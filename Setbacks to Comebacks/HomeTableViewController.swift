@@ -56,12 +56,9 @@ extension HomeTableViewController: UITableViewDataSource {
         let person = peopleArray[indexPath.row]
         cell.personFaceImageView.image = person.image
         cell.personNameLabel.text = person.name
-        cell.personSetbacksTextView.text = person.setbacks.joined(separator: ", ")
-        cell.personSetbacksTextView.font = UIFont(name: cell.personSetbacksTextView.font!.fontName, size: CGFloat(SettingsManager.shared.fontSize.size()))
+        cell.personSetbacksLabel.text = person.setbacks.joined(separator: ", ")
+        cell.personSetbacksLabel.font = UIFont(name: cell.personSetbacksLabel.font!.fontName, size: CGFloat(SettingsManager.shared.fontSize.size()))
         return cell
     }
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 140
-    }
+
 }

@@ -32,14 +32,20 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yB8-eZ-VHB" id="sGi-YO-ptz">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Isaac Newton" translatesAutoresizingMaskIntoConstraints="NO" id="Y1R-I6-qTh" userLabel="PersonFaceImageView">
-                                                    <rect key="frame" x="0.0" y="0.0" width="188" height="99"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="188" height="240"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="240" id="Niw-P9-NmY"/>
+                                                    </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rx1-MG-MLR" userLabel="PersonNameLabel">
-                                                    <rect key="frame" x="194" y="8" width="173" height="19"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rx1-MG-MLR" userLabel="PersonNameLabel">
+                                                    <rect key="frame" x="194" y="8" width="173" height="14"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="14" id="4Yt-MJ-Y16"/>
+                                                    </constraints>
                                                     <attributedString key="attributedText">
                                                         <fragment content="Name">
                                                             <attributes>
@@ -50,31 +56,30 @@
                                                     </attributedString>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" editable="NO" text="Setbacks" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ufI-4q-bpt">
-                                                    <rect key="frame" x="188" y="35" width="173" height="64"/>
-                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                </textView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kq4-H4-Eo8" userLabel="PersonSetbacksLabel">
+                                                    <rect key="frame" x="194" y="34" width="173" height="57.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="ufI-4q-bpt" firstAttribute="bottom" secondItem="Y1R-I6-qTh" secondAttribute="bottom" id="5VG-BG-v9e"/>
                                                 <constraint firstItem="Rx1-MG-MLR" firstAttribute="leading" secondItem="Y1R-I6-qTh" secondAttribute="trailing" constant="6" id="9pB-7y-2X1"/>
-                                                <constraint firstItem="ufI-4q-bpt" firstAttribute="width" secondItem="Rx1-MG-MLR" secondAttribute="width" id="IM6-uj-Bgc"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Kq4-H4-Eo8" secondAttribute="trailing" id="A6r-1F-g0o"/>
+                                                <constraint firstItem="Kq4-H4-Eo8" firstAttribute="leading" secondItem="Y1R-I6-qTh" secondAttribute="trailing" constant="6" id="G5P-b0-9ya"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="Rx1-MG-MLR" secondAttribute="trailing" id="JFm-pQ-HUB"/>
                                                 <constraint firstItem="Y1R-I6-qTh" firstAttribute="top" secondItem="sGi-YO-ptz" secondAttribute="top" id="OFI-DM-vJm"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Kq4-H4-Eo8" secondAttribute="bottom" id="TCS-4l-3sD"/>
                                                 <constraint firstItem="Rx1-MG-MLR" firstAttribute="top" secondItem="sGi-YO-ptz" secondAttribute="topMargin" id="VE9-Kv-bwR"/>
+                                                <constraint firstItem="Kq4-H4-Eo8" firstAttribute="top" secondItem="Rx1-MG-MLR" secondAttribute="bottom" constant="12" id="Xi8-v7-1lk"/>
                                                 <constraint firstItem="Y1R-I6-qTh" firstAttribute="leading" secondItem="sGi-YO-ptz" secondAttribute="leading" id="bhR-RC-Csz"/>
-                                                <constraint firstItem="ufI-4q-bpt" firstAttribute="leading" secondItem="Y1R-I6-qTh" secondAttribute="trailing" id="oah-M9-JDv"/>
-                                                <constraint firstItem="ufI-4q-bpt" firstAttribute="top" secondItem="Rx1-MG-MLR" secondAttribute="bottom" constant="8" id="te6-Z6-ze8"/>
-                                                <constraint firstAttribute="bottom" secondItem="Y1R-I6-qTh" secondAttribute="bottom" id="v5o-yL-1IF"/>
                                                 <constraint firstItem="Y1R-I6-qTh" firstAttribute="width" secondItem="sGi-YO-ptz" secondAttribute="width" multiplier="0.5" id="wWB-4V-auc"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="personFaceImageView" destination="Y1R-I6-qTh" id="qfX-wN-JLo"/>
                                             <outlet property="personNameLabel" destination="Rx1-MG-MLR" id="jta-EQ-NZ8"/>
-                                            <outlet property="personSetbacksTextView" destination="ufI-4q-bpt" id="l4n-Rz-JG3"/>
+                                            <outlet property="personSetbacksLabel" destination="Kq4-H4-Eo8" id="For-WN-yPh"/>
                                             <segue destination="Gtt-of-kaG" kind="show" identifier="DetailViewController" id="EnL-7u-d4M"/>
                                         </connections>
                                     </tableViewCell>
