@@ -39,11 +39,18 @@ class PersonDetailViewController: UIViewController, TagListViewDelegate {
         for setback in person.setbacks {
             tagListView.addTag(setback)
         }
-        
     }
     
     func tagPressed(_ title: String, tagView: TagView, sender: TagListView) {
-        print("Tag pressed: \(title), \(sender)")
+        print("Tag pressed: \(title)")
+        let peopleArray = PeopleDataAccessObject.sharedObject.findAllPeopleWithSetbackNamed(setback: title)
+        let peopleNames = peopleArray.map({$0.name})
+        let alertMessageBody = peopleNames.joined(separator: ", ")
+        let alertView = UIAlertController(title: "People who shared '\(title)' as setback", message: alertMessageBody, preferredStyle: UIAlertControllerStyle.alert)
+        alertView.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: { (action) in
+            alertView.dismiss(animated: true, completion: nil)
+        }))
+        self.present(alertView, animated: true)
     }
 
     

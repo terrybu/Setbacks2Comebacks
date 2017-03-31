@@ -42,4 +42,8 @@ class PeopleDataAccessObject {
         return peopleArray.sorted(by: {$0.name < $1.name })
     }
     
+    func findAllPeopleWithSetbackNamed(setback: String) -> [Person] {
+        return peopleArray!.filter({ $0.setbacks.contains(setback)})
+    }
+    
 }

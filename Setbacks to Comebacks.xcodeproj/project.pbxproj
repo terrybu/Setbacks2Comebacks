@@ -149,8 +149,8 @@
 			children = (
 				D942B91A1E82DE3300F8710C /* FontSizeTableViewCell.swift */,
 				D942B91B1E82DE3300F8710C /* FontSizeTableViewController.swift */,
-				D942B91C1E82DE3300F8710C /* SettingsManager.swift */,
 				D942B91D1E82DE3300F8710C /* SettingsStoryboard.storyboard */,
+				D942B91C1E82DE3300F8710C /* SettingsManager.swift */,
 				D942B91E1E82DE3300F8710C /* SettingsTableViewController.swift */,
 			);
 			name = Settings;
