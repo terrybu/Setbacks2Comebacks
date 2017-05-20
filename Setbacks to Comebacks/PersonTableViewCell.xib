@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -13,21 +13,21 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PersonTableViewCell" customModule="Setbacks_to_Comebacks" customModuleProvider="target"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="309" id="d8m-h4-VEo" userLabel="PersonTableViewCell" customClass="PersonTableViewCell" customModule="Setbacks_to_Comebacks" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="309"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="200" id="d8m-h4-VEo" userLabel="PersonTableViewCell" customClass="PersonTableViewCell" customModule="Setbacks_to_Comebacks" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="374" height="200"/>
             <autoresizingMask key="autoresizingMask"/>
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="d8m-h4-VEo" id="DFC-Rr-ME4">
-                <rect key="frame" x="0.0" y="0.0" width="375" height="308.5"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="d8m-h4-VEo" id="DFC-Rr-ME4">
+                <rect key="frame" x="0.0" y="0.0" width="374" height="199.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Isaac Newton" translatesAutoresizingMaskIntoConstraints="NO" id="QZn-eK-Krl" userLabel="PersonFaceImageView">
-                        <rect key="frame" x="0.0" y="0.0" width="186" height="308"/>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Isaac Newton" translatesAutoresizingMaskIntoConstraints="NO" id="QZn-eK-Krl" userLabel="PersonFaceImageView">
+                        <rect key="frame" x="0.0" y="0.0" width="188.5" height="200"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="200" id="jCi-il-N6x"/>
+                            <constraint firstAttribute="height" constant="200" id="nxv-zc-XWL"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JYE-3t-cfw" userLabel="PersonNameLabel">
-                        <rect key="frame" x="194" y="8" width="173" height="14"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JYE-3t-cfw" userLabel="PersonNameLabel">
+                        <rect key="frame" x="196.5" y="8" width="169.5" height="20"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="20" id="sKj-yP-Jgb"/>
                         </constraints>
@@ -41,8 +41,8 @@
                         </attributedString>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="252" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9BC-y9-vga" userLabel="PersonSetbacksLabel" customClass="TopAlignedLabel" customModule="Setbacks_to_Comebacks" customModuleProvider="target">
-                        <rect key="frame" x="194" y="34" width="173" height="274"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9BC-y9-vga" userLabel="PersonSetbacksLabel" customClass="TopAlignedLabel" customModule="Setbacks_to_Comebacks" customModuleProvider="target">
+                        <rect key="frame" x="196.5" y="40" width="169.5" height="151.5"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -51,12 +51,12 @@
                 <constraints>
                     <constraint firstItem="JYE-3t-cfw" firstAttribute="leading" secondItem="QZn-eK-Krl" secondAttribute="trailing" constant="8" id="7wg-HL-lvq"/>
                     <constraint firstItem="QZn-eK-Krl" firstAttribute="top" secondItem="DFC-Rr-ME4" secondAttribute="top" id="Fqh-3I-NGP"/>
-                    <constraint firstItem="9BC-y9-vga" firstAttribute="bottom" secondItem="QZn-eK-Krl" secondAttribute="bottom" id="LqT-m6-QXi"/>
                     <constraint firstAttribute="trailingMargin" secondItem="JYE-3t-cfw" secondAttribute="trailing" id="PlX-ed-2V9"/>
                     <constraint firstItem="JYE-3t-cfw" firstAttribute="top" secondItem="DFC-Rr-ME4" secondAttribute="topMargin" id="bnR-WW-nPC"/>
                     <constraint firstItem="9BC-y9-vga" firstAttribute="leading" secondItem="QZn-eK-Krl" secondAttribute="trailing" constant="8" id="ci6-rB-cdI"/>
                     <constraint firstAttribute="bottomMargin" secondItem="QZn-eK-Krl" secondAttribute="bottom" constant="-8" id="evK-jj-nMd"/>
                     <constraint firstItem="9BC-y9-vga" firstAttribute="top" secondItem="JYE-3t-cfw" secondAttribute="bottom" constant="12" id="icO-cm-dSP"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="9BC-y9-vga" secondAttribute="bottom" id="nd5-pH-qZn"/>
                     <constraint firstItem="QZn-eK-Krl" firstAttribute="leading" secondItem="DFC-Rr-ME4" secondAttribute="leading" id="s1V-nc-lpA"/>
                     <constraint firstAttribute="trailingMargin" secondItem="9BC-y9-vga" secondAttribute="trailing" id="u1m-Ms-C3v"/>
                     <constraint firstItem="QZn-eK-Krl" firstAttribute="width" secondItem="DFC-Rr-ME4" secondAttribute="width" multiplier="0.5" constant="1" id="z3U-Lt-YC0"/>
@@ -67,6 +67,7 @@
                 <outlet property="personNameLabel" destination="JYE-3t-cfw" id="dz4-DJ-Icb"/>
                 <outlet property="personSetbacksLabel" destination="9BC-y9-vga" id="4BM-R1-Bh9"/>
             </connections>
+            <point key="canvasLocation" x="17" y="-103"/>
         </tableViewCell>
     </objects>
     <resources>
