@@ -73,14 +73,8 @@
                                                     <constraint firstAttribute="height" secondItem="qPu-7W-hvX" secondAttribute="width" multiplier="2:3" id="agh-ko-mZu"/>
                                                 </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Setbacks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gB1-hd-77e">
-                                                <rect key="frame" x="150" y="258" width="76.5" height="21"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f9A-Y8-aMz" customClass="TagListView" customModule="TagListView">
-                                                <rect key="frame" x="0.0" y="287" width="375" height="113"/>
+                                                <rect key="frame" x="0.0" y="266" width="375" height="134"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             </view>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ba5-Je-mcN" userLabel="PersonBioTextView">
@@ -98,16 +92,13 @@
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="Ba5-Je-mcN" secondAttribute="bottom" id="01Y-Q0-weH"/>
                                             <constraint firstItem="qPu-7W-hvX" firstAttribute="width" secondItem="gRd-mf-Fom" secondAttribute="width" id="2Kf-ZT-rLF"/>
-                                            <constraint firstItem="f9A-Y8-aMz" firstAttribute="top" secondItem="gB1-hd-77e" secondAttribute="bottom" constant="8" id="2mQ-j2-Hvr"/>
-                                            <constraint firstItem="gB1-hd-77e" firstAttribute="top" secondItem="qPu-7W-hvX" secondAttribute="bottom" constant="8" id="5SF-YC-2zd"/>
-                                            <constraint firstItem="f9A-Y8-aMz" firstAttribute="centerX" secondItem="gB1-hd-77e" secondAttribute="centerX" id="9XL-Tl-9AJ"/>
                                             <constraint firstAttribute="trailing" secondItem="f9A-Y8-aMz" secondAttribute="trailing" id="AD4-nB-zU7"/>
                                             <constraint firstAttribute="trailing" secondItem="Ba5-Je-mcN" secondAttribute="trailing" id="CFW-gL-FID"/>
                                             <constraint firstItem="qPu-7W-hvX" firstAttribute="centerX" secondItem="gRd-mf-Fom" secondAttribute="centerX" id="N0q-h2-K9Z"/>
+                                            <constraint firstItem="f9A-Y8-aMz" firstAttribute="top" secondItem="qPu-7W-hvX" secondAttribute="bottom" constant="16" id="WPb-gB-kUI"/>
                                             <constraint firstItem="Ba5-Je-mcN" firstAttribute="leading" secondItem="gRd-mf-Fom" secondAttribute="leading" id="Yeq-H7-Xfx"/>
                                             <constraint firstAttribute="height" constant="1000" id="dOF-Es-Zb5"/>
                                             <constraint firstItem="f9A-Y8-aMz" firstAttribute="leading" secondItem="gRd-mf-Fom" secondAttribute="leading" id="erI-Lx-ueQ"/>
-                                            <constraint firstItem="gB1-hd-77e" firstAttribute="centerX" secondItem="qPu-7W-hvX" secondAttribute="centerX" id="naP-yA-n8f"/>
                                             <constraint firstItem="qPu-7W-hvX" firstAttribute="top" secondItem="gRd-mf-Fom" secondAttribute="top" id="ur4-b0-Ij3"/>
                                             <constraint firstItem="Ba5-Je-mcN" firstAttribute="top" secondItem="f9A-Y8-aMz" secondAttribute="bottom" id="ws1-QY-fpI"/>
                                         </constraints>

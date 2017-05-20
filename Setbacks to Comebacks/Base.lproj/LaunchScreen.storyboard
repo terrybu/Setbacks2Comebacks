@@ -22,16 +22,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lLM-a1-Drm">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Setbacks 2 Comebacks" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lLM-a1-Drm">
                                 <rect key="frame" x="37.5" y="52" width="299" height="33"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Setbacks 2 Comebacks">
-                                        <attributes>
-                                            <font key="NSFont" size="28" name="KohinoorBangla-Bold"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Bold" family="Kohinoor Bangla" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="S2COfficial" translatesAutoresizingMaskIntoConstraints="NO" id="Arw-Zb-vEB">
                                 <rect key="frame" x="0.0" y="119" width="375" height="375"/>
@@ -39,20 +35,47 @@
                                     <constraint firstAttribute="width" secondItem="Arw-Zb-vEB" secondAttribute="height" multiplier="1:1" id="n1U-AR-6d3"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Einstein, Hawking, Jordan, Lincoln, Pryor, " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5FR-Bm-pH1">
+                                <rect key="frame" x="-76" y="528" width="527" height="33"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Bold" family="Kohinoor Bangla" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oprah, Pryor, Martin Luther King, Jesus, Beethoven" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mf5-Zf-tQK">
+                                <rect key="frame" x="-134.5" y="569" width="644" height="33"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Bold" family="Kohinoor Bangla" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Elon Musk, Thomas Edison, Isaac Newton, Eminem" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EpM-SO-LiJ">
+                                <rect key="frame" x="-135" y="610" width="645" height="33"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Bold" family="Kohinoor Bangla" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="EpM-SO-LiJ" firstAttribute="centerX" secondItem="mf5-Zf-tQK" secondAttribute="centerX" id="SSr-Bf-Bfr"/>
                             <constraint firstItem="Arw-Zb-vEB" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="T50-0Z-tye"/>
+                            <constraint firstItem="EpM-SO-LiJ" firstAttribute="top" secondItem="mf5-Zf-tQK" secondAttribute="bottom" constant="8" id="c0X-3d-QLN"/>
                             <constraint firstAttribute="trailing" secondItem="Arw-Zb-vEB" secondAttribute="trailing" id="i1a-S6-M4I"/>
+                            <constraint firstItem="5FR-Bm-pH1" firstAttribute="centerX" secondItem="Arw-Zb-vEB" secondAttribute="centerX" id="jkX-Rs-LTU"/>
+                            <constraint firstItem="mf5-Zf-tQK" firstAttribute="centerX" secondItem="5FR-Bm-pH1" secondAttribute="centerX" id="mIw-cj-i9c"/>
+                            <constraint firstItem="5FR-Bm-pH1" firstAttribute="top" secondItem="Arw-Zb-vEB" secondAttribute="bottom" constant="34" id="rSe-Qo-MPT"/>
                             <constraint firstItem="lLM-a1-Drm" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="32" id="ruB-2H-6YM"/>
                             <constraint firstItem="Arw-Zb-vEB" firstAttribute="top" secondItem="lLM-a1-Drm" secondAttribute="bottom" constant="34" id="x8q-wC-b0u"/>
+                            <constraint firstItem="mf5-Zf-tQK" firstAttribute="top" secondItem="5FR-Bm-pH1" secondAttribute="bottom" constant="8" id="xPD-J9-8hg"/>
                             <constraint firstItem="lLM-a1-Drm" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="xf9-1d-oOV"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-24.800000000000001" y="281.10944527736132"/>
+            <point key="canvasLocation" x="81" y="229"/>
         </scene>
     </scenes>
     <resources>
