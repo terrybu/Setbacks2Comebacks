@@ -84,10 +84,13 @@ class PersonDetailViewController: UIViewController, TagListViewDelegate {
         FavoritesData.sharedInstance.addObjectToFavoritesAndSave(newPerson: person)
     }
     
-    @IBAction func goToQuotesButtonPressed() {
-        let qvc = QuotesViewController(nibName: "QuotesViewController", bundle: Bundle.main)
-        qvc.person = person
-        navigationController?.pushViewController(qvc, animated: true)
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "quotes" {
+            let qvc = segue.destination as! QuotesViewController
+            qvc.person = person
+        }
     }
+    
     
 }

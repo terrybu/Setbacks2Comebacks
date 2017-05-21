@@ -10,7 +10,7 @@
 		916DACE1C52D228F242F052E /* Pods_Setbacks_to_Comebacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF50F99CF9937C41F73CDD8 /* Pods_Setbacks_to_Comebacks.framework */; };
 		D2DE4D65BC69ABCCACE64CBF /* Pods_Setbacks_to_ComebacksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D75BA864A2FF76E99D9556 /* Pods_Setbacks_to_ComebacksTests.framework */; };
 		D92CAFCF1ED1134400692FEE /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92CAFCD1ED1134400692FEE /* QuotesViewController.swift */; };
-		D92CAFD01ED1134400692FEE /* QuotesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D92CAFCE1ED1134400692FEE /* QuotesViewController.xib */; };
+		D92CAFD21ED1310500692FEE /* QuotesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92CAFD11ED1310500692FEE /* QuotesCollectionViewCell.swift */; };
 		D93A5D181E80C01300DDC25E /* FavoritesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A5D171E80C01300DDC25E /* FavoritesData.swift */; };
 		D93A5D1A1E81632C00DDC25E /* PersonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D93A5D191E81632C00DDC25E /* PersonTableViewCell.xib */; };
 		D942B9111E82C79900F8710C /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D942B9101E82C79900F8710C /* TabBarViewController.swift */; };
@@ -62,7 +62,7 @@
 		9DF50F99CF9937C41F73CDD8 /* Pods_Setbacks_to_Comebacks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Setbacks_to_Comebacks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA3DECCBF7FA9DD50E900E15 /* Pods-Setbacks to ComebacksUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Setbacks to ComebacksUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Setbacks to ComebacksUITests/Pods-Setbacks to ComebacksUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D92CAFCD1ED1134400692FEE /* QuotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
-		D92CAFCE1ED1134400692FEE /* QuotesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuotesViewController.xib; sourceTree = "<group>"; };
+		D92CAFD11ED1310500692FEE /* QuotesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotesCollectionViewCell.swift; sourceTree = "<group>"; };
 		D93A5D171E80C01300DDC25E /* FavoritesData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesData.swift; sourceTree = "<group>"; };
 		D93A5D191E81632C00DDC25E /* PersonTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonTableViewCell.xib; sourceTree = "<group>"; };
 		D942B9101E82C79900F8710C /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
@@ -164,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				D992E4161E0DE774003E93EB /* Main.storyboard */,
+				D92CAFD11ED1310500692FEE /* QuotesCollectionViewCell.swift */,
 				D992E4191E0DE774003E93EB /* Assets.xcassets */,
 				D97E72E91E141F2B001E1A8F /* PersonTableViewCell.swift */,
 				D93A5D191E81632C00DDC25E /* PersonTableViewCell.xib */,
@@ -242,7 +243,6 @@
 				D9EA06021E0F5DEC003C7353 /* FavoritesTableViewController.swift */,
 				D98FBA081E11FBA8008FB950 /* PersonDetailViewController.swift */,
 				D92CAFCD1ED1134400692FEE /* QuotesViewController.swift */,
-				D92CAFCE1ED1134400692FEE /* QuotesViewController.xib */,
 				D942B9241E82DE3800F8710C /* Settings */,
 			);
 			name = ViewControllers;
@@ -379,7 +379,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D92CAFD01ED1134400692FEE /* QuotesViewController.xib in Resources */,
 				D97623331E1174BE00BB290B /* To-Do & Strategy in Resources */,
 				D992E41D1E0DE774003E93EB /* LaunchScreen.storyboard in Resources */,
 				D97E72F11E143217001E1A8F /* Bibliography.txt in Resources */,
@@ -570,6 +569,7 @@
 				D93A5D181E80C01300DDC25E /* FavoritesData.swift in Sources */,
 				D9EA06061E0F5E6E003C7353 /* Person.swift in Sources */,
 				D98FBA0A1E11FBA8008FB950 /* PersonDetailViewController.swift in Sources */,
+				D92CAFD21ED1310500692FEE /* QuotesCollectionViewCell.swift in Sources */,
 				D992E4111E0DE774003E93EB /* AppDelegate.swift in Sources */,
 				D942B91F1E82DE3300F8710C /* FontSizeTableViewCell.swift in Sources */,
 				D942B9211E82DE3300F8710C /* SettingsManager.swift in Sources */,
