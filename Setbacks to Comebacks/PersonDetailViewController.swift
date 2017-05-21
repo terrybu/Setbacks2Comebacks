@@ -17,6 +17,7 @@ class PersonDetailViewController: UIViewController, TagListViewDelegate {
     @IBOutlet var personBioTextView: UITextView!
     @IBOutlet weak var favoritesStarBarButton: UIBarButtonItem!
     @IBOutlet var tagListView: TagListView!
+    @IBOutlet var goToQuotesButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,6 +40,9 @@ class PersonDetailViewController: UIViewController, TagListViewDelegate {
         for setback in person.setbacks {
             tagListView.addTag(setback)
         }
+        
+        goToQuotesButton.setTitle("See Famous Quotes by \(person.name)", for: UIControlState.normal)
+        goToQuotesButton.layer.cornerRadius = goToQuotesButton.frame.height/2
     }
     
     func tagPressed(_ title: String, tagView: TagView, sender: TagListView) {
@@ -78,6 +82,10 @@ class PersonDetailViewController: UIViewController, TagListViewDelegate {
         FavoritesData.sharedInstance.addObjectToFavoritesAndSave(newPerson: person)
     }
     
-    
+    @IBAction func goToQuotesButtonPressed() {
+        let qvc = QuotesViewController(nibName: "QuotesViewController", bundle: Bundle.main)
+        qvc.person = person
+        navigationController?.pushViewController(qvc, animated: true)
+    }
     
 }
