@@ -42,9 +42,18 @@ class PersonDetailViewController: UIViewController, TagListViewDelegate {
         }
         
         goToQuotesButton.setTitle("See Quotes by \(person.name)", for: UIControlState.normal)
+        goToQuotesButton.layer.cornerRadius = goToQuotesButton.frame.height/2
         goToQuotesButton.titleLabel?.lineBreakMode = .byWordWrapping
         goToQuotesButton.titleLabel?.textAlignment = .center
-        goToQuotesButton.layer.cornerRadius = goToQuotesButton.frame.height/2
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        setFontToSavedSettings()
+    }
+    
+    private func setFontToSavedSettings() {
+        personBioTextView.font = UIFont(name: self.personBioTextView.font!.fontName, size: CGFloat(SettingsManager.shared.fontSize.size()))
+         goToQuotesButton.titleLabel?.font = UIFont(name: goToQuotesButton.titleLabel!.font!.fontName, size: CGFloat(SettingsManager.shared.fontSize.size()))
     }
     
     func tagPressed(_ title: String, tagView: TagView, sender: TagListView) {

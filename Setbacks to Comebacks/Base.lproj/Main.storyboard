@@ -207,7 +207,7 @@
                                             <constraint firstItem="0XN-7q-f6T" firstAttribute="top" secondItem="TkH-YN-Ddl" secondAttribute="topMargin" id="mlo-6F-Zes"/>
                                         </constraints>
                                         <connections>
-                                            <outlet property="quoteLabel" destination="0XN-7q-f6T" id="heF-gP-r5y"/>
+                                            <outlet property="quoteLabel" destination="0XN-7q-f6T" id="n5D-mk-GNS"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -233,7 +233,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QRw-XM-ZbC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3178.4000000000001" y="-128.63568215892056"/>
+            <point key="canvasLocation" x="3262" y="-321"/>
         </scene>
         <!--Favorites Table View Controller-->
         <scene sceneID="wg7-f3-ORb">

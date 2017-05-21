@@ -16,6 +16,10 @@ class QuotesViewController: UIViewController, UICollectionViewDelegate, UICollec
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Quotes by \(person!.name)"
+        
+        NotificationCenter.default.addObserver(forName: NSNotification.Name(rawValue: "SettingsFontDidUpdate"), object: nil, queue: OperationQueue.main) { (_) in
+            self.collectionView.reloadData()
+        }
     }
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
@@ -32,6 +36,7 @@ class QuotesViewController: UIViewController, UICollectionViewDelegate, UICollec
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! QuotesCollectionViewCell
         cell.quoteLabel.text = person!.quotes![indexPath.row]
+        cell.quoteLabel.font = UIFont(name: cell.quoteLabel.font!.fontName, size: CGFloat(SettingsManager.shared.fontSize.size()))
         return cell
     }
 
