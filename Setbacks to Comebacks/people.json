@@ -49,7 +49,15 @@
      "placeOfBirth": "Hodgenville, Kentucky, U.S.",
      "placeOfBurial": "Springfield, Illinois, U.S.",
      "bio" : "His friends called it his 'melancholy.' At 32 years of age, he wrote 'I am now the most miserable man living'. Lincoln often wept in public and recited sad poetry. He told jokes and stories at odd times he needed the laughs, he said, for his survival. As a young man he talked often of suicide, and as he grew older he said he saw the world as hard and grim, full of misery, made that way by fate and the forces of God. 'No element of Mr. Lincoln's character,' declared his colleague Henry Whitney, 'was so marked, obvious and ingrained as his mysterious and profound melancholy.' His law partner William Herndon said, 'His melancholy dripped from him as he walked. \n When Lincoln was in his 20s, one of his female friends  whom he had feelings for died due to illness. 'Lincoln 'told Me that he felt like Committing Suicide often,' remembered Mentor Graham, a schoolteacher, and his neighbors mobilized to keep him safe. One friend recalled, 'Mr Lincolns friends were Compelled to keep watch [...] over Mr Lincoln, he being from the sudden shock somewhat temporarily deranged. We watched during gloomy weather for fear of an accident.' Some villagers worried that he'd end up insane. \n Here's a poem from Abraham Lincoln: 'To ease me of this power to think, That through my bosom raves, I'll headlong leap from hell's high brink And wallow in its waves.' Lincoln, too, connected his mental well-being to divine forces. As a young man he saw how religion could ameliorate life's blows, even as he found the consolation of faith elusive.",
-     "setbacks": ["Depression", "Suicidal Thoughts"]
+     "setbacks": ["Depression", "Suicidal Thoughts"],
+     "quotes": ["Nearly all men can stand adversity, but if you want to test a man's character, give him power.",
+                "And in the end, it's not the years in your life that count. It's the life in your years.",
+                "Always bear in mind that your own resolution to succeed is more important than any other.",
+                "A house divided against itself cannot stand.",
+                "Better to remain silent and be thought a fool than to speak out and remove all doubt.",
+                "Character is like a tree and reputation like a shadow. The shadow is what we think of it; the tree is the real thing.",
+                "Those who deny freedom to others deserve it not for themselves."
+                ]
      },
      {
      "name" : "David Ogilvy",
@@ -189,7 +197,9 @@
      "placeOfBirth": "Andrews, South Carolina, U.S.",
      "bio" : "Chris Rock is an American comedian, actor, writer, producer and director. Rock has said that he was influenced by the performing style of his paternal grandfather, Allen Rock, a preacher. Rock was bused to schools in predominately white neighborhoods of Brooklyn, where he endured bullying and beatings from white students. As he got older, the bullying became worse and Rock’s parents pulled him out of James Madison High School. He dropped out of high school altogether, but he later earned a GED. Rock then worked menial jobs at various fast-food restaurants. Rock began doing stand-up comedy in 1984 in New York City's Catch a Rising Star. He slowly rose up the ranks of the comedy circuit in addition to earning bit roles in the film I’m Gonna Git You Sucka and the TV series Miami Vice. Upon seeing his act at a nightclub, Eddie Murphy befriended and mentored the aspiring comic. Murphy gave Rock his first film role in Beverly Hills Cop II.Rock's subject matter typically involves family, politics, romance, music, class relationships, and race relations in the United States.",
      "setbacks": ["Bullied in school", "Low income during youth", "Changed jobs many times"],
-     "quotes": []
+     "quotes": ["You don't pay taxes - they take taxes.",
+                "I don't get high, but sometimes I wish I did. That way, when I messed up in life I would have an excuse. But right now there's no rehab for stupidity."
+                ]
      },
      {
      "name" : "Oprah Winfrey",
