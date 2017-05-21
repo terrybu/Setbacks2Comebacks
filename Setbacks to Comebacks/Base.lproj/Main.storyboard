@@ -91,10 +91,13 @@
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Znu-Tr-Ii0">
-                                                <rect key="frame" x="62" y="980" width="250" height="188"/>
+                                                <rect key="frame" x="16" y="980" width="343" height="156"/>
                                                 <color key="backgroundColor" red="0.0" green="0.59999999999999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <inset key="contentEdgeInsets" minX="20" minY="20" maxX="20" maxY="20"/>
+                                                <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                                <inset key="titleEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                                <size key="titleShadowOffset" width="1" height="1"/>
                                                 <state key="normal" title="Click to see famous quotes by "/>
                                                 <connections>
                                                     <action selector="goToQuotesButtonPressed" destination="Gtt-of-kaG" eventType="touchUpInside" id="rII-Z9-HIh"/>
@@ -104,7 +107,6 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="qPu-7W-hvX" firstAttribute="width" secondItem="gRd-mf-Fom" secondAttribute="width" id="2Kf-ZT-rLF"/>
-                                            <constraint firstAttribute="bottom" secondItem="Znu-Tr-Ii0" secondAttribute="bottom" constant="32" id="3ZO-Jy-9uL"/>
                                             <constraint firstAttribute="trailing" secondItem="f9A-Y8-aMz" secondAttribute="trailing" id="AD4-nB-zU7"/>
                                             <constraint firstAttribute="trailing" secondItem="Ba5-Je-mcN" secondAttribute="trailing" id="CFW-gL-FID"/>
                                             <constraint firstItem="qPu-7W-hvX" firstAttribute="centerX" secondItem="gRd-mf-Fom" secondAttribute="centerX" id="N0q-h2-K9Z"/>
@@ -112,10 +114,13 @@
                                             <constraint firstItem="Znu-Tr-Ii0" firstAttribute="centerX" secondItem="gRd-mf-Fom" secondAttribute="centerX" id="VXX-sZ-oBi"/>
                                             <constraint firstItem="f9A-Y8-aMz" firstAttribute="top" secondItem="qPu-7W-hvX" secondAttribute="bottom" constant="16" id="WPb-gB-kUI"/>
                                             <constraint firstItem="Ba5-Je-mcN" firstAttribute="leading" secondItem="gRd-mf-Fom" secondAttribute="leading" id="Yeq-H7-Xfx"/>
+                                            <constraint firstAttribute="bottom" secondItem="Znu-Tr-Ii0" secondAttribute="bottom" constant="64" id="a6M-nM-m8f"/>
                                             <constraint firstAttribute="height" constant="1200" id="dOF-Es-Zb5"/>
+                                            <constraint firstItem="Znu-Tr-Ii0" firstAttribute="leading" secondItem="gRd-mf-Fom" secondAttribute="leading" constant="16" id="dll-0m-KeA"/>
                                             <constraint firstItem="f9A-Y8-aMz" firstAttribute="leading" secondItem="gRd-mf-Fom" secondAttribute="leading" id="erI-Lx-ueQ"/>
                                             <constraint firstItem="qPu-7W-hvX" firstAttribute="top" secondItem="gRd-mf-Fom" secondAttribute="top" id="ur4-b0-Ij3"/>
                                             <constraint firstItem="Ba5-Je-mcN" firstAttribute="top" secondItem="f9A-Y8-aMz" secondAttribute="bottom" constant="32" id="ws1-QY-fpI"/>
+                                            <constraint firstAttribute="trailing" secondItem="Znu-Tr-Ii0" secondAttribute="trailing" constant="16" id="zhq-EW-dXN"/>
                                         </constraints>
                                     </view>
                                 </subviews>

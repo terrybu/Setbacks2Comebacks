@@ -41,7 +41,9 @@ class PersonDetailViewController: UIViewController, TagListViewDelegate {
             tagListView.addTag(setback)
         }
         
-        goToQuotesButton.setTitle("See Famous Quotes by \(person.name)", for: UIControlState.normal)
+        goToQuotesButton.setTitle("See Quotes by \(person.name)", for: UIControlState.normal)
+        goToQuotesButton.titleLabel?.lineBreakMode = .byWordWrapping
+        goToQuotesButton.titleLabel?.textAlignment = .center
         goToQuotesButton.layer.cornerRadius = goToQuotesButton.frame.height/2
     }
     
