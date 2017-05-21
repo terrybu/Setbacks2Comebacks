@@ -18,6 +18,7 @@ class Person: NSObject, NSCoding {
     var placeOfBirth: String = ""
     var dob: String = ""
     var alive: Bool = false
+    var quotes: [String]?
     
     init(name: String, bio: String, setbacks: [String]) {
         self.name = name

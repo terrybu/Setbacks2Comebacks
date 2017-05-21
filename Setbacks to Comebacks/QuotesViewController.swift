@@ -23,12 +23,15 @@ class QuotesViewController: UIViewController, UICollectionViewDelegate, UICollec
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 10
+        if let quotes = person!.quotes {
+            return quotes.count
+        }
+        return 0
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! QuotesCollectionViewCell
-        cell.quoteLabel.text = "TEST TERRY"
+        cell.quoteLabel.text = person!.quotes![indexPath.row]
         return cell
     }
 

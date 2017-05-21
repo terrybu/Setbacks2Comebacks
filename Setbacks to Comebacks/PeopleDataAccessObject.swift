@@ -25,7 +25,6 @@ class PeopleDataAccessObject {
             do {
                 let data = try Data(contentsOf: url)
                 let rootJSON = try JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.allowFragments)
-                //print(rootJSON)
                 let swiftyJson = JSON(rootJSON)
                 let peopleJSONArray = swiftyJson["people"].arrayValue
                 for json in peopleJSONArray {
@@ -33,6 +32,8 @@ class PeopleDataAccessObject {
                     let bio = json["bio"].stringValue
                     let setbacks = json["setbacks"].arrayValue.map( {$0.string!} )
                     let newPerson = Person(name: name, bio: bio, setbacks:setbacks)
+                    let quotesArray = json["quotes"].arrayValue.map( {$0.string!} )
+                    newPerson.quotes = quotesArray
                     peopleArray.append(newPerson)
                 }
             } catch {
