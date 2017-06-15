@@ -20,10 +20,11 @@ class Person: NSObject, NSCoding {
     var alive: Bool = false
     var quotes: [String]?
     
-    init(name: String, bio: String, setbacks: [String]) {
+    init(name: String, bio: String, setbacks: [String], quotes: [String]?) {
         self.name = name
         self.bio = bio
         self.setbacks = setbacks.sorted(by: {$0 < $1})
+        self.quotes = quotes
         self.image = UIImage(named:"placeholderFace")!
         if let actualFaceImg = UIImage(named: name) {
             self.image = actualFaceImg
@@ -41,13 +42,15 @@ class Person: NSObject, NSCoding {
         aCoder.encode(name, forKey: "name")
         aCoder.encode(bio, forKey: "bio")
         aCoder.encode(setbacks, forKey: "setbacks")
+        aCoder.encode(quotes, forKey: "quotes")
     }
     
     convenience required init(coder aDecoder: NSCoder) {
         let name = aDecoder.decodeObject(forKey: "name") as! String
         let bio = aDecoder.decodeObject(forKey: "bio") as! String
         let setbacks = aDecoder.decodeObject(forKey: "setbacks") as! [String]
-        self.init(name: name, bio: bio, setbacks: setbacks)
+        let quotes = aDecoder.decodeObject(forKey: "quotes") as! [String]?
+        self.init(name: name, bio: bio, setbacks: setbacks, quotes: quotes)
     }
 
     

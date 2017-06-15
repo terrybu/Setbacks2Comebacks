@@ -21,7 +21,6 @@ class PeopleDataAccessObject {
     private func getPeopleObjectsFromJSON() -> [Person]? {
         var peopleArray = [Person]()
         if let url = Bundle.main.url(forResource: "people", withExtension: "json") {
-            //return peopleArray
             do {
                 let data = try Data(contentsOf: url)
                 let rootJSON = try JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.allowFragments)
@@ -31,9 +30,8 @@ class PeopleDataAccessObject {
                     let name = json["name"].stringValue
                     let bio = json["bio"].stringValue
                     let setbacks = json["setbacks"].arrayValue.map( {$0.string!} )
-                    let newPerson = Person(name: name, bio: bio, setbacks:setbacks)
                     let quotesArray = json["quotes"].arrayValue.map( {$0.string!} )
-                    newPerson.quotes = quotesArray
+                    let newPerson = Person(name: name, bio: bio, setbacks:setbacks, quotes: quotesArray)
                     peopleArray.append(newPerson)
                 }
             } catch {

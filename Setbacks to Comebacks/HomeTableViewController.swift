@@ -10,7 +10,7 @@ import UIKit
 
 class HomeTableViewController: UIViewController, UITableViewDelegate {
     
-    let peopleArray = PeopleDataAccessObject.sharedObject.peopleArray!
+    var peopleArray: [Person]?
     @IBOutlet var tableView: UITableView!
     
     override func viewDidLoad() {
@@ -23,6 +23,9 @@ class HomeTableViewController: UIViewController, UITableViewDelegate {
         NotificationCenter.default.addObserver(forName: NSNotification.Name(rawValue: "SettingsFontDidUpdate"), object: nil, queue: OperationQueue.main) { (_) in
             self.tableView!.reloadData()
         }
+        
+        let sharedDAO = PeopleDataAccessObject.sharedObject
+        peopleArray = sharedDAO.peopleArray
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
@@ -37,7 +40,7 @@ class HomeTableViewController: UIViewController, UITableViewDelegate {
         if let destination = segue.destination as? PersonDetailViewController,
             let indexPath = tableView.indexPathForSelectedRow
         {
-            destination.person = peopleArray[indexPath.row]
+            destination.person = peopleArray?[indexPath.row]
         }
     }
   
@@ -49,15 +52,15 @@ extension HomeTableViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return peopleArray.count
+        return peopleArray!.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! PersonTableViewCell
-        let person = peopleArray[indexPath.row]
-        cell.personFaceImageView.image = person.image
-        cell.personNameLabel.text = person.name
-        cell.personSetbacksLabel.text = person.setbacks.joined(separator: ", ")
+        let person = peopleArray?[indexPath.row]
+        cell.personFaceImageView.image = person?.image
+        cell.personNameLabel.text = person?.name
+        cell.personSetbacksLabel.text = person?.setbacks.joined(separator: ", ")
         cell.personSetbacksLabel.font = UIFont(name: cell.personSetbacksLabel.font!.fontName, size: CGFloat(SettingsManager.shared.fontSize.size()))
         return cell
     }
