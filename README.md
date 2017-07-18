@@ -20,7 +20,7 @@ I hope their stories reach you and serves as a small candle of light for your jo
 * Leonardo Da Vinci (Lack of Formal Education to becoming one of the world's most remembered polymaths)
 * Abraham Lincoln (Depression to becoming one of the greatest American Presidents ever) 
 * Martin Luther King Jr. (Depression, Suicidal Thoughts to becoming the greatest figure remembered for African-American civil rights) 
-* Jesus Christ (Suicidal Thoughts, Betrayal, Social Humiliation to spreading love and wisdom for 2000 years of history) 
+* Jesus Christ (Suicidal Thoughts, Betrayal)
 * Pablo Picasso (Depression) 
 * Vincent van Gogh (Depression/Bipolar, Anxiety, Suicidal Thoughts) 
 * Robin Williams (Depression, Bipolar to becoming amazing at everything that he ever did in standup and acting) 
