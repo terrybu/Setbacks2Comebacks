@@ -74,11 +74,11 @@
                                                     <constraint firstAttribute="height" secondItem="qPu-7W-hvX" secondAttribute="width" multiplier="2:3" id="agh-ko-mZu"/>
                                                 </constraints>
                                             </imageView>
-                                            <view contentMode="scaleToFill" verticalCompressionResistancePriority="753" translatesAutoresizingMaskIntoConstraints="NO" id="f9A-Y8-aMz" customClass="TagListView" customModule="TagListView">
+                                            <view contentMode="scaleToFill" verticalCompressionResistancePriority="753" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f9A-Y8-aMz" customClass="TagListView" customModule="TagListView">
                                                 <rect key="frame" x="0.0" y="274" width="375" height="16"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             </view>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalHuggingPriority="249" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ba5-Je-mcN" userLabel="PersonBioTextView">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalHuggingPriority="249" ambiguous="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ba5-Je-mcN" userLabel="PersonBioTextView">
                                                 <rect key="frame" x="0.0" y="354" width="375" height="500"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
