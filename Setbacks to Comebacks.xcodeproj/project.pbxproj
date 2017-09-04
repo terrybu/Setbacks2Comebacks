@@ -165,7 +165,6 @@
 			children = (
 				D992E4161E0DE774003E93EB /* Main.storyboard */,
 				D92CAFD11ED1310500692FEE /* QuotesCollectionViewCell.swift */,
-				D992E4191E0DE774003E93EB /* Assets.xcassets */,
 				D97E72E91E141F2B001E1A8F /* PersonTableViewCell.swift */,
 				D93A5D191E81632C00DDC25E /* PersonTableViewCell.xib */,
 			);
@@ -212,6 +211,7 @@
 				D9EA06041E0F5E53003C7353 /* ViewControllers */,
 				D97E72ED1E14316F001E1A8F /* Resources */,
 				D992E41B1E0DE774003E93EB /* LaunchScreen.storyboard */,
+				D992E4191E0DE774003E93EB /* Assets.xcassets */,
 				D992E41E1E0DE774003E93EB /* Info.plist */,
 				D97623321E1174BE00BB290B /* To-Do & Strategy */,
 			);

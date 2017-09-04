@@ -28,8 +28,9 @@ class PersonDetailViewController: UIViewController, TagListViewDelegate {
         checkForStarButtonNecessity()
         
         NotificationCenter.default.addObserver(forName: NSNotification.Name(rawValue: "SettingsFontDidUpdate"), object: nil, queue: OperationQueue.main) { (_) in
-            self.personBioTextView.font = UIFont(name: self.personBioTextView.font!.fontName, size: CGFloat(SettingsManager.shared.fontSize.size()))
+            self.setFontToSavedSettings()
         }
+        setFontToSavedSettings()
         tagListView.delegate = self
         tagListView.cornerRadius = 12
         tagListView.paddingX = 10
@@ -45,15 +46,23 @@ class PersonDetailViewController: UIViewController, TagListViewDelegate {
         goToQuotesButton.layer.cornerRadius = goToQuotesButton.frame.height/2
         goToQuotesButton.titleLabel?.lineBreakMode = .byWordWrapping
         goToQuotesButton.titleLabel?.textAlignment = .center
+        
+        personBioTextView.textContainerInset = UIEdgeInsets.zero
+        personBioTextView.textContainer.lineFragmentPadding = 0
+        personBioTextView.sizeToFit()
+        personBioTextView.textContainer.size = personBioTextView.frame.size
+        self.view.layoutIfNeeded()
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        setFontToSavedSettings()
+    override func viewWillLayoutSubviews() {
+        if person.setbacks.isEmpty {
+            personBioTextView.frame = CGRect(x: personFaceImageView.frame.origin.x, y: personFaceImageView.frame.size.height + 32, width: personBioTextView.frame.size.width, height: personBioTextView.frame.size.height)
+        }
     }
     
     private func setFontToSavedSettings() {
         personBioTextView.font = UIFont(name: self.personBioTextView.font!.fontName, size: CGFloat(SettingsManager.shared.fontSize.size()))
-         goToQuotesButton.titleLabel?.font = UIFont(name: goToQuotesButton.titleLabel!.font!.fontName, size: CGFloat(SettingsManager.shared.fontSize.size()))
+        goToQuotesButton.titleLabel?.font = UIFont(name: goToQuotesButton.titleLabel!.font!.fontName, size: CGFloat(SettingsManager.shared.fontSize.size()))
     }
     
     func tagPressed(_ title: String, tagView: TagView, sender: TagListView) {
