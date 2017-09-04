@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		916DACE1C52D228F242F052E /* Pods_Setbacks_to_Comebacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF50F99CF9937C41F73CDD8 /* Pods_Setbacks_to_Comebacks.framework */; };
 		D2DE4D65BC69ABCCACE64CBF /* Pods_Setbacks_to_ComebacksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D75BA864A2FF76E99D9556 /* Pods_Setbacks_to_ComebacksTests.framework */; };
+		D91204331F5D1C680087EC8D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91204321F5D1C680087EC8D /* BaseViewController.swift */; };
 		D92CAFCF1ED1134400692FEE /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92CAFCD1ED1134400692FEE /* QuotesViewController.swift */; };
 		D92CAFD21ED1310500692FEE /* QuotesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92CAFD11ED1310500692FEE /* QuotesCollectionViewCell.swift */; };
 		D93A5D181E80C01300DDC25E /* FavoritesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A5D171E80C01300DDC25E /* FavoritesData.swift */; };
@@ -61,6 +62,7 @@
 		8E51F50041C4DD93CE93F8B7 /* Pods_Setbacks_to_ComebacksUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Setbacks_to_ComebacksUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF50F99CF9937C41F73CDD8 /* Pods_Setbacks_to_Comebacks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Setbacks_to_Comebacks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA3DECCBF7FA9DD50E900E15 /* Pods-Setbacks to ComebacksUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Setbacks to ComebacksUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Setbacks to ComebacksUITests/Pods-Setbacks to ComebacksUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D91204321F5D1C680087EC8D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		D92CAFCD1ED1134400692FEE /* QuotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
 		D92CAFD11ED1310500692FEE /* QuotesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotesCollectionViewCell.swift; sourceTree = "<group>"; };
 		D93A5D171E80C01300DDC25E /* FavoritesData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesData.swift; sourceTree = "<group>"; };
@@ -239,6 +241,7 @@
 		D9EA06041E0F5E53003C7353 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				D91204321F5D1C680087EC8D /* BaseViewController.swift */,
 				D9EA06001E0F5DD4003C7353 /* HomeTableViewController.swift */,
 				D9EA06021E0F5DEC003C7353 /* FavoritesTableViewController.swift */,
 				D98FBA081E11FBA8008FB950 /* PersonDetailViewController.swift */,
@@ -575,6 +578,7 @@
 				D942B9211E82DE3300F8710C /* SettingsManager.swift in Sources */,
 				D942B9201E82DE3300F8710C /* FontSizeTableViewController.swift in Sources */,
 				D97E72EC1E142546001E1A8F /* PeopleDataAccessObject.swift in Sources */,
+				D91204331F5D1C680087EC8D /* BaseViewController.swift in Sources */,
 				D942B9111E82C79900F8710C /* TabBarViewController.swift in Sources */,
 				D92CAFCF1ED1134400692FEE /* QuotesViewController.swift in Sources */,
 			);

@@ -10,7 +10,7 @@ import UIKit
 import Social
 import MessageUI
 
-class QuotesViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, MFMessageComposeViewControllerDelegate {
+class QuotesViewController: BaseViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     var person: Person!
     @IBOutlet var collectionView: UICollectionView!
@@ -76,20 +76,4 @@ class QuotesViewController: UIViewController, UICollectionViewDelegate, UICollec
         self.present(actionController, animated: true, completion: nil)
     }
     
-    private func sendTextMessage(text: String) {
-        if (MFMessageComposeViewController.canSendText()) {
-            let messageComposeVC = MFMessageComposeViewController()
-            messageComposeVC.messageComposeDelegate = self  //  Make sure to set this property to self, so that the controller can be dismissed!
-            messageComposeVC.body = text
-            self.present(messageComposeVC, animated: true, completion: nil)
-        } else {
-            let errorAlert = UIAlertView(title: "Cannot Send Text Message", message: "Your device is not able to send text messages.", delegate: self, cancelButtonTitle: "OK")
-            errorAlert.show()
-        }
-    }
-    
-    func messageComposeViewController(_ controller: MFMessageComposeViewController, didFinishWith result: MessageComposeResult) {
-        controller.dismiss(animated: true, completion: nil)
-    }
-
 }

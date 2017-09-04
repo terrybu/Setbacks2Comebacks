@@ -10,10 +10,9 @@ import UIKit
 import TagListView
 import MessageUI
 
-class PersonDetailViewController: UIViewController, TagListViewDelegate, MFMailComposeViewControllerDelegate, UIGestureRecognizerDelegate {
+class PersonDetailViewController: BaseViewController, TagListViewDelegate, UIGestureRecognizerDelegate, MFMailComposeViewControllerDelegate {
 
     var person: Person!
-    
     @IBOutlet var personFaceImageView: UIImageView!
     @IBOutlet var personBioTextView: UITextView!
     @IBOutlet weak var favoritesStarBarButton: UIBarButtonItem!
@@ -84,6 +83,9 @@ class PersonDetailViewController: UIViewController, TagListViewDelegate, MFMailC
         alertView.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: { (action) in
             alertView.dismiss(animated: true, completion: nil)
         }))
+        alertView.addAction(UIAlertAction(title: "Share via text", style: .default, handler: { (action) in
+            self.sendTextMessage(text: "People who shared '\(title)' as a setback include \(alertMessageBody)")
+        }))
         self.present(alertView, animated: true)
     }
 
@@ -143,7 +145,6 @@ class PersonDetailViewController: UIViewController, TagListViewDelegate, MFMailC
         sendMailErrorAlert.show()
     }
     
-    // MARK: MFMailComposeViewControllerDelegate Method
     func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
         controller.dismiss(animated: true, completion: nil)
     }

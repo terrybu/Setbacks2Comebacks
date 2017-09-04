@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeTableViewController: UIViewController, UITableViewDelegate {
+class HomeTableViewController: BaseViewController, UITableViewDelegate {
     
     var peopleArray: [Person]?
     @IBOutlet var tableView: UITableView!
