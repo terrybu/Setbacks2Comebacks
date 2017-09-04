@@ -10,7 +10,7 @@ import UIKit
 import TagListView
 import MessageUI
 
-class PersonDetailViewController: UIViewController, TagListViewDelegate, MFMailComposeViewControllerDelegate {
+class PersonDetailViewController: UIViewController, TagListViewDelegate, MFMailComposeViewControllerDelegate, UIGestureRecognizerDelegate {
 
     var person: Person!
     
@@ -23,6 +23,7 @@ class PersonDetailViewController: UIViewController, TagListViewDelegate, MFMailC
     override func viewDidLoad() {
         super.viewDidLoad()
         title = person.name
+        navigationItem.prompt = "Tap on person's image to shortcut to his quotes"
         
         personFaceImageView.image = person.image
         personBioTextView.text = person.bio
@@ -53,6 +54,14 @@ class PersonDetailViewController: UIViewController, TagListViewDelegate, MFMailC
         personBioTextView.sizeToFit()
         personBioTextView.textContainer.size = personBioTextView.frame.size
         self.view.layoutIfNeeded()
+        
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(PersonDetailViewController.longTap))
+        personFaceImageView.addGestureRecognizer(tapGesture)
+        tapGesture.delegate = self
+    }
+    
+    func longTap(){
+        performSegue(withIdentifier: "quotes", sender: nil)
     }
     
     override func viewWillLayoutSubviews() {
