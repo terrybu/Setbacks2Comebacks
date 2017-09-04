@@ -48,22 +48,27 @@ class QuotesViewController: UIViewController, UICollectionViewDelegate, UICollec
         print("'\(quoteText)' - \(person.name)")
         let shareText = "'\(quoteText)' - \(person.name)"
         let actionController = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
+        
+        let copyClipboard = UIAlertAction(title: "Copy text to clipboard", style: .default) { (action) in
+            UIPasteboard.general.string = quoteText
+        }
         let facebookAction = UIAlertAction(title: "Share via Facebook", style: .default) { (action) in
             let vc = SLComposeViewController(forServiceType: SLServiceTypeFacebook)
             vc?.setInitialText(shareText)
+            vc?.add(self.person.image)
             self.present(vc!, animated: true, completion: nil)
         }
         let twitterAction = UIAlertAction(title: "Share via Twitter", style: .default) { (action) in
             let vc = SLComposeViewController(forServiceType: SLServiceTypeTwitter)
             vc?.setInitialText(shareText)
+            vc?.add(self.person.image)
             self.present(vc!, animated: true, completion: nil)
         }
         let smsAction = UIAlertAction(title: "Share via Text Message", style: .default) { (action) in
-            let vc = SLComposeViewController(forServiceType: SLServiceTypeTwitter)
-            vc?.setInitialText(shareText)
             self.sendTextMessage(text: shareText)
         }
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+        actionController.addAction(copyClipboard)
         actionController.addAction(facebookAction)
         actionController.addAction(twitterAction)
         actionController.addAction(smsAction)

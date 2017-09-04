@@ -112,7 +112,6 @@ class PersonDetailViewController: UIViewController, TagListViewDelegate, MFMailC
         FavoritesData.sharedInstance.addObjectToFavoritesAndSave(newPerson: person)
     }
     
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "quotes" {
             let qvc = segue.destination as! QuotesViewController
@@ -134,7 +133,7 @@ class PersonDetailViewController: UIViewController, TagListViewDelegate, MFMailC
         mailComposerVC.setSubject("Sending you an inspiring setback to comeback story: \(person.name)")
         mailComposerVC.mailComposeDelegate = self
         mailComposerVC.addAttachmentData(UIImageJPEGRepresentation(UIImage(named: person.name)!, CGFloat(1.0))!, mimeType: "image/jpeg", fileName:  "\(person.name).jpeg")
-        let emailHTMLBody = "<p>[This is an excerpt from an iOS App - Setbacks 2 Comebacks in the iTunes App Store]</p><br><br><h1>Inspiring comeback story : \(person.name)</h1> <h2>\(person.bio)</h2>"
+        let emailHTMLBody = "<p>[This is an excerpt from an iOS App - Setbacks 2 Comebacks in the iTunes App Store]</p><br><br><h1>Inspiring comeback story:\(person.name)</h1> <p>\(person.bio)</p>"
         mailComposerVC.setMessageBody(emailHTMLBody, isHTML: true)
         return mailComposerVC
     }
