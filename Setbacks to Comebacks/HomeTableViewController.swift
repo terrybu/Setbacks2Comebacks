@@ -12,6 +12,7 @@ class HomeTableViewController: UIViewController, UITableViewDelegate {
     
     var peopleArray: [Person]?
     @IBOutlet var tableView: UITableView!
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,8 +25,7 @@ class HomeTableViewController: UIViewController, UITableViewDelegate {
             self.tableView!.reloadData()
         }
         
-        let sharedDAO = PeopleDataAccessObject.sharedObject
-        peopleArray = sharedDAO.peopleArray
+        peopleArray = PeopleDataAccessObject.sharedObject.peopleArray
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
@@ -44,6 +44,24 @@ class HomeTableViewController: UIViewController, UITableViewDelegate {
         }
     }
   
+    @IBAction func segmentedControlValueChanged(_ sender: Any) {
+        let segControl = sender as! UISegmentedControl
+        peopleArray = PeopleDataAccessObject.sharedObject.peopleArray
+
+        if segControl.selectedSegmentIndex == 1 {
+            //past dead
+            peopleArray = peopleArray?.filter({ (person) -> Bool in
+                person.alive == false
+            })
+        } else if segControl.selectedSegmentIndex == 2 {
+            //present alive
+            peopleArray = peopleArray?.filter({ (person) -> Bool in
+                person.alive == true
+            })
+        }
+        tableView.reloadData()
+    }
+    
 }
 
 extension HomeTableViewController: UITableViewDataSource {
@@ -64,5 +82,10 @@ extension HomeTableViewController: UITableViewDataSource {
         cell.personSetbacksLabel.font = UIFont(name: cell.personSetbacksLabel.font!.fontName, size: CGFloat(SettingsManager.shared.fontSize.size()))
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return UITableViewAutomaticDimension
+    }
+    
 
 }

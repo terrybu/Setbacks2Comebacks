@@ -39,6 +39,9 @@
                                     <segment title="Present"/>
                                 </segments>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="segmentedControlValueChanged:" destination="9pv-A4-QxB" eventType="valueChanged" id="Qtd-9f-TnE"/>
+                                </connections>
                             </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -54,6 +57,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Setbacks 2 Comebacks" id="Shs-bZ-Ont"/>
                     <connections>
+                        <outlet property="segmentedControl" destination="maF-NY-5yb" id="yrZ-ZX-MBT"/>
                         <outlet property="tableView" destination="KHz-xs-LGH" id="s8z-vS-5Sz"/>
                         <segue destination="Gtt-of-kaG" kind="show" identifier="DetailPushSegue" id="VlT-kd-nPu"/>
                     </connections>

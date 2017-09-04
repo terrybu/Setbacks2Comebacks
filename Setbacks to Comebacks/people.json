@@ -15,7 +15,7 @@
      "name" : "Buddha",
      "alive" : false,
      "bio" : "Buddha or Siddhartha Gautama (563 BCE – 483 BCE) was born into royalty, his father a king who attempted to shield Siddhartha from knowledge of human suffering by removing the sick, aged and other suffering from his view. However, Siddhartha was said to have seen an old man, a diseased man, a decaying corpse, and other suffering, and then to have become deeply depressed by these sights. And at age 29, he began his journey to seek wisdom as to how to overcome suffering and despair. His spiritual journey took six years, with Siddhartha ultimately rejecting popular “treatments” of his day that included asceticism, deprivation, and self-mortification. Siddharta’s Antidotes: At age 35, after 49 days of meditating under the Bodhi tree, he attained Enlightenment and became known as Buddha, the “Awakened One,” and one of the world’s greatest antidotes to the suffering of depression was born. Buddhism begins with understanding truths about suffering. Specifically Buddhism’s Four Noble Truths are that (1) suffering is an inherent part of existence; (2) suffering is caused by attachment and craving, and our ignorance about this; (3) we can reduce suffering by letting go of attachment and craving; and (4) this can be done by following the Noble Eightfold Path of the right understanding, thought, speech, action, livelihood, effort, mindfulness, and concentration. For the remaining 45 years of his life, Buddha traveled and taught extensively.",
-     "setbacks": [],
+     "setbacks": ["Suffering"],
      "quotes": ["Holding on to anger is like grasping a hot coal with the intent of throwing it at someone else; you are the one who gets burned.",
                 "Thousands of candles can be lighted from a single candle, and the life of the candle will not be shortened. Happiness never decreases by being shared.",
                 "Three things cannot be long hidden: the sun, the moon, and the truth",
@@ -105,7 +105,7 @@
      "alive" : false,
      "placeOfBirth": "Bethlehem",
      "bio" : "Jesus was born in Bethlehem about 10 km south of Jerusalem. He worked as a carpenter in his youth after studying Moses's teachings and the Scriptures until he turned 30 and decided to preach God all over the land. In childhood, youth, and manhood, Jesus studied the Scriptures. As a little child He was daily at His mother’s knee taught from the scrolls of the prophets. In His youth the early morning and the evening twilight often found Him alone on the mountainside or among the trees of the forest, spending a quiet hour in prayer and the study of God’s word. Jesus performed miracles, healed the sick and gained a tremendous following. Jesus was then persecuted by authories who charged him for blasphemy, then was betrayed by one of his disciples, Judah, who sold him for 30 pieces of silver. Jesus was then famously nailed to the cross, and his disciples, although deeply saddened by this loss, decided to continue his legacy by preaching his teachings all over the world. More than 2000 years after his death, 2.2 billion people still follow his teachings and are increasing in number.",
-     "setbacks": ["Betrayal", "Falsely Accused", "Slandered", "Persecution"],
+     "setbacks": ["Betrayal", "Falsely Accused", "Slandered", "Suffering"],
      "quotes": ["Love your neighbor as yourself"]
      },
      {
@@ -206,7 +206,7 @@
      "born" : "1/29/1954",
      "placeOfBirth": "Kosciusko, Mississippi",
      "bio" : "American talk show host, actress, producer and philanthropist. Best known for her Oprah Winfrey Show, and dubbed the Queen of All Media. She has been ranked the richest African-American and the greatest black philanthropist in American history. Several rank her as the most influential woman in the world. She was awareded in 2013 the Presidential Medal of Freedom by Obama. She went through all kinds of obstacles in her childhood from sexual abuse, poverty, racism, single-mother, and many more to date. She is the quintessential living proof of a survivor, and a fighter, who's made her life into a masterpiece. I tend to think that her obstacles helped mold her into the strong woman that she is today, but I am sure nobody hopes these things happen to them as well. Her show is an amazing inspiration to us all. Born to a housemaid and a coalminer, Oprah definitely did not grow in the lap of luxury. Living the life of poverty, where she used to have to wear dresses made out of potato sacks and was molested by relatives.",
-     "setbacks": ["Low income during youth", "Difficult Childhood", "Raised by single mother", "Raised in inner-city neighborhood", "Abused during childhood"],
+     "setbacks": ["Low income during youth", "Difficult Childhood", "Raised by single mother", "Raised in low-income neighborhood", "Abused during childhood"],
      "quotes": [
                 "Turn your wounds into wisdom",
                 "Doing the best at this moment puts you in the best place for the next moment",
@@ -230,7 +230,7 @@
      "born" : "7/6/1946",
      "placeOfBirth": "Hell's Kitchen, NYC, New York, U.S.",
      "bio" : "Actor, writer, director and producer Sylvester Stallone was born on July 6, 1946, in New York City. One of the most popular action stars of all time, Stallone is best known for portraying two heroic characters on the big screen—boxer Rocky Balboa and Vietnam War veteran John Rambo.  His trademark droopy visage was the result of a forceps accident at the time of his birth. A nerve was severed in the accident, which also left him with slurred speech. In addition to acting, Stallone had an interest in writing. He created a screenplay about a rough-and-tumble thug who struggles for a chance to make it as a professional boxer named Rocky. According to several reports, Stallone refused to sell the script unless he was allowed to star in it. Despite having a pregnant wife and little money in the bank, he held out until he found two producers, Irwin Winkler and Robert Chartoff, willing to let him play the lead.",
-     "setbacks": ["Low income during youth", "Speech Impediment", "Dropped out of school", "Did poorly in school", "Difficult Childhood", "Parents divorced"],
+     "setbacks": ["Low income during youth", "Speech impediment", "Dropped out of school", "Did poorly in school", "Difficult Childhood", "Parents divorced"],
      "quotes": ["I take rejection as someone blowing a bugle in my ear to wake me up and get going, rather than retreat."]
      },
      {
@@ -289,7 +289,7 @@
      "born": "1/8/1942",
      "placeOfBirth": "Oxford, England, United Kingdom",
      "bio" : "Stephen Hawking was born on January 8, 1942, in Oxford, England. At an early age, Hawking showed a passion for science and the sky. At age 21, while studying cosmology at the University of Cambridge, he was diagnosed with amyotrophic lateral sclerosis. He is an English theoretical physicist, cosmologist, author and Director of Research at the Centre for Theoretical Cosmology within the University of Cambridge. His scientific works include a collaboration with Roger Penrose on gravitational singularity theorems in the framework of general relativity and the theoretical prediction that black holes emit radiation, often called Hawking radiation. Hawking was the first to set forth a theory of cosmology explained by a union of the general theory of relativity and quantum mechanics. He is a vigorous supporter of the many-worlds interpretation of quantum mechanics. Hawking has a rare early-onset, slow-progressing form of amyotrophic lateral sclerosis (ALS) that has gradually paralysed him over the decades. He now communicates using a single cheek muscle attached to a speech-generating device.",
-     "setbacks": ["Rare disorder"],
+     "setbacks": ["Rare disorder", "Speech impediment"],
      "quotes": ["Intelligence is the ability to adapt to change.", "My goal is simple. It is a complete understanding of the universe, why it is as it is and why it exists at all."]
      },
      {
@@ -297,12 +297,13 @@
      "born": "1/15/1929",
      "died": "4/4/1968",
      "placeOfBirth": "Atlanta, Georgia, U.S.",
-     "bio" : "American Baptist minister and activist who was a leader in the Civil Rights Movement. He is best known for his role in the advancement of civil rights using nonviolent civil disobedience based on his Christian beliefs. King knew what it meant to be maladjusted, psychologically, because he was not normal, psychiatrically. He had multiple periods of severe depression, and twice made suicide attempts as a child. Near the end of his life, some of his staff tried to get him into psychiatric treatment, but he refused. Some experts on depression say that suffering from depression enhances a person's ability to feel compassion and empathy for others although this might not be backed by strong data.",
+     "bio" : "American Baptist minister and activist who was a leader in the Civil Rights Movement. He is best known for his role in the advancement of civil rights using nonviolent civil disobedience based on his Christian beliefs. King knew what it meant to be maladjusted psychologically, because he was not normal psychiatrically. He had multiple periods of severe depression, and twice made suicide attempts as a child. Near the end of his life, some of his staff tried to get him into psychiatric treatment but he refused. Some experts on depression say that suffering from depression enhances a person's ability to feel compassion and empathy for others.",
      "setbacks": ["Depression", "Suicidal Thoughts", "Slandered", "Death Threats"],
      "quotes": ["I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character.", "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate. Only love can do that.", "The ultimate measure of a man is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy." ]
      },
      {
      "name" : "Beethoven",
+     "alive" : false,
      "bio" : "Ludwig van Beethoven was a German composer and pianist and was once called by his teacher as a 'hopeless composer' with no talent. And during his career, he lost his hearing and yet, he managed to produce great music – a deaf man composing music, ironic isn’t it! German composer of classical music, is widely regarded as one of history’s supreme composers. His reputation has inspired – and in many cases intimidated – composers, musicians, and audiences who were to come after him.",
      "setbacks": ["Hearing Loss", "Was called dumb in childhood"],
      "quotes": ["Music is the mediator between the spiritual and the sensual life."]

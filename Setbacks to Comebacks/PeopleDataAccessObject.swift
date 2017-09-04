@@ -32,6 +32,11 @@ class PeopleDataAccessObject {
                     let setbacks = json["setbacks"].arrayValue.map( {$0.string!} )
                     let quotesArray = json["quotes"].arrayValue.map( {$0.string!} )
                     let newPerson = Person(name: name, bio: bio, setbacks:setbacks, quotes: quotesArray)
+                    if json["died"].exists() || json["alive"] == false {
+                        newPerson.alive = false
+                    } else {
+                        newPerson.alive = true
+                    }
                     peopleArray.append(newPerson)
                 }
             } catch {
