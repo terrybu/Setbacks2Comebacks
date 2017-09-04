@@ -10,6 +10,6 @@ import UIKit
 
 class QuotesCollectionViewCell: UICollectionViewCell {
     
-    @IBOutlet var quoteLabel: UILabel! 
+    @IBOutlet var quoteLabel: UILabel!
     
 }
