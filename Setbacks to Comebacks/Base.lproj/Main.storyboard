@@ -84,6 +84,12 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gRd-mf-Fom" userLabel="Content View">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
                                         <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qPu-7W-hvX" userLabel="PersonFaceImageView">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" secondItem="qPu-7W-hvX" secondAttribute="width" multiplier="2:3" id="agh-ko-mZu"/>
+                                                </constraints>
+                                            </imageView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f9A-Y8-aMz" customClass="TagListView" customModule="TagListView">
                                                 <rect key="frame" x="0.0" y="282" width="375" height="150"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -101,39 +107,53 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Znu-Tr-Ii0">
-                                                <rect key="frame" x="16" y="996" width="343" height="41"/>
-                                                <color key="backgroundColor" red="0.0" green="0.59999999999999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m5b-tA-0y1">
+                                                <rect key="frame" x="16" y="996" width="343" height="60"/>
+                                                <color key="backgroundColor" red="0.10142850690000001" green="0.5054721754" blue="0.97775222080000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
                                                 <inset key="titleEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
-                                                <state key="normal" title="Click to see famous quotes by "/>
+                                                <state key="normal" title="Share Story via Email"/>
+                                                <connections>
+                                                    <action selector="sendEmailButtonTappedWithSender:" destination="Gtt-of-kaG" eventType="touchUpInside" id="Y7d-um-AvV"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Znu-Tr-Ii0">
+                                                <rect key="frame" x="16" y="1072" width="343" height="60"/>
+                                                <color key="backgroundColor" red="0.0" green="0.59999999999999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="hrH-OI-Li2"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                                <inset key="titleEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                                <size key="titleShadowOffset" width="1" height="1"/>
+                                                <state key="normal" title="See famous quotes by "/>
                                                 <connections>
                                                     <segue destination="nK3-11-dgr" kind="show" identifier="quotes" id="Gcp-ji-UJ7"/>
                                                 </connections>
                                             </button>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qPu-7W-hvX" userLabel="PersonFaceImageView">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" secondItem="qPu-7W-hvX" secondAttribute="width" multiplier="2:3" id="agh-ko-mZu"/>
-                                                </constraints>
-                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="qPu-7W-hvX" firstAttribute="width" secondItem="gRd-mf-Fom" secondAttribute="width" id="2Kf-ZT-rLF"/>
                                             <constraint firstAttribute="trailing" secondItem="f9A-Y8-aMz" secondAttribute="trailing" id="AD4-nB-zU7"/>
                                             <constraint firstAttribute="trailing" secondItem="Ba5-Je-mcN" secondAttribute="trailing" id="CFW-gL-FID"/>
+                                            <constraint firstItem="m5b-tA-0y1" firstAttribute="centerX" secondItem="Znu-Tr-Ii0" secondAttribute="centerX" id="DXt-7m-zKF"/>
                                             <constraint firstItem="qPu-7W-hvX" firstAttribute="centerX" secondItem="gRd-mf-Fom" secondAttribute="centerX" id="N0q-h2-K9Z"/>
-                                            <constraint firstItem="Znu-Tr-Ii0" firstAttribute="top" secondItem="Ba5-Je-mcN" secondAttribute="bottom" constant="32" id="PZZ-PP-cFK"/>
                                             <constraint firstItem="Znu-Tr-Ii0" firstAttribute="centerX" secondItem="gRd-mf-Fom" secondAttribute="centerX" id="VXX-sZ-oBi"/>
                                             <constraint firstItem="f9A-Y8-aMz" firstAttribute="top" secondItem="qPu-7W-hvX" secondAttribute="bottom" constant="32" id="WPb-gB-kUI"/>
                                             <constraint firstItem="Ba5-Je-mcN" firstAttribute="leading" secondItem="gRd-mf-Fom" secondAttribute="leading" id="Yeq-H7-Xfx"/>
+                                            <constraint firstItem="m5b-tA-0y1" firstAttribute="width" secondItem="Znu-Tr-Ii0" secondAttribute="width" id="cOw-Au-39s"/>
                                             <constraint firstAttribute="height" constant="1200" id="dOF-Es-Zb5"/>
                                             <constraint firstItem="Znu-Tr-Ii0" firstAttribute="leading" secondItem="gRd-mf-Fom" secondAttribute="leading" constant="16" id="dll-0m-KeA"/>
                                             <constraint firstItem="f9A-Y8-aMz" firstAttribute="leading" secondItem="gRd-mf-Fom" secondAttribute="leading" id="erI-Lx-ueQ"/>
+                                            <constraint firstItem="m5b-tA-0y1" firstAttribute="height" secondItem="Znu-Tr-Ii0" secondAttribute="height" id="et8-do-Zl2"/>
+                                            <constraint firstItem="m5b-tA-0y1" firstAttribute="top" secondItem="Ba5-Je-mcN" secondAttribute="bottom" constant="32" id="fqw-Vb-IQp"/>
+                                            <constraint firstItem="Znu-Tr-Ii0" firstAttribute="top" secondItem="m5b-tA-0y1" secondAttribute="bottom" constant="16" id="oiG-av-ILa"/>
                                             <constraint firstItem="qPu-7W-hvX" firstAttribute="top" secondItem="gRd-mf-Fom" secondAttribute="top" id="ur4-b0-Ij3"/>
                                             <constraint firstItem="Ba5-Je-mcN" firstAttribute="top" secondItem="f9A-Y8-aMz" secondAttribute="bottom" constant="32" id="ws1-QY-fpI"/>
                                             <constraint firstAttribute="trailing" secondItem="Znu-Tr-Ii0" secondAttribute="trailing" constant="16" id="zhq-EW-dXN"/>

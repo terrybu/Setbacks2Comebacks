@@ -8,8 +8,9 @@
 
 import UIKit
 import TagListView
+import MessageUI
 
-class PersonDetailViewController: UIViewController, TagListViewDelegate {
+class PersonDetailViewController: UIViewController, TagListViewDelegate, MFMailComposeViewControllerDelegate {
 
     var person: Person!
     
@@ -110,5 +111,33 @@ class PersonDetailViewController: UIViewController, TagListViewDelegate {
         }
     }
     
+    @IBAction func sendEmailButtonTapped(sender: AnyObject) {
+        let mailComposeViewController = configuredMailComposeViewController()
+        if MFMailComposeViewController.canSendMail() {
+            self.present(mailComposeViewController, animated: true, completion: nil)
+        } else {
+            self.showSendMailErrorAlert()
+        }
+    }
+    
+    func configuredMailComposeViewController() -> MFMailComposeViewController {
+        let mailComposerVC = MFMailComposeViewController()
+        mailComposerVC.setSubject("Sending you an inspiring setback to comeback story: \(person.name)")
+        mailComposerVC.mailComposeDelegate = self
+        mailComposerVC.addAttachmentData(UIImageJPEGRepresentation(UIImage(named: person.name)!, CGFloat(1.0))!, mimeType: "image/jpeg", fileName:  "\(person.name).jpeg")
+        let emailHTMLBody = "<p>[This is an excerpt from an iOS App - Setbacks 2 Comebacks in the iTunes App Store]</p><br><br><h1>Inspiring comeback story : \(person.name)</h1> <h2>\(person.bio)</h2>"
+        mailComposerVC.setMessageBody(emailHTMLBody, isHTML: true)
+        return mailComposerVC
+    }
+    
+    func showSendMailErrorAlert() {
+        let sendMailErrorAlert = UIAlertView(title: "Could Not Send Email", message: "Your device could not send e-mail.  Please check e-mail configuration and try again.", delegate: self, cancelButtonTitle: "OK")
+        sendMailErrorAlert.show()
+    }
+    
+    // MARK: MFMailComposeViewControllerDelegate Method
+    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+        controller.dismiss(animated: true, completion: nil)
+    }
     
 }
